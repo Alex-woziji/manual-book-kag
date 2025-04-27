@@ -1,0 +1,959 @@
+### 8 - Chip Conveyor - UMC
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 1/22
+
+
+-----
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 2/22
+
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-2-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 3/22
+
+
+-----
+
+### 1
+
+Unfold the standard conveyor and
+place the conveyor in position,
+using a big joe or a forklift attach
+straps to the lifting hooks [1] and
+support the other end of the
+conveyor [2] to begin sliding the
+conveyor into the casting.
+
+#### ? Note: The Filter Conveyor will
+not need to be unfolded to install.
+
+### 2
+
+Install the conveyor brackets [1] as
+shown. There should be two (2)
+brackets on each side for a total of
+four (4) brackets attached.
+
+### 3
+
+Install the drain pan [2] and its
+adapter brackets [1].
+
+### 4
+
+Connect the chip conveyor to
+power by routing the cable as
+shown [1] to ensure the cable does
+not get pinched or damaged.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-3-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-3-1.png)
+
+## Parameter Updates
+
+Turn on the machine.
+
+[Login to the HBC PORTAL.](https://hbc.haascnc.com/)
+
+Download the patch file.
+
+#### ? Note: The option files will appear on the configuration download page after the
+
+service kit has been ordered. If the option does not appear, contact the service
+department.
+
+[Load the option configuration patch file to the control. Refer to the NEXT GENERATION](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/next-generation-control---configuration-file---download-load.html)
+[CONTROL - CONFIGURATION FILE - DOWNLOAD/LOAD procedure.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/next-generation-control---configuration-file---download-load.html)
+
+## 8.3 UMC CONVEYOR SPILLWAY EXTENSION - INSTALLATION
+
+ UMC Conveyor Spillway Extension - Installation
+
+AD0565
+
+## Introduction
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-3-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 4/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-3-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-4-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-4-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 5/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-4-0.png)
+
+-----
+
+### 3
+
+Remove the spillway from the conveyor,
+it should start falling out when the
+conveyor is pulled out. Replace it with
+the spillway supplied in the kit [1].
+
+### 4
+
+With the wing exposed remove the 4
+bolts holding the mating bracket to the
+conveyor. Replace it with the mating
+bracket supplied in the kit [1].
+
+#### ? NOTE: The UMC-1000 does not use a
+
+mating bracket, this portion of the
+procedure only applies to the UMC500/7500.
+
+### 5
+
+The mating bracket for the UMC-500
+will differ depending on which brand of
+conveyor is on the machine. Make sure
+the proper mating bracket is being
+installed according to the image:
+
+1. Keyarrow
+2. Jorgenson
+
+3. Hennig
+
+#### ? NOTE: Machines that were made
+
+before 11/2019 may contain an older
+sheet metal that may interfere, if the
+sheet metal interferes contact Haas
+Service for further instructions.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-5-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-5-1.png)
+
+#### ? NOTE: 93-3409, CONV CHIP
+
+MANAGEMENT KIT UMC 750/1000, will
+have a mating bracket that fits all
+brands of conveyors for the UMC-750.
+
+### 6
+
+Once the spillway and mating bracket
+have been replaced push the conveyor
+back inside the machine.
+
+Do not bolt the brackets to the
+enclosure yet.
+
+### 7
+
+With the conveyor in the machine have
+someone push on the conveyor to
+create a gap between the conveyor and
+the casting.
+
+Insert wing brackets [1] between the
+top of the conveyor and the casting.
+make sure the shoulder of the mating
+bracket is against the wing brackets.
+
+With the brackets in place install self
+tapping screws at the TOP of the slots
+in the brackets. This will allow you to
+bring the brackets upward to meet the
+casting if necessary.
+
+#### ? NOTE: Make sure the bracket is
+
+wedged between the casting and
+conveyor to create a seal so chips do
+not leak through the gaps.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-5-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-5-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 6/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-5-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-6-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 7/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-6-0.png)
+
+-----
+
+## UMC - Installation
+
+
+### 1
+
+Place the conveyor in position, using a
+big joe or a forklift attach straps to the
+lifting hooks [1] and support the other
+end of the conveyor [2] to begin sliding
+the conveyor into the casting.
+
+### 2
+
+Remove the gaskets [1] from the each
+side of the conveyor. This will make
+installing the conveyor easier and to
+avoid damaging the gasket.
+
+### 3
+
+Loosen the hex head bolts [1] that hold
+the casters in place.
+
+Loosen them enough so that the rollers
+touch the floor but can freely move up
+and down.
+
+### 4
+
+Begin to insert the conveyor into the
+machine, at the halfway point bolt the
+conveyor bracket [1] before completely
+sliding the conveyor in.
+
+#### ? NOTE: These brackets may come in
+
+the color red. Some conveyors either do
+not have these brackets or have them
+pre installed. Only attach if the bracket
+is not already screwed onto the
+conveyor.
+
+### 5
+
+Once the conveyor bracket is installed,
+install the extension panel [1] to the
+conveyor and continue sliding it in.
+
+#### ? NOTE: The extension panel does not
+
+bolt to the conveyor, it is wedged
+between the casting and conveyor.
+
+### 6
+
+With the conveyor pushed in bolt the
+conveyor brackets [1] to the enclosure
+using the provided hardware.
+
+#### ? NOTE: These brackets may come in
+
+the color red. Some conveyors either do
+not have these brackets or have them
+pre installed. Only attach if the bracket
+is not already screwed onto the
+conveyor.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-7-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-7-1.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-7-2.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 8/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-7-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-7-1.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-1.png)
+
+## EC - Installation
+
+
+### 7
+
+Bolt the extension panel of the
+conveyor to the enclosure as shown.
+
+### 8
+
+With the conveyor still supported by the
+lifting apparatus tighten the hex head
+bolts [1]. Make sure the casters are
+touching the floor.
+
+Remove the lifting apparatus after the
+bolts are tightened.
+
+### 9
+
+Re-install the gasket [1] after the
+conveyor is fully installed.
+
+#### ? NOTE: It may be easier leaving the
+
+conveyor a few inches out to access the
+first couple screws to the gasket and
+then push the conveyor all the way in to
+install the remaining screws.
+
+### 10
+
+Place the wash down pump into the
+coolant tank and connect the output of
+the pump to the valve on the conveyor.
+
+Verify the machine height for the
+coolant tank after the conveyor is
+completely installed.
+
+#### ? NOTE: Releveling may be required
+
+after conveyor is completely installed if
+the machine leveling needed to be
+adjusted to install the CDF conveyor.
+
+Once completed go to the Electrical
+Installation section of the procedure
+
+### 1
+
+FOR EC-400/500 FIELD INSTALL
+
+Remove the old panel and intall the
+new enclosure panel that will allow the
+CDF conveyor to fit on the EC
+machines.
+
+### 2
+
+FOR EC-630 FIELD INSTALL
+
+Remove the old panel and intall the
+new enclosure panel that will allow the
+CDF conveyor to fit on the EC
+machines.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-1.png)
+
+#### ? NOTE: EC-630 machines will have
+
+two panels [1] & [2] instead of one
+panel to be installed for the CDF.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 9/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-8-0.png)
+
+-----
+
+### 3
+
+FOR FIELD INSTALL
+
+Install the drain pan onto the machine,
+use the provided hardware in the
+hardware kit.
+
+### 4
+
+Remove the service panel [1] and the
+left drain pan cover [2] to prepare for
+installing the conveyor.
+
+#### ? NOTE: Place the gasket for the
+
+service panel aside as you will need it
+later in the installation.
+
+### 5
+
+Place the conveyor in position, using a
+big joe or a forklift attach straps to the
+lifting hooks [1] and support the other
+end of the conveyor [2] to put the
+conveyor into the casting.
+
+#### ? NOTE: Remove the chip disk filter
+
+cover [3] to make placing the conveyor
+into position easier.
+
+### 6
+
+Loosen the hex head bolts [1] that hold
+the casters in place.
+
+Loosen them enough so that the rollers
+touch the floor but can freely move up
+and down.
+
+### 7
+
+Once the conveyor has been fully slid
+into the casting, reinstall the left drain
+pan cover [1] and the chip disk filter
+cover [2]. Lastly, reinstall the service
+panel [3] to the spillway. Make sure the
+gasket [4] is reinstalled as well to
+prevent leaks from occuring.
+
+### 8
+
+With the conveyor still supported by the
+lifting apparatus tighten the hex head
+bolts [1]. Make sure the casters are
+touching the floor.
+
+Remove the lifting apparatus after the
+bolts are tightened.
+
+### 9
+
+Place the wash down pump [1] into the
+coolant tank and connect the output of
+the pump to the valve on the conveyor.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-1.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-2.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-3.png)
+
+## Electrical Installation
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 10/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-9-0.png)
+
+-----
+
+### 1
+
+Please install the hinge door and refer
+[to the I/O PCB HINGED DOOR](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/i-o-pcb-hinge-door---installation---ad0444.html)
+[INSTALLATION procedure for further](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/i-o-pcb-hinge-door---installation---ad0444.html)
+instructions.
+
+### 2
+
+Install the TMD card onto the hinge
+door located as shown in the picture
+using the spacers and the provided
+hardware [2].
+
+#### ? NOTE: Older versions of the hinged
+
+door use 1/4-20 bolts, newer version
+hinged doors use 10-32 size bolts, both
+are supplied with the kit or pre-installed
+on the hinged door. Use the correct
+bolt size for the appropriate version of
+hinged door.
+
+### 3
+
+FOR UMC MACHINES:
+
+Route the conveyor drive cable [1] and
+pump motor cable [2] using the
+provided cable clamps [3].
+
+Route the cables along the skirt of the
+machine and into the back of the UMC
+into the junction box below the control
+cabinet.
+
+### 4
+
+FOR EC MACHINES:
+
+Route the conveyor drive cable [1] and
+pump motor cable [2] into the rear of
+the control cabinet.
+
+#### ? NOTE: Route the pump motor cable
+
+through the wire channel under the
+conveyor and spillway.
+
+### 5
+
+Follow the wiring diagram to wire the
+cables.
+
+Connect 33-0987B from the
+transformer to the P4 on the TMD card.
+
+#### ? NOTE: [1] There are some
+
+extensions provided for the
+transformer in case there is no more
+room to fit 33-0987B in the
+transformer.
+
+Connect 33-0517 from P69 on the I/O
+board to P2 on the TMD card.
+
+Connect 32-0971 from the junction box
+on the chip conveyor to P24 on the I/O
+board.
+
+Connect 32-0972 from the pump motor
+to P1 on the TMD card.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-10-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-10-1.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-10-2.png)
+
+### 6
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-10-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 11/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-10-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-11-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-11-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 12/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-11-0.png)
+
+-----
+
+Push [E-STOP].
+
+
+### 2
+
+Remove the gaskets [1] from the
+each side of the conveyor.
+
+#### ? NOTE: This will make installing
+
+the conveyor easier and to avoid
+damaging the gasket.
+
+### 3
+
+Remove the bolts from the adapter
+brackets to the extension panel.
+
+### 4
+
+Remove the conveyor brackets [1]
+from the enclosure.
+
+#### ? NOTE: These brackets may
+
+come in the color red. Some
+conveyors may not have these
+brackets. Remove brackets if it is
+screwed onto the enclosure and
+save them for later.
+
+### 5
+
+Use a big joe or a forklift, attach
+straps to the lifting hooks [1] and
+support the other end of the
+conveyor [2] to begin sliding the
+conveyor out half way.
+
+### 6
+
+Loosen the hex head bolts [1] that
+hold the casters in place.
+
+Loosen them enough so that the
+rollers touch the floor but can
+freely move up and down.
+
+### 7
+
+Remove extension panel and install
+the new extension panel [1]
+provided in the kit to the conveyor
+and slide conveyor back in towards
+the casting.
+
+#### ? NOTE: The extension panel
+
+does not bolt to the conveyor, it is
+wedged between the casting and
+conveyor.
+
+### 8
+
+With the conveyor pushed back in,
+bolt the conveyor brackets [1] back
+onto the enclosure.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-1.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-2.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-3.png)
+
+#### ? NOTE: These brackets may
+
+come in the color red. Some
+conveyors may not have these
+brackets installed. Only attach the
+brackets if they previously had
+them screwed onto the conveyor.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 13/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-12-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-13-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-13-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 14/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-13-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-14-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-14-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 15/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-14-0.png)
+
+-----
+
+Cable
+Connect to:
+Wire
+
+Capacitor/motor
+Blue
+black
+
+Capacitor/motor
+Red
+brown
+
+Black Motor gray
+
+Green Ground
+
+Cap off - no
+Yellow
+connection
+
+Cap off - no
+Orange
+connection
+
+Cap off - no
+White
+connection
+
+Power on the machine.
+
+Push [CHIP FWD].
+
+If the motor is wired correctly, the chip
+conveyor moves forward.
+
+Push [CHIP REV].
+
+If the motor is wired correctly, the chip
+conveyor moves backward.
+
+## 8.7 CDF CHIP CONVEYOR - MOTOR REPLACEMENT
+
+ CDF Chip Conveyor - Motor - Replacement
+
+AD0642
+
+## Introduction
+
+This procedure details how to install
+and wire a replacement motor for a
+CDF conveyor.
+
+#### ? IMPORTANT: The images in this
+
+procedure may show a normal 1/8 HP
+conveyor motor but the steps will be
+the same for the CDF conveyor motor.
+
+This procedure will apply to the
+following kits:
+
+93-3360 CHIPC MOTOR 1/4 HP 240V
+50/60HZ 240:1
+
+For Standard coveyor motor
+[replacements refer to AD0345 - CHIP](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chip-conveyor---motor---replacement---ad0345.html)
+[CONVEYOR - MOTOR - REPLACEMENT.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chip-conveyor---motor---replacement---ad0345.html)
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-15-0.png)
+
+## Motor Replacement
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 16/22
+
+
+-----
+
+### 1
+
+Remove the sheet metal enclosure
+housing the motor.
+
+### 2
+
+Remove the cable clamps [1].
+
+Remove the used motor.
+
+Press the 1/4HP CHIP CONVEYOR
+MOTOR CDF [A] onto the conveyor
+shaft. Align the slot in the motor shaft
+with the key [2] on the conveyor shaft.
+
+Attach the motor to the conveyor head.
+
+Install the cable clamps [1].
+
+Connect the electrical cable.
+
+### 3
+
+After completing the installation, run the conveyor by pressing [CHIP FWD] if the conveyor runs
+backwards please check the motor wiring and verify it is wired correctly. Use the wiring diagrams
+below for reference.
+
+## 8.8 CHIP CONVEYOR SYSTEM - TROUBLESHOOTING
+
+ Conveyor System - Troubleshooting Guide
+
+#### ?Note: Download and fill out the Chip Conveyor System Inspection Report Checklist below
+
+before replacing any parts.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-16-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-16-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 17/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-16-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-17-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 18/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-17-0.png)
+
+-----
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+|The conveyor does not start.|The circuit breaker is tripped.|Check for a short circuit in the motor or the cable. Refer to the Motor Cable Inspection section.|
+||No power from I/O PCB to the motor.|Verify voltage at I/O PCB and the motor.|
+||Blown fuses (I/O- version R and earlier).|Check the fuses on the I/O PCB.|
+||The conveyor motor capacitor is defective.|Inspect motor capacitor for damage.|
+|For CDF Conveyor Only: The 230V system does not turn ON and the red LED on the motor drive PCB is OFF.|The jumper on the motor drive PCB is incorrectly located or defective.|Make sure that the motor drive PCB has a jumper installed on P3 inbetween pin 1 and 2 (the bottom two pins).|
+||There is no 12V input power.|Make sure that the 12V input power is connected to P2 on the motor drive PCB.|
+|Conveyor is noisy or oscillates between forward and reverse.|There is a build up of chips.|Clear excessive chips and any obstructions.|
+||The conveyor belt is damaged.|Inspect conveyor belt and repair or replace.|
+||The conveyor belt tension is incorrect.|Adjust the belt tension.|
+|The auger is noisy or oscillates between forward and reverse. Then Alarm 9906 CHIP CONVEYOR MALFUNCTION is generated.|There is an excessive chip build-up or an obstruction.|Clear all chips and obstructions from the auger trough and chip chute.|
+|There is no chip build-up or obstruction and machine generates Alarm 9906 CHIP CONVEYOR MALFUNCTION|The auger motor is bound up.|The machine is detecting an overcurrent condition. Check the discrete input CHIP_CONVEYOR_OVERCURRENT cycles from 0 - 1 or 1 - 0 (0 means overload condition). Check the motor for burnout or binding. Run the Chip Conveyor Overcurrent Data Collection, refer to the Diagnostic Data Collection procedure for how to run the data collection.|
+|The chip conveyor reverses direction with minimal or no chip build-up.|||
+|Chip Auger, Conveyor, may start without operator action, even with doors open.|Machine has software 100.17.000.1016|Update software to 100.17.000.2030 or greater. This problem has been corrected such that the conveyor never restarts automatically. With a Classic Haas Control, the operator can restart the conveyor with the door open. NGC machines that have been updated after October 10th, 2018 will have strict door rules that makes this impossible.|
+|M31 is restarting conveyor timers if the conveyor is already on.|Machine has software prior to 100.17.000.2030 and the conveyor cycle keeps restarting every time a M31 is encountered.|Update software to 100.17.000.2030 or greater. In the new software if a conveyor cycle is already running but in the off state, a M31 will NOT restart the conveyor. The conveyor will follow the cycle it is currently in.|
+|Alarm 9819 CHIP CONVEYOR SHORT CIRCUIT|The auger motor start capacitor is at fault.|Inspect the auger motor start capacitor for damage.|
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 19/22
+
+
+-----
+
+|Alarm 9848 CHIP CONVEYOR MOTOR DISCONNECTED|There is no power from the I/O PCB to the motor.|Verify the voltage at the I/O PCB and at the motor.|
+|---|---|---|
+|CDF Conveyor runs backwards when commanded to run forward|Motor wiring is incorrect.|Verify the motor wiring, use the wiring diagrams in the CDF Motor Wiring Section for reference.|
+
+
+## Motor Cable Inspection
+
+ Voltage
+
+ Fuses
+
+
+Corrective Action:
+
+Inspect the motor cable for any sign of
+damage. Check for burn marks at the
+plug. This could be caused by coolant
+contamination.
+
+Measure the Ohms the across the
+motor power cable leads [1] at the plug.
+There should be resistance leg to leg.
+An open reading suggests a bad motor
+or cable.
+
+Measure the Ohms on the motor power
+cable from each power leg to the
+ground leg [2] of the plug. This reading
+should be open.
+
+If cable shows a short leg to ground at
+the plug, disconnect the power cable at
+the motor and check each motor power
+lead to the motor chassis [3]. If reading
+is open, the cable is at fault. If any lead
+tests short, the motor is shorted.
+
+Corrective Action:
+
+Find the chip conveyor motor cable 140
+at the I/O PCB. Press [CHIP FWD]. Use a
+multimeter with needle tip probes to
+measure the voltage between the black
+and red wires on the cable.
+
+Have someone press and hold [CHIP
+REV]. Measure the voltage between the
+black and white wires. When the I/O
+PCB operates correctly, each voltage
+reading is 240 VAC.
+
+If the voltage at the I/O PCB is correct,
+open the conveyor motor junction box.
+Use a multimeter with needle tip
+probes to check for voltage on the
+power leads at the motor.
+
+If there is no voltage, check the motor
+and the cable. If there is voltage, check
+the capacitor. If you verify the voltage
+and capacitor are correct, inspect the
+motor drive shaft and keyway.
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-19-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 20/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-19-0.png)
+
+-----
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-20-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-20-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 21/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-20-0.png)
+
+-----
+
+## CDF Motor Wiring
+
+Run the conveyor by pressing [CHIP FWD] if the conveyor runs backwards please
+check the motor wiring and verify it is wired correctly. Use the wiring diagrams below
+for reference.
+
+## Electrical Diagram
+
+Hennig CDF Conveyor Diagram
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-21-0.png)
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-21-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---umc.html 22/22
+
+
+![](photo/Chip Conveyor - UMC - Haas Service Manual.pdf/Chip-Conveyor---UMC---Haas-Service-Manual.pdf-21-0.png)
+
+-----
+

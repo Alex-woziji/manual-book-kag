@@ -1,0 +1,64 @@
+### 12 - Lathe - Parts Catcher
+
+
+###### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---parts-catcher.html 1/4
+
+
+-----
+
+|12.1 PARTS CATCHER SERVICE PROCEDURES|Col2|
+|---|---|
+|12.2 PARTS CATCHER - TROUBLESHOOTING GUIDE||
+
+
+###### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---parts-catcher.html 2/4
+
+
+-----
+
+|PROCEDURE|DESCRIPTION|
+|---|---|
+|Single Action Parts Catcher - Flat Door - Installation|This procedure shows you how to install the Single Action Parts Catcher on Flat Door ST-10/15 machines.|
+|Dual Action Parts Catcher - Flat Door - Installation|This procedure shows you how to install the Dual Action Parts Catcher on Flat Door ST-10/15/20/25/30/35 machines.|
+|Dual Action Parts Catcher - Actuator Replacement|This procedure shows you how to replace the Dual Action Parts Catcher Actuator on ST machines.|
+|Single Action Parts Catcher - Angled Door - Installation|This procedure shows you how to install the Single Action Parts Catcher on Angled Door ST-20/25/30/35 and DS-30 machines.|
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Slow depolyment / moving chute|Lack of lubrication / Chip build up|Refer to Lubrication section below|
+||Faulty rotary damper|Refer to Actuation section below|
+||Lack of air supply|Check all air lines are porperly connected and verify solonoid functionality|
+
+
+![](photo/Lathe - Parts Catcher - Haas Service Manual.pdf/Lathe---Parts-Catcher---Haas-Service-Manual.pdf-2-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---parts-catcher.html 3/4
+
+
+![](photo/Lathe - Parts Catcher - Haas Service Manual.pdf/Lathe---Parts-Catcher---Haas-Service-Manual.pdf-2-0.png)
+
+-----
+
+If your PCAT is experiencing slow or
+excessivly fast deployment it may be
+due to a worn out damper.
+
+Replace the rotary damper [2] by simply
+removing the covering sheet metal and
+hardware [1].
+
+#### ?Note : An updated damper P/N 59
+2164 is reccomended for this
+replacement and is included in Svc Kit
+93-3771 PCAT SVC KIT 3 N.M DAMPER
+ST-10/20/30
+
+
+![](photo/Lathe - Parts Catcher - Haas Service Manual.pdf/Lathe---Parts-Catcher---Haas-Service-Manual.pdf-3-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---parts-catcher.html 4/4
+
+
+-----
+

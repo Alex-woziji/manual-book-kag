@@ -1,0 +1,395 @@
+## VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 1/10
+
+
+-----
+
+LAST UPDATED: 10/22/2024
+
+# VMC Side Mount Tool Changer - Double Arm - Replacement
+
+AD0324
+
+# Introduction
+
+This procedure tells you how to replace these
+double-arm types on a VMC Side-mount Tool
+Changer:
+
+8-screw double-arm [1]. This double
+arm has the hub on the bottom of the
+arm.
+6-screw double-arm [2]. This doublearm has the hub [3] on the top of the
+arm.
+
+There is a removal section for
+this type double arm when the
+cambox seizes up.
+
+This procedure applies to the following Prerequisites:
+service kits:
+
+Use (1) of the following split tools:
+
+93-0393A: DOUBLE ARM CT40-40-5/11
+93-0394A: DOUBLE ARM CT40-6/11 P/N T-2186 Alignment Split Tool SMTC
+93-0487A: DOUBLE ARM BT40-6/11 BT30
+93-0488A: DOUBLE ARM BT40-40-5/11 P/N T-2086 Alignment Split Tool SMTC
+93-0614: DOUBLE ARM CT EC-300 SVC CT40
+FROM BT TO CT P/N T-2087 Alignment Split Tool SMTC
+93-0947: COMPLETE BT40-E4 SVC EC- BT40
+400 FRM BT TO CT P/N T-2089 Alignment Split Tool SMTC
+93-0948: DOUBLE ARM CT EC-400 SVC CT50
+FROM BT TO CT P/N T-2088 Alignment Split Tool SMTC
+93-1197: COMPLETE BT40-E3 SVC EC- BT50
+300 FRM CT TO BT
+
+Tools Required:
+
+93-3322: SMTC ARM CT40 13.5 2.5DEG
+W/O OFFSET KEY
+
+Haas Control Key
+
+93-0945: Double Arm CT40-2
+
+P/N T-2108 SMTC Arm Alignment Tool
+(2) 3/8-16x2 1/2" Socket Head Cap
+Screws
+Split Tool
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 2/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-1-0.png)
+
+-----
+
+This applies to kits 93-0394A and 93-0487A
+
+This kit comes with 2 different types of keys
+for the tool arm. When replacing the old arm
+take notice of what type of key is used and use
+the corresponding key from the new kit. The
+different types of keys can be seen in the
+image for reference.
+
+### ? IMPORTANT: After the keys are installed
+
+on the arm verify that the key alignment with
+the tool holders is correct to prevent any
+damage to the arm and tool holders.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-2-0.png)
+
+# Removal
+
+## 1
+
+Make sure no tool [1] is in the current pocket
+and the spindle.
+
+Power on the machine with your Haas Control
+Key.
+
+Push [ZERO RETURN] and then [ALL].
+
+Go into RECOVERY mode. Go into MANUAL
+TOOL CHANGER OPERATION mode.
+
+Push [ATC FWD] until the arm moves down
+near the bottom of travel.
+
+Push [EMERGENCY STOP].
+
+## 2
+
+For An 8-Screw Double-Arm
+
+Put the T-2108 tool [1] onto the double arm.
+Use your fingers to tighten the center screw
+
+[2] to the shaft.
+
+Remove the (8) screws [4] from the clamp [3].
+
+Install (4) jack screws into the threaded holes
+on the clamp [3]. Lightly grease the screw
+threads. Use (4) of the (8) screws [4] you
+removed.
+
+Tighten the jack screws in a star pattern.
+Tighten from the first screw [5] to screw [8] in
+order. Do this until the double arm can turn
+freely on the shaft.
+
+### ? Note: Be careful not to scratch the output
+
+shaft.
+
+Remove the T-2108 tool [1] and the double
+arm. Install all of the screws you removed.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 3/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-2-0.png)
+
+-----
+
+## 3
+
+For A 6-Screw Double-Arm
+
+Find the (2) holes [1] adjacent to the covers for
+the plungers. Put the T-2108 tool [2] onto the
+double arm. Use your fingers to tighten the
+screws [3] to the shaft and the arm.
+
+Loosen the (6) screws [4] from the clamp
+about a 1/4" from the double arm. Do not
+remove the screws.
+
+Remove (2) of the (4) screws [5] from the hub
+
+[6]. Do not remove two screws adjacent to
+each other.
+
+Insert (2) 3/8-16 x 2 1/2" jack screws [7] into
+the hub. Lightly grease the screw threads.
+Turn the (2) jack screws a small amount at a
+time. Do this until the double arm can turn
+freely on the output shaft.
+
+Remove the T-2108 tool and the double arm.
+Install all of the screws you removed.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-3-0.png)
+
+# Removal of Double-Arm in Seized Position
+
+This section is for camboxes that have seized up and the double arm cannot be moved further to expose the
+mounting bolts.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 4/10
+
+
+-----
+
+## 1
+
+Remove the two plungers next to the hub, be
+aware that if the cambox is seized up the
+spings in the plungers will spring out when
+removing the plunger.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-4-0.png)
+
+## 2
+
+Remove the (6x) SHCS 5/16-18 bolts [1] from
+the hub of the double arm.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-4-0.png)
+
+## 3
+
+Place the hooks of the gear puller on the
+notch [1] shown in the image, place the center
+screw in the position shown and turn the
+center screw to pull off the hub.
+
+### ? NOTE: If the plungers are not removed the
+
+hooks are not able to fit in the designated
+area.
+
+
+### ? NOTE: After the hub is removed the arm
+
+may fall down, be sure to grab the arm before
+completely removing the hub.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-4-0.png)
+
+# Installation
+
+## 1
+
+Press down on the plunger [4].
+
+Put a tool holder [1] with no cutter into the
+new arm.
+
+Push the slide [3] back into the arm as far as
+possible. Measure the space between the
+slide and the tool holder. Use a feeler gauge
+
+[2]. Make sure the space is between 0.015"
+(0.381 mm) and 0.025" (0.635 mm)
+
+[If adjustment is necessary, use SIDE-MOUNT](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/mill---side-mount-tool-changer---double-arm---plunger-and-adjust.html)
+[TOOL CHANGER - DOUBLE ARM - PLUNGER](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/mill---side-mount-tool-changer---double-arm---plunger-and-adjust.html)
+[AND ADJUSTER ASSEMBLY - INSPECTION.](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/mill---side-mount-tool-changer---double-arm---plunger-and-adjust.html)
+
+Remove the tool holder.
+
+Do this step again on the opposite side of the
+arm.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 5/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-4-0.png)
+
+-----
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-5-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 6/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-5-0.png)
+
+-----
+
+### ? Note: Do not tighten the clamp too much.
+
+This makes it difficult to adjust the double arm
+
+[2] height.
+
+
+# Alignment
+
+## 1
+
+Release the [EMERGENCY STOP].
+
+Make sure to insert the Haas Control Key. If
+necessary cycle power.
+
+Go into RECOVERY mode. Go into MANUAL
+TOOL CHANGER OPERATION mode.
+
+Push [ATC FWD] until DOUBLE ARM has a
+value of CLAMP/UNCLAMP. Manually rotate
+the double arm [3] to be parallel with the Y
+Axis.
+
+Move the tool pocket [1] to the down position.
+
+Push [EMERGENCY STOP]. Clear alarms.
+
+Put a tool holder [2] with no cutter into the
+pocket.
+
+## 2
+
+Manually turn the double arm [2] so the slide
+slightly touches the tool holder [1]. Use a
+caliper [3] to measure the height between the
+bottom of the V Flange and the double arm.
+
+Manually turn the double arm so the arm
+engages the tool holder. Use a caliper to
+measure the height between the bottom of
+the V Flange and the double arm.
+
+If the measurement is different, then adjust
+the height of the arm and repeat this step.
+Use the T-2108 tool to adjust the double arm
+height. When the measurement is the same,
+record the measurement.
+
+## 3
+
+Manually turn the double arm until you can
+remove the tool holder. Remove the tool
+holder with no cutter.
+
+Put the bottom part [1] of an alignment split
+tool into the arm [4] near the pocket. Install
+the top part [2] of an alignment split tool into
+the pocket [3]. Align the split tools.
+
+Put the pin [5] for the alignment split tool into
+the top and bottom parts to do an alignment
+check. Remove the pin.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 7/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-6-0.png)
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-6-1.png)
+
+-----
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-7-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 8/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-7-0.png)
+
+-----
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-8-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 9/10
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-8-0.png)
+
+-----
+
+# Test
+
+
+## 1
+
+Push [EMERGENCY STOP]. Clear alarms.
+
+Put a soft material on the table and the
+waycovers to protect them if a tool holder
+falls.
+
+Insert a tool holder [1] into the spindle.
+
+Close the operator door.
+
+Release the [EMERGENCY STOP].
+
+If your machine has a servo tool changer
+press [25%. RAPID].
+
+Enter MDI mode.
+
+Press [ATC FWD].
+
+Do this again multiple times. Switching
+between pressing [ATC FWD] and [ATC REV].
+
+If there are no problems at 25% do this step
+again at 100%.
+
+If there are problems push [EMERGENCY
+STOP]. Clear alarms. Check the alignment and
+adjust it as needed.
+
+
+![](photo/VMC Side Mount Tool Changer - Double Arm - Replacement - AD0324.pdf/VMC-Side-Mount-Tool-Changer---Double-Arm---Replacement---AD0324.pdf-9-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/vmc-side-mount-tool-changer---double-arm---replacement---ad0324.html 10/10
+
+
+-----
+

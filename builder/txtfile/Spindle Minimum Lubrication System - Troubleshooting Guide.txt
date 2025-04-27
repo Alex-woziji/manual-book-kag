@@ -1,0 +1,167 @@
+## Spindle Minimum Lubrication System - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-minimum-lubrication-system---troubleshooting-guide.html 1/4
+
+
+-----
+
+LAST UPDATED: 10/27/2023
+
+# Spindle Minimum Lubrication System - Troubleshooting Guide
+
+ Introduction
+
+ Symptom Table
+
+Symptom Possible Cause Corrective Action
+
+Make sure the reservoir has enough oil. Inspect the Oil
+
+The Low Spindle Lube Oil
+
+level sensor on the tank. Go to DIAGNOSTIC>I/O tab.
+
+Level sensor input was 1 more
+
+Search for Input 49 LOW_SPINDLE _LUBE_OIL_LEVEL,
+
+that 75% of the time when the
+
+make sure the bit toggles when the oil level sensor is
+
+Spindle Lube pump was On.
+
+tripped.
+
+Low Lube Icon
+
+Alarm 805 LOW The reservoir oil level is low. Refill the reservoir.
+SPINDLE
+LUBRICATION. The oil level sensor is faulty. Test the oil level sensor.
+
+The reservoir is filled with the
+Refill the reservoir.
+incorrect oil type.
+
+There are leaks in the fittings. Inspect the fittings for leaks.
+
+Hot, Noisy, or
+Failed Spindle The lubrication tube is
+
+Inspect the lubrication tube for damage.
+damaged.
+
+A solenoid is not functioning. Test the air and lubrication solenoids.
+
+Incorrect oil flow. Perform an oil collection test.
+
+# Oil Level
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-minimum-lubrication-system---troubleshooting-guide.html 2/4
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|Symptom|Possible Cause|Corrective Action|
+|Low Lube Icon|The Low Spindle Lube Oil Level sensor input was 1 more that 75% of the time when the Spindle Lube pump was On.|Make sure the reservoir has enough oil. Inspect the Oil level sensor on the tank. Go to DIAGNOSTIC>I/O tab. Search for Input 49 LOW_SPINDLE _LUBE_OIL_LEVEL, make sure the bit toggles when the oil level sensor is tripped.|
+|Alarm 805 LOW SPINDLE LUBRICATION.|The reservoir oil level is low.|Refill the reservoir.|
+||The oil level sensor is faulty.|Test the oil level sensor.|
+|Hot, Noisy, or Failed Spindle|The reservoir is filled with the incorrect oil type.|Refill the reservoir.|
+||There are leaks in the fittings.|Inspect the fittings for leaks.|
+||The lubrication tube is damaged.|Inspect the lubrication tube for damage.|
+||A solenoid is not functioning.|Test the air and lubrication solenoids.|
+||Incorrect oil flow.|Perform an oil collection test.|
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-1-0.png)
+
+-----
+
+Corrective Action:
+
+Refill the oil reservoir with Mobil SHC 625. If
+Mobil SHC 625 is not available, use Mobil 1
+5W-20 or Mobil 1 10W-30.
+
+[Refer to the LUBRICANT TABLES.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/reference-documents/lubricant--grease--and-sealant-tables-for-haas-machine-component.html)
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-2-0.png)
+
+# Sensor
+
+ Leaks
+
+ Lubrication Tube
+
+
+Corrective Action:
+
+Make sure the oil float [1] moves freely.
+
+[Go to PROXIMITY SENSOR -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+[TROUBLESHOOTING GUIDE to troubleshoot](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+the proximity sensor [2].
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-2-0.png)
+
+Corrective Action:
+
+Examine the fittings [1,2] on top of the oil
+pump tank. The oil collects on top of the oil
+pump tank [3] either behind or in front of the
+sight glass bracket, underneath the leaking
+fitting. Fully seat the hose(s) into the fitting(s).
+Check the end of the hoses to make sure they
+are cleanly cut. Tighten or replace any leaking
+fittings.
+
+### ? Note: Do not disconnect the oil filled hoses
+
+unless there are still leaks after reseating the
+hoses into the fittings as this can introduce air
+in hoses which will need to be purged before
+checking for correct pump operation.
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-minimum-lubrication-system---troubleshooting-guide.html 3/4
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+# Voltage
+
+ Oil Collection Test
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-3-1.png)
+
+Corrective Action:
+
+[Perform an oil collection test [1]. Refer to MILL](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/mill---spindle---lubrication-oil---collection-test.html)
+
+[- SPINDLE - LUBRICATION OIL - COLLECTION](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/mill---spindle---lubrication-oil---collection-test.html)
+[TEST.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/mill---spindle---lubrication-oil---collection-test.html)
+
+If the oil supply is insufficient, and all other
+functions have been checked, replace the flow
+meter [2] in the oil pump.
+
+### ? Note: Make sure to assemble the flow
+
+meter with the arrow pointing toward the
+hose as shown.
+
+
+![](photo/Spindle Minimum Lubrication System - Troubleshooting Guide.pdf/Spindle-Minimum-Lubrication-System---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-minimum-lubrication-system---troubleshooting-guide.html 4/4
+
+
+-----
+

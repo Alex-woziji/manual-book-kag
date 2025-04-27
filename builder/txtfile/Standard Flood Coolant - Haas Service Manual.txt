@@ -1,0 +1,708 @@
+### 3 - Standard Flood Coolant
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 1/24
+
+
+-----
+
+|3.1 COOLANT - OVERVIEW|Col2|
+|---|---|
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 2/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-2-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 3/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-3-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 4/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-3-0.png)
+
+-----
+
+### 3
+
+Do this step if you must replace the
+PUMP/MOTOR [A] and the plug on new
+cable [1] is not compatible with the
+machine:
+
+Note the wiring before removing the
+cable. Remove the cable [1] from the
+old pump motor. Remove the cover and
+cable from the new PUMP/MOTOR [A].
+Install the cable [1] from the old motor
+to the new PUMP/MOTOR [A].
+
+Correctly connect the old cable to the
+new PUMP/MOTOR [A]. Use the (2)
+CRIMP WIRE NUTS [B]. Use wire
+strippers and crimp pliers to correctly
+connect the cable.
+
+Install the new pump assembly into the
+coolant tank. Connect the supply hoses
+and power connector.
+
+If you have an AF-STD system, install
+the 1/4" hose and the 1/8" to 1/4" fitting
+from the AF-STD kit into the hole you
+drilled in STEP 1.
+
+Push COOLANT. Make sure the coolant
+system operates correctly. Examine all
+connections for leaks.
+
+## 3.3 COOLANT PUMP IMPELLER - REPLACEMENT
+
+ Standard Coolant - A-Ryung Coolant Pump - Impeller - Replacement
+
+AD0349
+
+## Introduction
+
+This procedure tells you how to install and shim a replacement impeller on an A-Ryung coolant
+pump.
+
+## Replacement
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-4-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 5/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-4-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-5-0.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-5-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 6/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-5-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-0.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-1.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-2.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-3.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 7/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-0.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-6-1.png)
+
+-----
+
+Crescent Wrench 5/32" Allen Wrench
+
+## Installation
+
+### 1
+
+Apply thread sealant to all threaded
+surfaces of the coolant fittings.
+
+Find the cap [1] at the bottom left on
+the enclosure. Remove the cap [1] from
+the MALE ENCLOSURE FITTING [2].
+
+#### ? Note: Coolant can come out when
+
+you remove the cap.
+
+Attach the WASH GUN HOLSTER and
+GASKET [E] to the enclosure face. Use
+the screws [F].
+
+#### ? NOTE: For proper operation, make
+
+sure the wash gun gasket is properly
+seated. It needs to be flush at
+the bottom of the wash gun housing.
+
+Attach the HOSE ASSEMBLY [C] to the
+MALE ENCLOSURE FITTING [2]. Attach
+the HOSE ASSEMBLY [C] to the WASH
+GUN [D].
+
+Put the HOSE ASSEMBLY [C] in the
+WASH GUN HOLSTER [E].
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-7-0.png)
+
+## 3.5 COOLANT - MAINTENANCE
+
+ Standard Coolant – Maintaining Your Coolant Mixture
+
+ Machine Tool Coolant Series
+
+We made these videos to address the most common questions and problems customers have
+about coolant maintenance. The videos are based on decades of day-to-day experience in our
+own factory machine shop, in our service department, and at our Haas Factory Outlets around
+the world.
+
+Each video covers a complete topic, so you can watch them in any order, all together, or
+individually. If you are new to mixing and maintaining coolant, we recommend that you start
+with “Tools of Coolant”. This video gives you a complete overview of the tools you will need to
+make your coolant maintenance easier.
+
+#### ? Note: Be sure to maintain your coolant mixture to keep the coolant concentrate at
+
+acceptable levels. Improperly maintained coolant mixtures can allow machine components to
+rust. Rust damage is not covered by your warranty. Always wear proper eye protection when
+maintaining coolant systems. Clean any spilled coolant from the floor.
+
+[MACHINE TOOL COOLANT - COOLANT SIMPLIFIED](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+[MACHINE TOOL COOLANT - TOOLS OF COOLANT](https://www.haascnc.com/content/haascnc/en/video/coolantseries/itqop_jjilm.html)
+
+[MACHINE TOOL COOLANT - MAKING A NEW BATCH](https://www.haascnc.com/content/haascnc/en/video/tips/rv1ku0ursbo.html)
+
+[MACHINE TOOL COOLANT - TOP UP HIGH CONCENTRATION](https://www.haascnc.com/content/haascnc/en/video/coolantseries/zalbndp5hqe.html)
+
+[MACHINE TOOL COOLANT - TOP UP LOW CONCENTRATION](https://www.haascnc.com/content/haascnc/en/video/coolantseries/3f9qmvrnpm8.html)
+
+[MACHINE TOOL COOLANT - CLEANING YOUR TANK](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+
+Looking for the maintenance log?
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 8/24
+
+
+-----
+
+[COOLANT MAINTENANCE LOG](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/reference-documents/standard-coolant---mixture---maintenance-log.html)
+
+## 3.6 STANDARD COOLANT - TROUBLESHOOTING
+
+ Standard Coolant - Troubleshooting Guide - NGC
+
+#### ? Download and fillout the coolant pump Inspection Report Checklist below before replacing
+any parts.
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 9/24
+
+
+-----
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Machine with Variable Frequency Drive - The coolant takes too long to flow out the nozzles or Pcool.|The variable frequency drive has an incorrect acceleration parameter value.|Refer to the Coolant VFD - Troubleshooting Guide.|
+|Noisy pump or cavitation|Poor Coolant flow through enclosure|Remove chip buildup.|
+||Low Coolant Level|Fill coolant tank.|
+||Impeller contamination, or impeller damage|Inspect impeller for damage or debris. Clean impeller or order kit 93-2609 to replace impeller. Follow Impeller Replacement Procedure to replace.|
+||Motor bearing failure.|Rotate the shaft by hand|
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-9-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 10/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-9-0.png)
+
+-----
+
+|Low coolant flow.|Poor Coolant flow through enclosure|Remove chip buildup.|
+|---|---|---|
+||Low coolant level in coolant tank|Fill coolant tank.|
+||Impeller contamination, or impeller damage|Refer to the Coolant Pump Impeller Damage/Contamination section below to check the impeller in the pump.|
+||Filter or pump intake blockage.|Clean filter, check pump intake for blockage.|
+||Pump intake or coolant output hose blockage|Remove coolant check-valve and coolant output hose blockage.|
+||Coolant nozzle blockage|Remove blockage from coolant nozzles|
+|The coolant pump is not building pressure.|The motor shaft may be slipping due to the coupling not being fastened all the way.|Thoroughly inspect the pump assembly and verify the motor shaft coupling is fastened down all the way.|
+|No coolant flow and coolant circuit breaker did not trip.|Setting 32 COOLANT OVERRIDE is set to IGNORE.|Set Setting 32 COOLANT OVERRIDE to NORMAL.|
+||Coolant pump motor does not receive voltage.|See the No Voltage at the Pump Motor section below.|
+||Incorrect power phasing - pump motor is running backward.|Correct phasing|
+||Impeller contamination or damage|Refer to the Coolant Pump Impeller Damage/Contamination section below to check the impeller in the pump.|
+|No coolant flow and the coolant circuit breaker tripped.|Coolant pump motor short to ground.|Measure coolant pump motor resistance to ground.|
+|(Single-phase machines only), Alarm 552 TRIPPED CIRCUIT BREAKER occurs when the coolant pump gets commanded to turn on. Note: The circuit breaker did not tripped.|The 240 VAC input cable connected to the PSUP at P11 is not correct.|Verify the cable pinout for the cable that connects from the main circuit breaker to the PSUP at P11. Refer to Incorrectly pinned power cable (Single-Phase) section.|
+|Alarm 552 TRIPPED CIRCUIT BREAKER|Refer to: Next Generation Control - Power Distribution PCB and PFDM - Troubleshooting Guide.||
+|Coolant leaking from machine enclosure onto floor.|This applies to ST-20 reboot enclosures only. The grommet that seals the Sub- Spindle Hydraulic Union drain line fails to seal due to the hose pulling on the grommet.|Install the ST-20 Sub-Spindle Hose Routing Retrofit Kit Part Number: 93-3127. This reroutes the drain hose and clamps the hose limiting the movement and ability to pull on the grommet. Follow the Installation Guide to retrofit your machine.|
+|Alarm 9823 Coolant VFD Fault Alarm 9824 Shower Coolant VFD Fault|There is a problem with the Coolant / Shower VFD.|Refer to the Coolant VFD - Troubleshooting Guide.|
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 11/24
+
+
+-----
+
+|Coolant pump with an Aux filter is splashing on the floor when pump is commanded off|When pump is commanded to stop coolant left over in the line returns through the pump and splashes into the tank.|Install a check valve on the output side of the aux filter to stop the coolant from returning and splashing. Please refer to Aux Filter Check Valve section for installation. Please contact Haas Service if a check valve is installed to the output of the aux filter.|
+|---|---|---|
+|Motor hums when commanded to turn on|Note: For pumps dated DEC-2019 to FEB-2020 Coolant pump start capacitor failed.|Order the service kit, 93-3364, and replace the failed capacitor. Refer to the Coolant Pump - Start Capacitor - Replacement procedure.|
+|Turns slowly, drawing higher than normal current and eventually trips the breaker|||
+|Turns backwards|||
+|Alarm 9823 COOLANT VFD FAULT|The flood coolant pump has seized up.|Refer to the Coolant Pump Impeller Damage/Contamination section below to check the impeller in the pump.|
+|Alarm 552 TRIPPED CIRCUIT BREAKER and The CB3 on the PSUP PCB has tripped on machines without a VFD.|||
+|The 5/8" coolant hose leaks at the fittings or the hose pops off the fittings.|The 5/8" Hose Clamp[1] PN: 59- 1524 installed on the coolant hose is oversized and does not clamp the hose correctly.|Replace the oversized hose clamp with PN: 59-2107 HOSE CLAMP EAR 20.1 - 23.3 MM. Use a Crimping Tool to secure the new hose clamp.|
+
+
+## Poor coolant flow through enclosure
+
+Remove all chips from the the auger
+trough [1], and the coolant return drain
+
+[2].
+
+Remove chips from the coolant tank.
+Excessive chips in the coolant tank
+reduce the amount of coolant the tank
+[can store. Watch the video MACHINE](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+[TOOL COOLANT - CLEANING YOUR](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+[TANK - VIDEO.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+
+Fill the coolant tank. Watch the
+[video STANDARD COOLANT –](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[SIMPLIFIED - FILLING YOUR TANK …](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[AND MORE.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+Make sure the coolant level sensor
+operates correctly.
+
+## Coolant Pump Impeller Damage/Contamination
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-11-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 12/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-12-0.png)
+
+## Aux Filter Check Valve Install
+
+ Filter or pump blockage
+
+
+Remove the impeller cap [1] from the
+bottom of the pump. Remove the screw
+that connects the impeller [2] to the
+shaft. Steel impellers have left-hand
+threads [3].
+
+Carefully remove and clean the impeller
+
+[2]. Check for wear, damage, or cracking
+of the impeller [2].
+
+If the impeller is damaged or cracked,
+order a replacement impeller, service
+[part 93-2609. Follow IMPELLER](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/standard-coolant---a-ryung-coolant-pump---impeller---replacement.html)
+[REPLACEMENT PROCEDURE to replace.](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/standard-coolant---a-ryung-coolant-pump---impeller---replacement.html)
+
+Rotate the coolant pump shaft by hand.
+If the shaft does not turn freely, the
+motor bearings are damaged.
+
+Install the impeller [2]. Rotate the
+coolant pump shaft by hand, and make
+sure the impeller does not rub on the
+pump body [4]. If the impeller rubs
+against the pump body, install shims
+between the impeller [2] and the
+coolant pump shaft. Install the impeller
+cap [1]. If the impeller [2] rubs against
+the impeller cap [1], remove one shim
+at a time until it does not rub.
+
+There are several filters that keep chips
+out of the coolant pump. Refer to
+Section 3 for filter maintenance
+information.
+
+Place the check valve [1] on the outlet
+side of the auxiliary filter as shown.
+
+#### ? NOTE: Please contact Haas Service if
+this is done.
+
+Clean or replace the filter element. Check the
+area around the coolant pump intake for chips.
+
+1. Auxiliary Filter - The bag filters in
+
+Auxiliary Filter tanks need to be cleaned
+or replaced. The Auxiliary Filter is an
+
+option. Your machine might not have
+
+this option.
+
+2. Standard Filter - Standard Filters need to
+
+be cleaned.
+
+Disconnect both ends of the coolant hoses.
+Remove any kinks. In the opposite direction of
+the coolant flow, blow air through the hoses to
+remove any chips. If you find chips in the hoses,
+check the coolant nozzles and washdown hoses
+for chip buildup. Connect the coolant hoses.
+
+Remove chips from the basket filter in the
+coolant tank. For maintenance instructions,
+refer to
+[the COOLANT TANK ? MAINTENANCE procedure.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chip-tray-filter-replacement---ad0296.html)
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-12-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 13/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-12-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-13-0.png)
+
+## Check valve blockage (Coolant filter and Haas Chip Seperator)
+
+Remove the coolant check-valve. Check
+it for blockage [1]. Make sure the trap
+door opens and closes freely. If the trap
+door does not close, coolant flows back
+into the tank. This delays the flow of
+coolant by a few seconds.
+
+Disconnect both ends of the coolant
+hoses. Remove any kinks. In the
+opposite direction of the coolant flow,
+blow air through the hoses to remove
+any chips. If you find chips in the hoses,
+check the coolant nozzles and
+washdown hoses for chip buildup.
+Connect the coolant hoses.
+
+## Coolant nozzle blockage
+
+Remove and clean the coolant nozzles.
+
+Cycle the pump power to flush the coolant lines.
+
+Make sure the coolant tank is free of chips and contamination.
+
+## Defective pump
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-13-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 14/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-14-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 15/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-14-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-15-0.png)
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-15-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 16/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-15-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-16-0.png)
+
+## 3.7 COOLANT VFD - TROUBLESHOOTING
+
+ Coolant VFD - Troubleshooting Guide - NGC
+
+ Variable Frequency Drive (VFD) - Coolant Pumps
+
+UMC's built after Nov 2019 and EC-1600's built after Jan 2020 now have a variable frequency
+drive (VFD) [1] units. These VFD units are located on the control cabinet above the PSUP PCB,
+these units will drive the coolant pump and the shower coolant pump (if equipped).
+
+A VFD is a Variable Frequency Drive. VFD’s run motors, and change their output frequency based
+on a command. This changes the speed of the motor. When used with coolant pump motors,
+coolant flow and pressure can be controlled, and not depend on the local line frequency of 50 or
+60Hz. Some machines have up to two coolant pumps: standard and shower coolant; each is
+controlled by a separate VFD.
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 17/24
+
+
+-----
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Machine with SCHENEIDER Variable Frequency Drive - The coolant takes too long to flow out the nozzles or Pcool.|The variable frequency drive has an incorrect acceleration parameter value.|Make sure the acceleration parameter on the variable frequency drive (VFD) is set to 0.3 seconds. Refer to the VFD Acceleration Parameter Verification section below.|
+|Alarm 9823 Coolant VFD Fault Alarm 9824 Shower Coolant VFD Fault|The coolant or shower pump is not plugged in.|Make sure the coolant or shower pump is connected to the coolant port. Check that the coolant cables are connected.|
+||The variable frequency drive reported a fault.|Open the control cabinet and see what fault was generated by the VFD. Refer to the VFD Manual, see Variable Frequency Drive (VFD) section below.|
+||The communication between the VFD unit and the control are not correct.|See Variable Frequency Drive (VFD) section below.|
+||The VFD overloaded while running at the highest pressure setting P2|See Variable Frequency Drive (VFD) section below for VFD overload troubleshooting process. Contact Haas Service to notify them of this issue.|
+||Motor overload "OFL" alarm on the VFD while using the washdown nozzle|Check the coolant tank level and to make sure the pump is not cavitating and verify the coolant tank is free of chips.|
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-17-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 18/24
+
+
+-----
+
+|The Coolant VFD is commanded to turn on (M08 PX) and the VFD shows "READY" and pump does not turn on or takes several minutes to turn on.|The coolant VFD enable signal is not being read.|Determine if the drive has the Coolant VFD - Retrofit Kit Installed. Refer to the Coolant VFD - Retrofit Kit - AD0602 procedure.|
+|---|---|---|
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 19/24
+
+
+-----
+
+## VFD I/O Signals
+
+The commands in a program cause an enable and speed command signal from the IOPCB to the
+VFD. Power for the VFD is supplied directly from the Main Transformer.
+
+Use the below table to make sure the CNC control is sending and receiving the correct signals
+from the Coolant VFD unit.
+
+
+#### ?
+
+
+Note: The value on the readout can be +/- 3Hz.
+
+|COMMAND|INPUT / OUTPUT|DIAGNOSTICS BITS|VOLTAGES AT VFD (SCHNEIDER)|VOLTAGES AT VFD (DELTA)|VFD DISPLAY|
+|---|---|---|---|---|---|
+|M08 P0|INPUT 112|VFD_COOLANT_FAULT = 0|≈ RIA / COM 0VDC|≈ RA / COM 0 VDC|49.9 Hz|
+||OUTPUT 170|VFD_COOLANT_BIT_1 = 1|≈ AI1 / COM 6.24 VDC|AVI /≈ COM 6.25 VDC||
+||OUTPUT 171|VFD_COOLANT_BIT_2 = 0||||
+||OUTPUT 172|VFD_COOLANT_ENABLE = 1|≈ LI1 / COM 0.3 VDC|MI1 /≈ COM 0.95 VDC||
+|M08 P1|INPUT 112|VFD_COOLANT_FAULT = 0|≈ RIA / COM 0 VDC|≈ RA / COM 0 VDC|59.9 Hz|
+||OUTPUT 170|VFD_COOLANT_BIT_1 = 0|≈ AI1 / COM 7.5 VDC|A≈VI / COM 7.5 VDC||
+||OUTPUT 171|VFD_COOLANT_BIT_2 = 1||||
+||OUTPUT 172|VFD_COOLANT_ENABLE = 1|≈ LI1 / COM 0.3 VDC|MI1 /≈ COM 0.95 VDC||
+|M08 P2|INPUT 112|VFD_COOLANT_FAULT = 0|≈ RIA / COM 0VDC|≈ RA / COM 0 VDC|78.8 Hz|
+||OUTPUT 170|VFD_COOLANT_BIT_1 = 1|≈ AI1 / COM 9.9 VDC|AVI /≈ COM 9.9 VDC||
+||OUTPUT 171|VFD_COOLANT_BIT_2 = 1||||
+||OUTPUT 172|VFD_COOLANT_ENABLE = 1|≈ LI1 / COM 0.3 VDC|MI1 /≈ COM 0.95 VDC||
+
+|ALARM|INPUT/OUTPUT|DIAGNOSTIC BITS|VOLTAGES AT VFD (SCHNEIDER)|VOLTAGES AT VFD (DELTA)|
+|---|---|---|---|---|
+|9823 COOLANT VFD FAULT|INPUT 112|VFD_COOLANT_FAULT = 1|≈ RIA / COM 12 VDC|≈ RA / COM 12VDC|
+||OUTPUT 170|VFD_COOLANT_BIT_1 = 0|≈ AI1 / COM 0.0 VDC|≈ AVI / COM 0.16 VDC|
+||OUTPUT 171|VFD_COOLANT_BIT_2 = 0|||
+||OUTPUT 172|VFD_COOLANT_ENABLE = 0|≈ LI1 / COM 12 VDC|≈ MI1 / COM 12 VDC|
+
+
+## VFD Acceleration Parameter Verification
+
+
+The following procedure will show you
+how to make sure the acceleration
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 20/24
+
+
+-----
+
+## VFD overload troubleshooting
+
+ Electrical Diagrams
+
+
+parameter on the Schneider ATV12 VFD
+is set correctly.
+
+With the machine power on.
+
+#### ???WARNING: Becareful not to
+
+touch the incoming High Voltage Power
+wires. If you don't feel comfortable
+with this procedure please contact your
+Haas Factory Outlet.
+
+1. Press the dial button one time
+2. Rotate the dial until you find
+
+CONF displayed on the screen.
+
+3. Press the dial button one time.
+
+4. Rotate the dial until you find
+
+ACC displayed on the screen.
+
+5. Press the dial button one time.
+
+6. Rotate the dial until the screen
+
+reads 0.3
+
+7. Press the dial button one time.
+
+8. Press the ESC button until the
+
+screen reads RDY
+
+### 1
+
+The VFD will need to be tested at each
+of the pressure settings at each of the
+pressure settings make sure they are
+withing the range of the following.
+
+#### ? NOTE: The frequency can be seen
+
+where the overload alarm is shown [1].
+Use a clamp meter [2] to record the
+current at the different settings.
+
+~50 Hz at P0, test current at this setting
+and record
+
+~60 Hz at P1, test current at this setting
+and record
+
+~80 Hz at P2, test current at this setting
+and record.
+
+#### ? NOTE: Frequency should be within
+
++/- 3Hz. If you are having overload
+issues contact Haas service.
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-20-0.png)
+
+Use this electrical diagram for coolant pumps that are being driven by the Variable
+Frequency Drive With Cable 33-9934B.
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 21/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-21-0.png)
+
+33-9334B VFD Detail Cable Diagram
+
+Use this electrical diagram for coolant pumps that are being driven by the Variable
+Frequency Drive With Cable 33-9334C.
+
+33-9334C VFD Detail Cable Diagram
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-21-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 22/24
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-21-0.png)
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-22-0.png)
+
+## Introduction
+
+
+## Standard Coolant - Filter - Cast-Aluminum - Upgrade
+
+AD0246
+
+Machines built after December 2015
+have the cast coolant-filter [1]. This
+procedure tells you how to replace the
+standard coolant-filter [2] with the cast
+coolant-filter [1]. The standard coolantfilter [2] has a plastic reservoir.
+
+#### ? Note: The cast coolant-filter [1]
+
+replaces all standard coolant-filters [2].
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-22-0.png)
+
+#### ?Note: The coolant filter has been
+
+replaced with the chip seperator. For
+more information regarding the chip
+[seperator click HERE.](https://www.haascnc.com/content/haascnc/en/service/online-manuals/chip-and-coolant---service-manual/chip-separator.html)
+
+## Machine Compatibility
+
+The cast coolant-filter is compatible with VMCs and HMCs.
+
+## Document Applies to these Parts
+
+93-2356 QTY: 1
+
+FILTER, STANDARD COOLANT HEAD/BOWL REPLACEMENT KIT
+
+## Standard Coolant Filter Assembly - Replacement
+
+### 1
+
+For DM, DT, EC-1600, MM, SMM, and
+TM machines: Use the (2) crescent
+wrenches and remove the 1/2" fitting
+
+[2]. Use the allen wrench to install the
+plug [3].
+
+For DM, DT, MM, SMM, and TM
+machines: Use the (2) crescent
+wrenches to remove the 5/8" fitting [1]
+
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-22-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 23/24
+
+
+-----
+
+![](photo/Standard Flood Coolant - Haas Service Manual.pdf/Standard-Flood-Coolant---Haas-Service-Manual.pdf-23-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/standard-flood-coolant.html 24/24
+
+
+-----
+

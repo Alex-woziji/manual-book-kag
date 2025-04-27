@@ -1,0 +1,266 @@
+## Turret Indexer Assembly - SL-10/30 ST-10/15 - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 1/6
+
+
+-----
+
+LAST UPDATED: 07/24/2023
+
+# Turret Indexer Assembly - SL-10/30 ST-10/15 - Troubleshooting Guide
+
+ Turret Indexer Assembly
+
+
+1. Air Cylinder
+19. Coolant Elbow
+Assembly
+
+20. Coolant Transfer
+2. Motor
+Assembly
+3. Worm Housing 21. TC Turret Cams (2)
+4. Coupling
+22. 15/16 Steel Balls (3)
+Assembly
+
+5. Coolant Line
+23. Turret Retainer
+Assembly
+
+6. Worm Shaft 24. TC Turret Shaft
+7. TC Transfer Shaft 25. TC Cam Lever
+8. Turret Home
+26. Die Spring Retainer
+Switch
+
+9. TC Switch Ring 27. Die Spring
+10. Turret Switch
+28. Cam Cage
+Bracket
+
+11. Bulkhead Fitting 29. Male Turret Coupling
+
+30. Female Turret
+12. Coolant Valve
+Coupling
+
+31. Turret Mount
+13. Coolant Knob
+Coupling
+14. Bearing Nut N-13 32. TC Cluster Gear
+15. Coolant Line 33. TC Turret Housing
+16. TC Spur Gear 34. Turret Unclamp
+(keyed) Sensor
+
+17. Belleville
+35. Turret Clamp Sensor
+Washers (2)
+
+18. TC Belleville
+Spacer
+
+
+![](photo/Turret Indexer Assembly - SL-10_30 ST-10_15 - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---SL-10_30-ST-10_15---Troubleshooting-Guide.pdf-1-0.png)
+
+# Symptom Table
+
+SYMPTOM POSSIBLE CAUSE CORRECTIVE ACTION
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 2/6
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+
+
+-----
+
+|Alarm 113 Turret failure to reach the Unclamp switch, Alarm 2022 Turret failure to leave clamp switch, Alarm 8113 Turret failed to reach the unclamp switch|The incoming air pressure or air flow is incorrect.|Check the incoming air supply.|
+|---|---|---|
+||There is a problem with the voltage to the turret clamp / unclamp solenoid.|Check the voltage to the turret clamp / unclamp solenoid.|
+||There is a problem with the turret clamp / unclamp solenoid.|Check the turret clamp / unclamp solenoid.|
+||There is a problem with the clamp/unclamp cylinder.|Test the air cylinder for faulty piston seal.|
+||The turret unclamp sensor is faulty or out of adjustment.|Check the turret unclamp sensor.|
+|Alarm 114 TURRET failure to reach the Clamp switch Alarm 2023 Turret failure to leave unclamp switch|Turret is out of alignment.|Check Turret/Motor coupling adjustment.|
+||Mechanical binding of turret.|Check turret for possible turret o- ring damage or chip intrusion.|
+||The turret clamp sensor is faulty or out of adjustment.|Check the turret clamp sensor.|
+|Unusual noise as the turret rotates|Tool Turret Die springs are broken.|Remove Tool Turret to inspect or replace springs.|
+|Toolchanger oil leaking from the solenoid at the lube cabinet.|Oil lands on air cylinder.|Clean airlines, solenoid, and air cylinder. Install Oil Shield. See Installation procedure for more information.|
+|Alarm 106 A-AXIS POSITION ERROR|The servo motor has an electrical fault.|Go to DIY servo system trouble shooting.|
+||Mechanical obstruction.|Inspect turret for possible obstruction or binding during rotation.|
+|Axis rotating slowly, hesitating to rotate.|Contaminated HPC Pressure Sensor cable.|Check the HPC Pressure cable for coolant contamination.|
+
+
+# Solenoid
+
+Corrective Action:
+
+CALM System (All solenoids located in the lube panel)
+
+Use needle tipped probes and take care not to touch probes tips together when checking voltage.
+
+Set the meter to AC voltage.
+
+In MDI command an M43 and press cycle start to unclamp the turret.
+
+Measure the voltage to the clamp and unclamp solenoid. The solenoids are inside the CALM (consolidated
+air/lubrication manifold) panel. The voltage should measure 120 VAC.
+
+If there is no voltage, refer to:
+
+[NEXT GENERATION CONTROL - I/O PCB - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[I/O PCB - TROUBLESHOOTING GUIDE (CLASSIC HAAS CONTROL)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 3/6
+
+
+-----
+
+If voltage at the I/O is correct inspect the cable.
+
+[If the solenoid appears to be faulty, go to SOLENOID TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html)
+
+Pre CALM System
+
+Power off, lock and tag out the machine.
+
+Remove the left rear machine enclosure panel.
+
+Locate the clamp/unclamp solenoid and power connection behind the Tool Turret assembly.
+
+Remove lock out tags, power up and zero return the machine.
+
+Use needle tipped probes and take care not to touch probes tips together when checking voltage.
+
+Set the meter to AC voltage.
+
+In MDI command an M43 and press cycle start to unclamp the turret.
+
+Measure the voltage at the solenoid power connection. Do Not unplug the cable. The voltage should measure
+120 VAC.
+
+If there is no voltage, refer to:
+
+[NEXT GENERATION CONTROL - I/O PCB - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[I/O PCB - TROUBLESHOOTING GUIDE (CLASSIC HAAS CONTROL)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+If voltage at the I/O is correct inspect the cable.
+
+[If the solenoid appears to be faulty, go to SOLENOID TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html)
+
+# Air Cylinder
+
+
+### ? Note: There may be some variation of the
+
+cylinder cushion dampening between
+directions of movement for different vendors.
+Verify the air cylinder operation when
+installed. Do not test by hand.
+
+Corrective Action:
+
+With the turret clamped test the air cylinder
+for faulty piston seal.
+
+Remove the upper hose (unclamp) on the
+cylinder.
+
+If air is escaping from the upper hose
+(unclamp) connection on the cylinder the
+cylinder piston seal is bad and piston should
+be replaced.
+
+
+![](photo/Turret Indexer Assembly - SL-10_30 ST-10_15 - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---SL-10_30-ST-10_15---Troubleshooting-Guide.pdf-3-0.png)
+
+# Clamp/Unclamp Sensors
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 4/6
+
+
+-----
+
+Corrective Action:
+
+Check the turret unclamp and clamp sensors.
+
+Use a magnet and pass it over the sensors.
+Watch the diagnostics screen to make sure
+they activate with the magnet.
+
+If the magnet did not activate the sensors
+inspect the cables. If the cables are not
+damaged then the sensor will need to be
+replaced.
+
+If the sensors were activated then they may
+need to be adjusted. Verify the motor coupler
+alignment before adjusting sensors. Refer
+[to ST-10/10Y, SL-10-30, TL-15/25, HL-1-6 -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/turret-lock-and-unlocked-sensors-adjustment-st-10-sl10-tl-15-25-hl-1-chc.html)
+[TURRET LOCK AND UNLOCKED SENSORS -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/turret-lock-and-unlocked-sensors-adjustment-st-10-sl10-tl-15-25-hl-1-chc.html)
+[ADJUSTMENT procedure.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/turret-lock-and-unlocked-sensors-adjustment-st-10-sl10-tl-15-25-hl-1-chc.html)
+
+
+![](photo/Turret Indexer Assembly - SL-10_30 ST-10_15 - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---SL-10_30-ST-10_15---Troubleshooting-Guide.pdf-4-0.png)
+
+# Turret Die Springs
+
+ Mechanical Binding
+
+Corrective Action:
+
+
+Corrective Action:
+
+With the turret clamped, rotate the turret
+back and forth by hand. If there is movement
+in the turret the die springs are broken and
+need to be replaced.
+
+[Refer to HL/SL/ST-10 - TURRET -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/hl-sl-st-10---turret---replacement.html)
+[REPLACEMENT from the manual. Once the](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/hl-sl-st-10---turret---replacement.html)
+turret is removed the springs can be replaced.
+
+
+![](photo/Turret Indexer Assembly - SL-10_30 ST-10_15 - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---SL-10_30-ST-10_15---Troubleshooting-Guide.pdf-4-0.png)
+
+If the o-ring under the rear turret chip skirt fails it can cause binding and prevent the turret from rotating into
+position. A failed o-ring will also allow for coolant and chip intrusion into the back side of the turret. In this
+case the turret should be removed to clear the chips and inspected for possible damage.
+
+A failed o-ring will also allow for coolant and chip intrusion into the back side of the turret. In this case the
+turret should be removed to clear the chips and inspect for possible damage.
+
+# Alignment
+
+If the turret is knocked out of alignment you may have to re-align the turret motor coupler.
+
+[Refer to SL-10/20/30, ST-10/10Y - MOTOR COUPLING - ALIGNMENT procedure.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/sl-10-20-30--st-10-10y---motor-coupling---alignment.html)
+
+If the turret is knocked out of alingment a full geometry inspection should be done. Make corrections as
+needed.
+
+# Servo Motor
+
+Corrective Action:
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 5/6
+
+
+-----
+
+The servo motor has an electrical fault. Possible failed motor, bad or contaminated cable connection, a
+damaged cable, or failed amplifier.
+
+[Refer to SIGMA 1 - AXIS SERVO MOTOR AND CABLES - TROUBLESHOOTING GUIDE or SIGMA 5 - AXIS SERVO](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-1---axis-servo-motor-and-cables---troubleshooting-guide.html)
+[MOTOR AND CABLES - TROUBLESHOOTING GUIDE for detailed information.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sl-10-20-30--st-10-15-turret-indexer-assembly--troubleshooting-g.html 6/6
+
+
+-----
+

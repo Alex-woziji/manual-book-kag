@@ -1,0 +1,257 @@
+## Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 1/7
+
+
+-----
+
+LAST UPDATED: 01/31/2022
+
+# Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC
+
+ Electrical Safety
+
+
+### ? Caution: When you do maintenance or repair on CNC machines and their components, you must always
+
+follow basic safety precautions. This decreases the risk of injury and mechanical damage.
+
+Set the main circuit breaker to the [OFF] position.
+
+### ? Danger: Before beginning any work inside the control cabinet the High Voltage indicator light on the 320V
+
+Power Supply / Vector Drive must have been off for at least 5 minutes.
+
+Some service procedures can be dangerous or life-threatening. DO NOT attempt a procedure that you do not
+fully understand. If you have any doubts about doing a procedure contact your Haas Factory Outlet (HFO) and
+schedule a service visit.
+
+# Symptom Table
+
+SYMPTOM PROBABLE CAUSE CORRECTIVE ACTION
+
+Encoder signals are
+
+Refer to Serial Data Communication
+
+affected by noise from
+
+Faults / Electrical Noise section below.
+
+high power cables.
+
+Inspect the cables and connectors. Refer to
+the Main Processor/Encoder
+
+Cables are not
+
+Cable section below. Check the encoder
+
+connected correctly or
+
+steps/revolution versus and ball screw pitch
+
+encoder is faulty.
+
+and verify the encoder counts are accurate
+per each rotation.
+
+Go to Diagnostics / System tab, to see
+the FPGA firmware version. It needs to
+be version 1.09 or higher.
+
+Note: The firmware must be updated by
+a Certified Service Technician.
+
+Alarms 828-839 AXIS SERIAL DATA
+COMMUNICATION FAULT
+
+The FPGA firmware is
+outdated.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 2/7
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|PROBABLE CAUSE|CORRECTIVE ACTION|
+|Alarms 828-839 AXIS SERIAL DATA COMMUNICATION FAULT|Encoder signals are affected by noise from high power cables.|Refer to Serial Data Communication Faults / Electrical Noise section below.|
+||Cables are not connected correctly or encoder is faulty.|Inspect the cables and connectors. Refer to the Main Processor/Encoder Cable section below. Check the encoder steps/revolution versus and ball screw pitch and verify the encoder counts are accurate per each rotation.|
+||The FPGA firmware is outdated.|Go to Diagnostics / System tab, to see the FPGA firmware version. It needs to be version 1.09 or higher. Note: The firmware must be updated by a Certified Service Technician.|
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-1-0.png)
+
+-----
+
+|Alarms 161-164, 193, 276 AXIS DRIVE FAULT Alarm 992 AMPLIFIER OVER CURRENT Alarm 645 AMPLIFIER GROUND FAULT|Faulty power cable.|Inspect the cables and connectors. Refer to the Power Cable section below.|
+|---|---|---|
+||Faulty servo amplifier.|Check the corresponding amplifier assembly. Refer to Servo Amplifier - Troubleshooting Guide to troubleshoot the amplifier.|
+||Faulty servo motor.|Check the corresponding servo motor. Refer to Servo Motor section below.|
+|Alarm 103-105, 270, 709 AXIS SERVO ERROR TOO LARGE|Encoder signals are affected by noise from high power cables. Or Faulty encoder.|Refer to Serial Data Communication Faults / Electrical Noise section below. Check the encoder steps/revolution versus and ball screw pitch and verify the encoder counts are accurate per each rotation.|
+||The axis motor brake, is not disengaging when servos are enabled.|See the Motor Brake section below:|
+||The axis ballscrew is damaged.|Check the corresponding axis ballscrew. Refer to Ballscrew - Troubleshooting Guide to troubleshoot the ballscrew.|
+|Alarm 103-105, 270, 709 AXIS SERVO ERROR TOO LARGE, after a software upgrade.|The machine parameters are not correct.|Make sure you have the correct parameters for the type of axis motor. 1. Determine if machine has Sigma-1 or Sigma-5 motors. Note: The Sigma-5 axis motor have a push-lock connector for the encoder plug. 2. Run parameter checker and select either Sigma-1 or Sigma-5 option.|
+|Alarm 103 - 105 AXIS SERVO ERROR TOO LARGE, during the zero return process. The axis zero returns in the wrong direction.|The home sensor is being made during the zero return process causing the axis to zero return in the opposite direction.|Check the axis home switch to make sure there are no metal chips on top of the sensor.|
+
+
+# Serial Data Communication Faults / Electrical Noise
+
+Sigma-5 servo motors, non-contact encoders
+output serial data signal to the control. If the
+serial data signal is missing or becomes
+unreliable the control will generate a serial
+data communication error. Electrical noise can
+cause the serial data signal from the encoder
+to become unreliable and cause false alarms.
+Follow the troubleshooting guide below to
+help eliminate the noise in the system.
+
+1. Incorrect machine grounding. Make
+
+sure the ground wire size is correct.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 3/7
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-2-0.png)
+
+-----
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 4/7
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-3-0.png)
+
+-----
+
+# Main Processor/Encoder Cable or Faulty Encoder
+
+ Power Cable
+
+Corrective Action:
+
+
+Main Processor/Encoder Cable Corrective
+Action:
+
+Examine the connector [1] on the Maincon or
+MOCON PCB. Make sure it is not damaged.
+
+Examine the cable. Look for signs of damage
+or stiffness. The connector [4] has two
+housings [2,3] for the cable pins.
+
+Faulty Encoder Corrective Action:
+
+Check the encoder steps/revolution in the
+configuration file. Jog the axis and based on
+the distance the ball screw travels per
+revolution (ball screw pitch), verify the
+encoder counts are accurate per each
+rotation. View the diagnostic>axis page as you
+jog the axis. The raw encoder count will show
+you how many encoder steps have been
+counted. The z axis channel will also show
+how many steps have been counted, but will
+reset each time the z-pulse is passed. The zpulse is the encoder zero point, so it will reset
+every time the encoder does one
+revolution. Based on this information, you will
+know if the encoder works if the correct
+amount of steps per revolution are counted
+each time you jog the axis the distance of the
+ball screw pitch length. If the numbers do not
+match up, you have a problem.
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-4-1.png)
+
+If the pins have been pushed into the motor,
+you must replace the motor and cable
+together.
+
+Make sure the cable is firmly connected at
+both ends. Reseat both connections. Make
+sure the cable is installed in the correct
+connector at the Maincon or MOCON PCB.
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-4-0.png)
+
+Make sure the cables are connected correctly to the corresponding amplifier. Inspect the connector at the
+motor. Look for loose connections or contamination.
+
+Look for signs of damage or stiffness on the cable. Disconnect the power cable from the amplifier and motor.
+Measure the resistance from leg to leg, and from leg to ground. Make sure the measurements result in an
+open connection. Check each leg from one end of the cable to the corresponding leg on the other end of the
+cable for continuity. If there is an open connection, there is a problem with the cable.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 5/7
+
+
+-----
+
+# Servo Motor
+
+Corrective Action:
+
+Make sure the motor's connectors are not
+contaminated. Disconnect and inspect the
+power cable connector at the motor. Make
+sure that there is no coolant contamination.
+Coolant contamination can generate drive
+fault alarms and damage the amplifier.
+Measure the resistance from the pins labeled
+A, B and C at the motor connector to chassis
+ground.
+
+The reading must show an open circuit.
+If the reading does not show an open
+
+circuit, the servo motor is at fault.
+
+# Motor Brake
+
+Corrective Action:
+
+Reseat the the connection for P79 or P78
+
+[1] on the I/O PCB.
+
+Measure the voltage across the red and black
+cables.
+
+Press [EMERGENCY STOP]. There should be
+no voltage.
+
+Press [RESET] to clear the alarms. The voltage
+should be between 20-30 VDC.
+
+Examine the connection at the motor's brake
+
+[2] and power connectors [3] for
+contamination. Reseat the connections.
+
+If no voltage is present, refer to:
+
+[CLASSIC HAAS CONTROL - I/O PCB -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 6/7
+
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-5-0.png)
+
+-----
+
+![](photo/Sigma 5 - Axis Servo Motor and Cables - Troubleshooting Guide - CHC.pdf/Sigma-5---Axis-Servo-Motor-and-Cables---Troubleshooting-Guide---CHC.pdf-6-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html 7/7
+
+
+-----
+

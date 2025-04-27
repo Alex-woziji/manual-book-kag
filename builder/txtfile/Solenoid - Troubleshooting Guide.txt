@@ -1,0 +1,473 @@
+## Solenoid - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 1/10
+
+
+-----
+
+LAST UPDATED: 07/15/2024
+
+
+# Solenoid - Troubleshooting Guide
+
+ Introduction
+
+SYMPTOM POSSIBLE CAUSE CORRECTIVE ACTION
+
+Machines with I/O PCB 34-3490A/B
+
+There is a small delay when the Order service kits 93-3451 & 93-3452 and
+
+Alarm 131 TOOL NOT CLAMP solenoid is commanded off, thus
+
+[follow the Low Load Solenoid Valve Kit -](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/low-load-solenoid-valve-kit---installation---ad0594.html)
+
+intermittening generated on machines causing the alarm to be [Installation procedure.](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/low-load-solenoid-valve-kit---installation---ad0594.html)
+with a digital SMC solenoid. generated.
+
+Machines with I/O PCB 34-3490A/B
+
+Alarm 126 GEARBOX FAULT There is a small delay when the
+intermittently generated on machines solenoid is commanded, thus
+built with a digital SMC gearbox causing the alarm to generate.
+solenoid
+
+Order service kits 93-3450 & 93-3452 and
+[follow the Low Load Solenoid Valve Kit -](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/low-load-solenoid-valve-kit---installation---ad0594.html)
+[Installation procedure.](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/low-load-solenoid-valve-kit---installation---ad0594.html)
+Machines with I/O PCB 34-3490A/B
+
+There is a small delay when the
+
+There is a delay when the grippers on
+
+digital SMC solenoid is
+
+an APL are commanded to rotate or
+
+commanded.
+
+clamp/unclamp.
+
+EMC Brand Solenoid's
+
+Tighten the nut [1] on the side.
+
+The plastic nut on the side is
+
+The solenoid vibrates when acuated. loose.
+
+EMC-solenoid.png
+
+# Solenoid Valve Troubleshooting
+
+Make sure the machine receives the correct air pressure and flow. Make sure the shut off valve is
+completely open. Many solenoids will not shift correctly without correct air pressure and back
+pressure. Test the solenoid in the system. Do not expect the solenoid to operate correctly if the outlets
+are not connected to the system.
+Turrets on ST model lathes, TRPs, and Side-Mount Tool Changer Pockets have specific troubleshooting
+steps. Refer to the following troubleshooting guides for more information:
+
+[TOOL RELEASE PISTON - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/tool-release-piston--trp----troubleshooting-guide.html)
+[SIDE MOUNT (SMTC) - VF/VM/UMC/EC - CAROUSEL AND POCKET - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/side-mount-tool-changer---carousel-and-pocket---troubleshooting-.html)
+[TSC-300/1K - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide.html)
+
+If you command the solenoid to open or close without the correct air pressure, the solenoid can go into
+an intermediate state that may not correct itself when the machine has correct air pressure. To move
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 2/10
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+|Machines with I/O PCB 34-3490A/B Alarm 131 TOOL NOT CLAMP intermittening generated on machines with a digital SMC solenoid.|There is a small delay when the solenoid is commanded off, thus causing the alarm to be generated.|Order service kits 93-3451 & 93-3452 and follow the Low Load Solenoid Valve Kit - Installation procedure.|
+|Machines with I/O PCB 34-3490A/B Alarm 126 GEARBOX FAULT intermittently generated on machines built with a digital SMC gearbox solenoid|There is a small delay when the solenoid is commanded, thus causing the alarm to generate.|Order service kits 93-3450 & 93-3452 and follow the Low Load Solenoid Valve Kit - Installation procedure.|
+|Machines with I/O PCB 34-3490A/B There is a delay when the grippers on an APL are commanded to rotate or clamp/unclamp.|There is a small delay when the digital SMC solenoid is commanded.||
+|EMC Brand Solenoid's The solenoid vibrates when acuated.|The plastic nut on the side is loose.|Tighten the nut [1] on the side. EMC-solenoid.png|
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-1-0.png)
+
+-----
+
+the solenoid out of the intermediate state, close the air valve and power off the machine.
+
+### ? Note: Do not use the machine before the air supply to the machine is correct.
+
+A clogged exaust muffler can prevent the solenoid to operate correctly. Remove the exaust muflers
+from the solenoid and test the solenoid again.
+Turn on the machine and use the control to activate the solenoid. You can write a simple program
+in MDI mode to command the electrical output to the solenoid.
+Go to the I/O tab on the diagnostics screen on the control. Make sure the state of the ouput changes
+when it is commanded. If the state does not change, troubleshoot and fix the problem before you
+continue.
+Listen for a clicking or buzzing noise from the coil area of the solenoid. The coil area of the solenoid is
+the black plastic area on most solenoids. You can also feel the clicking if you place your finger on the
+solenoid. If there is not a clicking sound when the solenoid is commanded, make sure the solenoid
+valve is connected correctly and that the electrical supply is correct. Inspect the solenoid cables to
+make sure they are not damaged. Make sure the solenoid receives the correct voltage. The measured
+voltage must be 120 VAC.
+
+### ? Note: Use a voltage detector or a multimeter with needle-tipped probes to measure the voltage.
+
+Always measure the voltage from the back of the connector. Always measure the voltage with the
+solenoid connected.
+
+If the solenoid still does not operate correctly, disconnect the solenoid from the machine and connect it
+to a known electrical source. If the solenoid operates correctly, the machine has an electrical problem.
+Do not replace the solenoid. If the solenoid receives the correct voltage and does not operate correctly,
+check the solenoid coil for continuity. If there is no continuity, replace the solenoid. If the coil has
+continuity, go to the correct section for your solenoid.
+If there is coolant leaking from any solenoid, the problem is the TSC check valve in the spindle head.
+
+Many symptoms can be caused by contamination or debris in the solenoid. If the solenoid leaks after you
+tested it for correct air and power, manually activate it with a 2 mm allen key. Cycle the valve to release any
+contamiation or debris that may have been stuck in the valve. If the solenoid still does not operate correctly,
+remove the solenoid and inspect the ports for contamination or debris. Clean the solenoid with compressed
+air while cycling it. Some solenoids (i.e. Asco) have the capability to be disassembled in the field. See
+the Cleaning ASCO, SMC or FESTO Brand Solenoids section in this document. Replace the solenoid if the
+ports are covered in contamination or debris that cannot be removed.
+
+# 2-PORT SOLENOIDS
+
+
+A: MAC, SMC, and Festo Brand
+
+1. Port 1 is usually the input port.
+2. Port 2 is usually the outlet port.
+3. Port 3 can have a plug to make this a
+
+2-port solenoid. This is the
+configuration for some air-purge
+solenoids.
+
+B: ASCO Brand
+
+1. Port 1 is usually the input port.
+2. Port 2 is usually the outlet port.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 3/10
+
+
+-----
+
+1. When the solenoid is de-energized, the
+
+air flow stops at port 1.
+2. When the solenoid is energized, the air
+
+flows through port 1 and out through
+port 2.
+3. If the power fails, air flow stops. The
+
+solenoid goes back to its de-energized
+position.
+
+The air-purge solenoid is energized on a timed
+cycle. If too much contamination collects
+inside the solenoid, leaks from the outlet port
+can occur. You can manually energize some
+brands of solenoids. This has no effect on the
+time cycle.
+
+ASCO or SMC brand 2-Port solenoid valves are
+most commonly used for the air system
+purge. These solenoids are also used in the
+Coolant Refill and TAB options.
+
+### ? Note: MAC 3-Port poppet style solenoid
+
+valves are also used for the air system purge.
+There is a plug on port number 3 when MAC
+3-way poppet style solenoid valves are used. If
+there is a leak from one of the ports on a MAC
+3-Port poppet style solenoid valve, push the
+manual activation button multiple times to
+clear out any debris in the solenoid. If this
+does not work, remove the solenoid and clean
+it with compressed air while cycling the
+solenoid. If a MAC purge solenoid
+replacement is necessary, do not substitute a
+different MAC solenoid. Use the approved
+replacement solenoid.
+
+If these solenoids leak air when the solenoid is
+not activated, it is likely that debris holds the
+plunger in an open position. Follow this
+procedures to clean the 2-Port air purge
+solenoid valve:
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-3-0.png)
+
+# Cleaning ASCO, SMC and FESTO Brand Solenoids
+
+ASCO air purge solenoid:
+
+Remove the red cap [1].
+Push the solenoid coil assembly [2]
+down to compress the spring inside.
+Remove the specification plate [3] by
+sliding off.
+Remove the split spring [4] and valve
+subassembly [5] from the coil assembly
+
+[2].
+Disassemble the valve subassembly
+
+[5].
+Clean the parts with compressed air.
+Be sure to remove all debris from
+inside the valve.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 4/10
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-3-0.png)
+
+-----
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-4-0.png)
+
+# 3-PORT SOLENOIDS
+
+3-Port poppet style solenoid valves are the most common solenoid valves used on Haas machines. These
+illustrations show how a normally-closed MAC 3-Port poppet style solenoid valve operates:
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 5/10
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-4-0.png)
+
+-----
+
+Black arrows illustrate air pressure from the air supply. Grey arrows illustrate exhaust flow from the machine.
+
+
+Solenoid Operation : Normally-Closed
+Application
+
+
+Solenoid Operation : Normally-Open
+Application
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-5-0.png)
+
+3-Port Solenoid Troubleshooting
+
+Disconnect the output hose from port number 2 on the solenoid valve. Activate the solenoid. If air exits from
+the output port number 2, the solenoid is operating correctly. Do not replace the solenoid. Continue to
+troubleshoot the solenoid if air does not exit output port number 2 when it is activated. With the output hose
+disconnected, use the manual activation button on the top of the solenoid valve to manually activate the
+solenoid:
+
+Disconnect the solenoid from the electrical connector.
+Check for air that escapes from the ports.
+Push the manual activation button multiple times. Air should only exit from the output port number 2.
+If there is not a blast of air from the output port number 2 when you push the manual activation
+button, verify there is air pressure at port 1. If there is pressure at port 1, the solenoid is damaged. If
+there is a blast of air from the output port number 2, debris was removed from the valve by repeated
+manual activation, or there is an electrical problem with the machine or the solenoid. If the machine
+has an electrical problem, find the cause of the problem. If the solenoid has an electrical problem,
+replace it.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-5-0.png)
+
+Make sure the solenoid valve does not
+have leaks:
+
+Feel and listen to the exhaust port [2] of the
+solenoid.
+
+If there is a constant air releasing from the
+exhaust port, the internal piston is stuck and
+releases air through the exhaust port [2] and
+outlet port [1].
+
+### ? Note: There must never be a constant
+
+stream of air from the exhaust port.
+
+Stop the air supply to the solenoid and
+remove the solenoid. Use compressed air to
+thorougly clean the solenoid.
+
+Install the solenoid. If the problem continues,
+replace the solenoid.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-5-0.png)
+
+# 4-PORT, TWO-OUTLET SOLENOIDS
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 6/10
+
+
+-----
+
+4-Port, Single Coil Solenoid
+
+1. Solenoid coil
+2. Port A
+3. Port B
+4. Electrical cable
+5. Exhaust port
+6. Input port
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-6-0.png)
+
+4-Port Solenoid Operation
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 7/10
+
+
+-----
+
+Black arrows illustrate air pressure from the air supply. Grey arrows illustrate exhaust flow from the machine.
+
+
+4-Port Solenoid - Double Acting 4-Port Solenoid :Normally-Open Function
+
+In this application, a plug is in one of the
+ports. This lets the solenoid operate as a 3Port, normally-open solenoid. Haas machines
+use these solenoids as an alternative to a 3port solenoid in some applications.
+
+### ? Note: A plug is in port A.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-7-0.png)
+
+4-Port, Dual Coil Solenoid
+
+1. Low-gear coil
+2. Low-gear port
+3. High-gear port
+4. High-gear coil
+5. Low-gear cable
+6. Exhaust port
+7. Input port
+8. High-gear cable
+
+### ? Note: Low-gear and High-gear coils are
+
+never energized at the same time. The only
+function of these solenoids is to change gears
+on the Haas transmissions.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-7-0.png)
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-7-1.png)
+
+4-Port, Dual Coil Solenoid Operation
+
+Black arrows illustrate air pressure from the
+air supply. Grey arrows illustrate exhaust flow
+from the machine.
+
+### ? Note: EC-400 PP machines use a 4- or 5
+port solenoid to lift the H-Frame. Do not
+replace the solenoid with another 4- or 5-port
+solenoid. The configuration for the pallet lift
+system was upgraded. Use service kit 93-2248
+to replace the solenoid.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-7-0.png)
+
+4-Port Solenoid Valve Troubleshooting
+
+Make sure the incoming air pressure and flow are correct. Feel and listen to the exhaust port of the solenoid. If
+there is constant air releasing from the exhaust port, disconnect the non-pressurized line between the
+cylinder and the solenoid. If the air continues to flow through the exhaust port and/or the non-pressurized line
+port on the solenoid follow these steps:
+
+1. Disconnect the air supply from the machine and release all the air pressure from the machine.
+2. If the solenoid is powered on, power it off.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 8/10
+
+
+-----
+
+3. Reconnect the air to the machine.
+4. Command the solenoid to activate. If the solenoid continues to leak, disconnect the air supply and
+
+release the air pressure with the solenoid still energized. If the solenoid continutes to leak, continue
+troubleshooting the solenoid.
+
+Remove the air supply to the machine and remove the solenoid. Use compressed air to thorougly clean the
+solenoid. Install the solenoid and check for leaks. If the solenoid continues to leak, follow these steps.
+
+1. With no power to the solenoid, remove the unpressurized hose that runs between the solenoid and the
+
+cylinder.
+2. The solenoid has a leak if air is released out of the exhaust.
+3. The cylinder has a leak if air is released out of the cylinder return hose.
+4. Repeat the test while the solenoid is energized. The other hose between the cylinder and solenoid is
+
+now pressurized.
+
+# 5-PORT SOLENOIDS
+
+
+1. Input port
+2. Port 2
+3. Exhaust port 3
+4. Port 4
+5. Exhaust port 5
+6. Electrical cable
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-8-0.png)
+
+5-Port Solenoid Operation
+
+Black arrows illustrate air pressure from the
+air supply. Grey arrows illustrate exhaust flow
+from the machine.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-8-0.png)
+
+1. Input port
+2. Clamp port
+3. Exhaust port 3
+4. Unclamp port
+5. Exhaust port 5
+6. Electrical cable
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-8-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 9/10
+
+
+-----
+
+4-Way Solenoid - Turret Clamp / Unclamp
+Solenoid Operation
+
+Black arrows illustrate air pressure from the
+air supply. Grey arrows illustrate exhaust flow
+from the machine.
+
+4-Way Solenoid Valve Troubleshooting
+
+The steps to troubleshoot a 5-port solenoid
+valve are the same as a 4-port solenoid valve.
+
+
+![](photo/Solenoid - Troubleshooting Guide.pdf/Solenoid---Troubleshooting-Guide.pdf-9-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/solenoid---troubleshooting-guide.html 10/10
+
+
+-----
+

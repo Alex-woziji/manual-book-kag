@@ -1,0 +1,585 @@
+### 10 - Coolant Refill
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 1/17
+
+
+-----
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 2/17
+
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-2-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 3/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-2-0.png)
+
+-----
+
+## Tank Handle - Installation
+
+
+### 1
+
+Install the COOLANT REFILL onto the
+handle of the coolant tank as shown.
+
+### 2
+
+Install the water hose [1] into the
+elbow fitting [2].
+
+### 3
+
+Connect the HOSE [B] to the water
+supply [1].
+
+Make sure the screen filter [2] is
+installed in the hose fitting for the water
+supply.
+
+#### ? Note: The Cone Side Of The Screen
+
+Filter [2] Must Point Toward The Water
+Supply.
+
+Order additional supply
+HOSES [B] (comes with fitting [E])
+[from WWW.HAASPARTS.COM or from](http://www.haasparts.com/)
+any hardware store - 3/8" appliance
+supply line.
+
+Start the water supply. Check for leaks.
+
+#### ? Note: The water supply must have a
+
+pressure of 40-100 psi (2.8-6.9 bar) to
+correctly produce the desired coolant
+concentration.
+
+### 4
+
+#### ? Important: To prevent damage to
+
+the solenoid valve, make sure the
+screen filter is installed to clean the
+incoming water. Debris in the solenoid
+valve causes it to stay open. This causes
+inconsistent coolant mixing, and it
+could also overfill the coolant tank. Your
+water supply may require additional
+filtration. Add an aftermarket water
+filter [1] with a pressure regulator [2] if
+your water supply has high mineral
+content or other debris. The water filter
+and pressure regulator in the picture
+are not included.
+
+### 5
+
+Install the NIPPLE [C] into the outlet
+port [1] as shown.
+
+#### ? Note: Move the coolant pumps so
+
+that the hole on the tank cover is under
+the NIPPLE [C].
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-3-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-3-1.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-3-2.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 4/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-3-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-4-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-4-1.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-4-2.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 5/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-4-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-5-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-5-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 6/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-5-0.png)
+
+-----
+
+Push [CURNT COMDS]. Push [PAGE
+DOWN] until the [COOLANT REFILL]
+display shows.
+
+Push [F4] to set the Max gal. coolant
+added before repleshing concentrate.
+
+Push [Y].
+
+### 5
+
+Next Generation Control:
+
+Push [DIAGNOSTIC].
+
+Navigate to the Maintenance tab [1].
+
+Navigate to the Coolant Refill tab [2].
+
+Select Coolant Refill [3].
+
+Select ON.
+
+Push [ENTER].
+
+Push [F4] [4] to set the Maximum
+Coolant From Remaining Concentrate.
+
+Push [Y].
+
+### 6
+[Calibrate the COOLANT REFILL.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html)
+
+## 10.2 COOLANT REFILL - CALIBRATION
+
+ Next Generation Control - Coolant Refill - Calibration
+
+Push [DIAGNOSTIC].
+
+Push the [RIGHT] cursor arrows to
+select the Maintenance tab.
+
+Push the [DOWN] and [RIGHT] cursor
+arrows to select the Coolant Refill tab.
+
+Fill the Coolant Refill container with 5
+gallons of coolant concentrate.
+
+Push [F4] to set the Maximum Coolant
+From Remaining Concentrate.
+
+Push [Y].
+
+Remove the filler hose from the filler
+pipe.
+
+Put a bucket under the filler pipe.
+
+Push [F3] to fill the bucket.
+
+Push [F3] again to stop when the
+coolant mixture fills the bucket.
+
+[Measure the concentration of the coolant. Refer to the MAINTAINING YOUR COOLANT](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[MIXTURE video.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+If the measured concentration is lower than the value for the Coolant Concentrate [1], increase
+the value for the Concentrate Adjustment [2].
+
+If the concentration is higher than the value for the Coolant Concentrate [1], decrease the value
+for the Concentrate Adjustment [2].
+
+Repeat the measurements until the concentration matches the value for Coolant Concentrate[1].
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-6-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 7/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-6-0.png)
+
+-----
+
+#### ? WARNING: DO NOT ADD POWDERED/LIQUID COOLANT ADDITIVES TO THE COOLANT
+
+REFILL TANK. THIS WILL DAMAGE THE SOLENOIDS AND VOID YOUR WARRANTY. ALL
+ADDITIVES MUST BE ADDED AND MIXED IN THE COOLANT TANK.
+
+## Classic Haas Control - Coolant Refill - Calibration
+
+Push [CURNT COMDS]. Push [PAGE
+DOWN] until the Coolant Refill screen
+shows [1].
+
+Fill the Coolant Refill container with 5
+gallons of coolant concentrate.
+
+Push [F4] [4] to set the Max gallons of
+coolant added before replenishing
+concentrate. Push [Y].
+
+Remove the filler hose from the filler
+pipe.
+
+Put a bucket [5] under the filler pipe.
+
+Push [F3] to fill the bucket. Push [F3]
+again to stop when the coolant mixture
+fills the bucket.
+
+Measure the concentration of the
+[coolant. Refer to the MAINTAINING](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[YOUR COOLANT MIXTURE video.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+If the measured concentration is lower
+than the value for the Coolant
+Concentration Percent[2], increase the
+value for the Coolant Concentration
+Adjust [3].
+
+If the concentration is higher than the
+value for the Coolant Concentration
+Percent [2], decrease the value for
+the Coolant Concentration Adjust [3].
+
+Repeat the measurements until the
+concentration matches the value
+for Coolant Concentration Percent [2].
+
+## Coolant Refill - Filler Hose - Installation
+
+The filler hose [2] installs into the filler
+pipe [1].
+
+#### ? Caution: Make sure the filler hose
+does not touch the coolant [3].
+
+## 10.3 COOLANT REFILL - OPERATION
+
+ Introduction
+
+The Coolant Refill assembly does these
+tasks automatically:
+
+1. Mixes water with coolant
+
+concentrate.
+2. Adds coolant to the coolant
+
+tank.
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-7-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-7-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 8/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-7-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-8-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 9/17
+
+
+-----
+
+|SETTING|DESCRIPTION|DEFAULT VALUE|RANGE|
+|---|---|---|---|
+|Coolant Refill [2]|This setting activates or deactivates the Coolant Refill option.|Off|On or Off|
+|Estimated Coolant Use Per Hour [3]|This is the quantity of coolant lost to the environment in an hour of detected coolant use.*|1.0|.01 - 99 gallons/hour|
+|Coolant Concentrate[4]|This is the correct coolant concentration necessary for the application.|5|0 - 10 %|
+|Time Between Refills[5]|This is the quantity of time between automatic coolant refills.|5.0|0.1 - 999.8 hours|
+|Maximum Coolant From Remaining Concentrate[6]|This is the quantity of coolant mixture that flows into the coolant tank before the coolant concentrate container is empty.|500|20 - 1000 gallons|
+|Supply Water Rate [7]|This is the quantity of water flow from the water supply. Measure the water flow from the water supply and enter that value here.|2.0|0.1 - 99.9 gallons/minute|
+|Concentrate Adjustment [8]|This is the accurate adjustment of the measured coolant concentration. Increase or decrease this value to make the measured coolant concentration the same as the value in Coolant concentration percent [3].**|0|(-20) - 20|
+|Coolant Level [9]|This gauge shows the level of coolant mixture in the coolant tank.|N/A|N/A|
+|Low Coolant Concentrate Warning[10]|This Low Concentrate icon shows when the value in Maximum Coolant From Remaining Concentrate [6] becomes 40. This lets you fill the coolant concentrate container before it becomes empty. When the value becomes 0, the Coolant Refill system operation stops. This lets you fill the coolant concentrate container. To keep the system in operation, fill the coolant concentrate container before it becomes empty.|N/A|N/A|
+|*The control monitors coolant use as the quantity of time the pumps are on. **Refer to the Coolant Refill - Calibration procedure.||||
+
+
+## Operation - Classic Haas Control
+
+Settings for the Coolant Refill:
+
+
+To view the COOLANT REFILL page:
+
+Push [CURNT COMNDS]. Push [PAGE
+DOWN] until the COOLANT REFILL page
+shows.
+
+To set a value:
+
+Highlight a setting. Enter the value.
+Push [WRITE/ENTER].
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-9-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 10/17
+
+
+-----
+
+|SETTING|DESCRIPTION|DEFAULT VALUE|RANGE|
+|---|---|---|---|
+|Estimated gallons of coolant consumed per hour [2]|This is the quantity of coolant lost to the environment in an hour of detected coolant use.*|1.0|.01 - 99 gallons/hour|
+|Coolant concentration percent [3]|This is the correct coolant concentration necessary for the application.|5|0 - 10 %|
+|Number of hours between refills [4]|This is the quantity of time between automatic coolant refills.|5.0|0.1 - 999.8 hours|
+|Max gal. coolant added before replenishing concentrate [5]|This is the quantity of coolant mixture that flows into the coolant tank before the coolant concentrate container is empty.|500|20 - 1000 gallons|
+|Gallons per minute supply water [6]|This is the quantity of water flow from the water supply. Measure the water flow from the water supply and enter that value here.|2.0|0.1 - 99.9 gallons/minute|
+|Coolant Concentrate adjust percent lean [7]|This is the accurate adjustment of the measured coolant concentration. Increase or decrease this value to make the measured coolant concentration the same as the value in Coolant concentration percent [3].**|0|(-20) - 20|
+|Coolant level sensor gauge [8]|This gauge shows the level of coolant mixture in the coolant tank.|N/A|N/A|
+|Low coolant concentrate warning [9]|This REFILL CONC. icon shows when the value in Maximum gallons coolant added before replenishing concentrate [5] becomes 40. This lets you fill the coolant concentrate container before it becomes empty. When the value becomes 0, the Coolant Refill system operation stops. This lets you fill the coolant concentrate container. To keep the system in operation, fill the coolant concentrate container before it becomes empty.|N/A|N/A|
+|*The control monitors coolant use as the quantity of time the pumps are on. **Refer to the Coolant Refill - Calibration procedure.||||
+
+
+## 10.4 COOLANT REFILL - MAINTENANCE
+
+ Maintenance
+
+#### ? WARNING: DO NOT ADD POWDERED/LIQUID COOLANT ADDITIVES TO THE COOLANT
+REFILL TANK. THIS WILL DAMAGE THE SOLENOIDS AND VOID YOUR WARRANTY. ALL
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 11/17
+
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-11-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-11-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 12/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-11-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-12-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 13/17
+
+
+-----
+
+ADDITIVES MUST BE ADDED AND MIXED IN THE COOLANT TANK.
+
+1. COOLANT REFILL SOLENOID
+
+COIL CABLE
+2. WASHER 1 STEEL .120THK
+
+X1.562O
+
+3. STRN RLF PG13.5 .12"-.27"
+
+CD13BR-BK-N
+4. COOLANT REFILL OPTION
+
+CHASSIS
+
+5. FITG NPT1/8F NPT1/8F 90 BRASS
+6. NIPPLE HEX 1/8 NPTM X 3/8
+
+SMOOTH
+
+7. NIPPLE 1/8 NPT X 2 BRASS
+
+8. SOLENOID AIR 2 P0RT 2 POS 1
+
+COIL 1/8NPT
+
+9. NIPPLE 1/8 NPT X 1 HEX BRASS
+
+10. FITG NPT1/8M NPT1/8F NPT1/8F
+
+TEE BRASS
+
+11. VENTURI NOZZLE
+
+12. FITG REDUCER NPT1/4F
+
+NPT1/8M STR BRASS
+
+13. FBHCS 1/4-20 X 1/2 LOCTITE
+
+14. COOLANT REFILL OPTION
+
+COVER
+15. FITG COMP 3/8 X 1/4 MNPT 90
+
+BR
+
+16. FITG NPT1/4F NPT1/4F STR
+
+BRASS
+
+17. NIPPLE 1/4 NPT X 3 1/2 BRASS
+
+18. FITG REDUCER NPT3/8M
+
+NPT1/8F BRASS
+
+19. STRN RLF PG13.5 .12"-.27"
+
+CD13BR-BK-N
+
+20. FITG NPT3/8 X DIA 1.000 BKHD
+
+BRASS
+
+21. FITG HOSE BARB-3/8 X NPT-3/8
+M 90
+22. FITG BLKHD NPT3/8M/F X
+
+NPT3/4M X 2-1/2L
+
+23. FITG REDUCER NPT1-1/4M
+
+NPT3/4F NYLON
+
+24. GREASE STRAINER
+
+25. 5G TANK
+
+## Introduction
+
+The image show the following
+components of the coolant refill
+system.
+
+1. Coolant concentrate tank
+
+2. Strainer
+
+3. Solenoid cable
+4. Filler hose
+
+5. Water solenoid cable
+
+6. Coolant concentrate solenoid
+
+cable
+
+## Symptom Table
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-13-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 14/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-13-0.png)
+
+-----
+
+|The coolant concentration in the coolant tank is incorrect.|There is insufficient water pressure.|Check the incoming water pressure.|
+|---|---|---|
+||The CRO is not calibrated.|Calibrate the CRO.|
+||The water supply or coolant concentrate solenoid does not receive voltage.|Measure the voltage to the solenoids.|
+||The water supply or coolant concentrate solenoid is contaminated and stays on.|Clean the solenoids.|
+||Thick concentrate, high viscosity.|Install 1/2" nozzle on fill tube.|
+|The CRO does not power on.|The water supply or coolant concentrate solenoid does not receive voltage.|Measure the voltage to the solenoids.|
+||The coolant level sensor does not operate correctly.|Troubleshoot the coolant level sensor.|
+|The coolant tank overfills.|The water supply or coolant concentrate solenoid is contaminated and stays on.|Clean the solenoids.|
+||The coolant level sensor does not operate correctly.|Troubleshoot the coolant level sensor.|
+
+
+## Coolant Concentration and Ratios
+
+ Electrical Fault
+
+
+Make sure that the water supply has
+the correct pressure. The water supply
+must have a pressure of 40-100 psi (2.86.9 bar) to produce the desired coolant
+concentration.
+
+Make sure the water supply screen [1]
+is not clogged. Clean the screen [1] if it
+is clogged. Make sure the cone side of
+the screen points toward the water
+supply. Make sure that the hose [2] is
+straight and does not have kinks.
+
+If an aftermarket water filter is installed,
+make sure it is not clogged.
+
+To correct the batch of coolant that is in
+the coolant tank, refer to the
+[video MACHINE TOOL COOLANT - TOP](https://www.haascnc.com/content/haascnc/en/video/coolantseries/zalbndp5hqe.html)
+[UP HIGH CONCENTRATION - VIDEO](https://www.haascnc.com/content/haascnc/en/video/coolantseries/zalbndp5hqe.html)
+
+The system may need to be calibrated
+to produce the correct coolant
+concentration. For calibration
+[instructions, refer to COOLANT REFILL -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html)
+[CALIBRATION.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html)
+
+Disconnect the cable from the CRO unit
+to the coolant connector bracket on the
+side of the machine.
+
+For this section, complete all voltage
+measurements with the CRO unit
+commanded ON. On the Coolant
+Refill display, press [F3] to Add 5 gallons
+of coolant. Press [F3] again when you
+are ready to stop the CRO.
+
+#### ? Note: Use the notch [A] in the
+
+connector as a reference to find the
+correct pin.
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-14-0.png)
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-14-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 15/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-14-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-15-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 16/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-15-0.png)
+
+-----
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-16-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/coolant-refill.html 17/17
+
+
+![](photo/Coolant Refill - Haas Service Manual.pdf/Coolant-Refill---Haas-Service-Manual.pdf-16-0.png)
+
+-----
+

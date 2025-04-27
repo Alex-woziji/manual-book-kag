@@ -1,0 +1,124 @@
+## Electrical Safety Door Interlocks - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/electrical-safety-door-interlocks-troubleshooting-guide.html 1/4
+
+
+-----
+
+LAST UPDATED: 10/20/2023
+
+# Electrical Safety Door Interlocks - Troubleshooting Guide
+
+Applies to machines built from: June, 1999
+
+
+# Introduction
+
+ Symptom Table
+
+SYMPTOM
+
+Alarm 223 DOOR LOCK
+FAILURE
+
+# Damaged Components
+
+
+1. Locking key [1]
+2. Locking mechanism [2]
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Alarm 223 DOOR LOCK FAILURE|Worn components|Replace the switch head (P/N 93-2309). Refer to the Damaged Components section.|
+||The switch or key misaligned|Check the switch and key alignment|
+||No power to the switch|Measure the voltage at the I/O PCB|
+
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-1-0.png)
+
+Corrective Action:
+
+If you see damage or wear on the switch, it
+must be replaced. Damage is typically from
+misalignment. Go to Section 3 to align the
+door lock.
+
+Replace the door interlock switch head if
+damaged. This can be done to EUCHNER
+switches that have a part number that ends
+with a K, N, or M.
+
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/electrical-safety-door-interlocks-troubleshooting-guide.html 2/4
+
+
+-----
+
+Remove the old interlock head [1] from the
+actuator body. Install the new interlock HEAD
+
+[A]. Use a Torx driver to tighten the (4) screws
+
+[2]. Do not over-tighten the screws.
+
+Test the interlock: With the pendent key in
+Run Mode, close the doors. Run the spindle at
+more than 1000 RPM. Make sure the doors
+lock.
+
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-2-0.png)
+
+# Alignment
+
+ Voltage
+
+Corrective Action:
+
+
+Corrective Action:
+
+Inspect the door rollers and tracks. Make sure
+there is no contamination or loose
+components.
+
+Check all interlock components and align
+them if necessary.
+
+Close the doors. Loosen the (2) screws [1]
+enough so the bracket can move. Open and
+close the door. Tighten the screws.
+
+If further alignment is necessary, repeat the
+process above for the (2) screws [2] that hold
+the sensor to the machine.
+
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-2-0.png)
+
+With the pendent key in Run Mode, command the spindle to 100 RPM, then measure the voltage at the
+I/O and the door lock solenoid.
+Verify that voltage is present at connectors (P29 and P30 on a Classic Haas Control (CHC), or P40 and
+P41 on a Next Generation Control (NGC)) when the door is closed and locked.
+If there is not 120 VAC, troubleshoot the I/O PCB.
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/electrical-safety-door-interlocks-troubleshooting-guide.html 3/4
+
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+![](photo/Electrical Safety Door Interlocks - Troubleshooting Guide.pdf/Electrical-Safety-Door-Interlocks---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/electrical-safety-door-interlocks-troubleshooting-guide.html 4/4
+
+
+-----
+

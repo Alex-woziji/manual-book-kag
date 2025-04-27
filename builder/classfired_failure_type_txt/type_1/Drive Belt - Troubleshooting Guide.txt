@@ -1,0 +1,151 @@
+## Drive Belt - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html 1/5
+
+
+-----
+
+### LAST UPDATED: 02/17/2020
+
+
+# Drive Belt - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+
+### An example of a tensile break.
+
+|mptom Table|Col2|Col3|Col4|
+|---|---|---|---|
+|SYMPTOM|CHECK|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Tensile Break|Application|There is an excessive shock load.|Review the machine application and tooling.|
+||Belt Tension|The belt tension is too low or too high.|Adjust the belt tension to Haas specifications.|
+||Belt|The belt has been incorrectly handled or stored before installation.|Follow the correct belt handling procedures.|
+||Belt Path|There is debris or foreign objects in the belt path.|Remove the debris or foreign objects.|
+|Excessive Tooth Wear|Application|There is an excessive shock load.|Review the machine application and tooling.|
+||Belt Tension|The belt tension is too low or too high.|Adjust the belt tension to Haas specifications.|
+||Belt Tracking/Motor Standoffs|The belt is running partly off unflanged pulley.|Inspect or replace the motor standoffs/isolators.|
+||Pulley|There is a worn, rough, or damaged pulley.|Inspect or replace the damaged pulley.|
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-1-0.png)
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-1-1.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html 2/5
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-1-0.png)
+
+-----
+
+|Unusually Loud Drive|Belt Tension|The belt tension is too low or too high.|Adjust the belt tension to Haas specifications.|
+|---|---|---|---|
+||Belt Tracking/Motor Standoffs|The belt is running partly off unflanged pulley.|Inspect or replace the motor standoffs/isolators.|
+||Belt Path|There is debris or foreign objects in the belt path.|Remove the debris or foreign objects.|
+||Pulley|There is a worn, rough, or damaged pulley.|Inspect or replace the damaged pulley.|
+||Worn Belt|The belt is worn.|Replace the worn belt.|
+|Tracking|Belt Tracking/Motor Standoffs|The belt is running partly off unflanged pulley.|Inspect or replace the motor standoffs/isolators.|
+|Tooth Shear|Application|There is an excessive shock load.|Review the machine application and tooling.|
+||Belt Tension|The belt tension is too low or too high.|Adjust the belt tension to Haas specifications.|
+|Excessive Belt Edge Wear|Belt Tracking/Motor Standoffs|The belt is running partly off unflanged pulley.|Inspect or replace the motor standoffs/isolators.|
+||Belt|The belt has been incorrectly handled or stored before installation.|Follow the correct belt handling procedures.|
+|Soft/Deterioration|Coolant System|There is coolant or oil contamination on the belt.|Check for coolant or oil leaks.|
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-1.png)
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-2.png)
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-3.png)
+
+# Belt Alignment Inspection
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-1.png)
+
+### Corrective Action: Inspect or replace the motor standoffs / isolators.
+
+ 1. Replace the motor standoffs / isolators
+ and set the belt tension to Haas specifications. 2. Test the belt for incorrect tracking in
+ both the clockwise and counterclockwise directions. 3. If the incorrect tracking continues, flip
+ the belt over and install the belt.
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html 3/5
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+### 4. If the incorrect tracking continues in
+ the opposite direction, replace the belt.
+
+
+# Belt Handling
+
+ Damaged Pulleys
+
+ Belt Contamination
+
+ Coolant Leaks
+
+
+### Corrective Action: Follow the correct belt handling procedures.
+
+ 1. Do not compress the cord, clinch it
+ tightly or twist the belt during installation. This can cause damage to the belt. 2. Do not roll the belt over the pulley.
+ Support the weight of the gearbox and spindle motor with a hoist. Loosen the
+ motor to easily install the belt. If necessary, remove the screws from the motor to allow more travel.
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-3-0.png)
+
+### Corrective Action: Inspect or replace the damaged pulley.
+
+ 1. Inspect for damage on the pulley teeth
+ that can cause wear or damage to the belt. 2. Inspect the tooth profile of the pulley
+ to make sure it does not have a saw tooth pattern or worn profile.
+
+ Replace the pulley if necessary. You cannot replace the pulley on spindles or gearboxes and spindle motors. You must replace the larger assemblies instead.
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-3-1.png)
+
+### Corrective Action: Remove the debris or foreign objects.
+
+ 1. Make sure that the belt path is clear.
+ The belt runs in close proximity to hoses and sheet metal. It must not rub on anything. 2. Make sure that there is no chip
+ contamination or debris on the belt. Correct the problem as necessary.
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html 4/5
+
+
+-----
+
+### Corrective Action: Check for coolant or oil leaks.
+
+ 1. Coolant contamination on mill spindle
+ belts are typically due to a leak in the TSC system. Some types of coolants and cutting oils can deteriorate the rubber in the belt and can cause failures. Remove the spindle head covers and operate the TSC system. Find the leak and fix it. 2. If the machine has a gearbox, check it
+ for oil leaks that can drip onto the belts.
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html 5/5
+
+
+![](photo/Drive Belt - Troubleshooting Guide.pdf/Drive-Belt---Troubleshooting-Guide.pdf-4-0.png)
+
+-----
+

@@ -7,7 +7,7 @@ files = os.listdir(root_path)
 
 for f in files:
     pdf_document = os.path.join(root_path,f)
-    photo_folder = os.path.join("../photo", f)
+    photo_folder = os.path.join("../data/photo", f)
     os.makedirs(photo_folder)
     md_text = pymupdf4llm.to_markdown(pdf_document, page_chunks=True, write_images=True,
                                       image_path=photo_folder,

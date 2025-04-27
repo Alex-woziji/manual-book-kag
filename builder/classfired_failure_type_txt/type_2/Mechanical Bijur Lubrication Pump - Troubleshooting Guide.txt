@@ -1,0 +1,167 @@
+## Mechanical Bijur Lubrication Pump - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/mechanical_bijur_lube_pump_TSG.html 1/4
+
+
+-----
+
+LAST UPDATED: 05/01/2023
+
+# Mechanical Bijur Lubrication Pump - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+SYMPTOM
+
+Alarm 121 LOW OIL LEVEL OR
+PRESSURE
+
+than 10 minutes.
+
+# Pressure Switch
+
+
+## Main Components:
+
+1. Power cable: Supplies power to the
+
+lube pump.
+2. Oil pressure gauge: Shows the oil
+
+pressure.
+3. Oil pump motor and
+
+gearbox: Pumps the oil from the
+reservoir.
+4. Oil filter: Removes contamination
+
+from the oil. Some machines have an
+external filter next to the oil reservoir.
+5. Oil reservoir: Stores the oil.
+6. Low-level switch: Shows if the oil
+
+level is low. This activates Alarm 121
+LOW OIL LEVEL OR PRESSURE.
+7. Pressure switch: (behind pump)
+
+Shows if the pressure is low.
+
+Some symptoms are resolved by regular
+[maintenance. Refer to BIJUR - MECHANICAL -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/bijur---mechanical---oil-pump---service-and-test.html)
+[OIL PUMP - SERVICE AND TEST for detailed](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/bijur---mechanical---oil-pump---service-and-test.html)
+information on how to perform proper
+maintenance on your oil pump.
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Alarm 121 LOW OIL LEVEL OR PRESSURE|Oil level is low.|Add oil.|
+||The pressure switch is faulty.|Replace the pressure switch.|
+||There is no voltage going to the pump, or the pump is damaged.|Check the voltage to the pump and I/O PCB.|
+||The filter is clogged.|Remove the sintered Bronze filter.|
+|The pump does not hold pressure.|There is a leak from the fittings.|Stop fittings from leaking. Replace if necessary.|
+|Pressure remains high for more than 10 minutes.|One of the oil lines or metering units are clogged.|Clean out the clogged oil line or meter unit.|
+
+
+![](photo/Mechanical Bijur Lubrication Pump - Troubleshooting Guide.pdf/Mechanical-Bijur-Lubrication-Pump---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/mechanical_bijur_lube_pump_TSG.html 2/4
+
+
+-----
+
+Corrective Action:
+
+Check the pressure switch for correct
+operation. The switch is located behind the
+lube pump assembly. Use a multi meter set to
+Ohms to measure the resistance between
+both leads on the switch. The plunger
+activates approximately every (30) minutes.
+
+When the plunger is NOT activated, the
+reading on the multi meter should be very
+high or "O.L." Once you manually activate the
+plunger, you will see 1 Ohm. If the switch
+[operates correctly, go to I/O PCB -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[TROUBLESHOOTING GUIDE (CLASSIC HAAS](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[CONTROL) to troubleshoot the I/O PCB.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+
+![](photo/Mechanical Bijur Lubrication Pump - Troubleshooting Guide.pdf/Mechanical-Bijur-Lubrication-Pump---Troubleshooting-Guide.pdf-2-0.png)
+
+# Voltage
+
+ Filter
+
+ Oil Leak
+
+Corrective Action:
+
+
+Corrective Action:
+
+Command the spindle to operate at 5 rpm.
+Measure the voltage to the lube pump motor.
+
+Use a multi meter set to VAC. If the voltage is
+120 VAC, but there is no movement, replace
+the pump.
+
+Examine the worm screw inside the tank. If
+the lube pump is receiving voltage, the screw
+rotates slowly at 1 rpm.
+
+
+![](photo/Mechanical Bijur Lubrication Pump - Troubleshooting Guide.pdf/Mechanical-Bijur-Lubrication-Pump---Troubleshooting-Guide.pdf-2-1.png)
+
+Symptom: The pump does not hold pressure.
+
+Possible Cause: The filter is clogged.
+
+Corrective Action:
+
+Remove the oil tank, Clean any sludge or
+debris.
+
+Remove and discard the sintered bronze filter.
+
+Reassemble the unit without the filter.
+
+Reinstall the tank and fill with synthetic oil.
+
+
+![](photo/Mechanical Bijur Lubrication Pump - Troubleshooting Guide.pdf/Mechanical-Bijur-Lubrication-Pump---Troubleshooting-Guide.pdf-2-0.png)
+
+Test the system for leaks by manually lifting the plunger. The gauge will show pressure and gradually drop to
+zero. This takes 3-10 minutes. If pressure drops immediately, check for leaks at the lube pump. Examine all
+axis linear guide trucks and ballscrews for signs of lubrication. Examine each of the flow meters, lube fittings,
+and connectors.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/mechanical_bijur_lube_pump_TSG.html 3/4
+
+
+-----
+
+Look for drips of oil near the axis flow meters, tees, and connectors.
+
+Check for leaks in the system. Start with the fittings located at the lube pump assembly. Repair the leaks.
+
+Repair all leaks. Make sure the pressure is correct.
+
+# Flow Meters
+
+Corrective Action:
+
+Clogged orifices are the only cause of high pressure for more than 10 minutes. Remove the cause of the
+clogged oil lines or meter units.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/mechanical_bijur_lube_pump_TSG.html 4/4
+
+
+-----
+

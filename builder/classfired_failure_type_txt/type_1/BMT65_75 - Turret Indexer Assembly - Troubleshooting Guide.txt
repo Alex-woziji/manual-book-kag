@@ -1,0 +1,229 @@
+## BMT65/75 - Turret Indexer Assembly - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/bmt-65-75---turret-indexer-assembly---troubleshooting-guide.html 1/5
+
+
+-----
+
+LAST UPDATED: 12/14/2023
+
+# BMT65/75 - Turret Indexer Assembly - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+
+1. Servo Motor
+2. Internal Gears
+3. Quad-Ring
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-1-0.png)
+
+1. Turret Home Switch
+2. Turret Clamp/Unclamp Switch
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Alarm 114 TURRET FAILURE TO REACH CLAMP SWITCH|The incoming air flow is incorrect.|Check the incoming air supply.|
+||There is a problem with the voltage to the turret clamp/unclamp solenoid.|Check the voltage to the turret clamp or unclamp solenoid.|
+||The turret clamp/unclamp proximity sensor is faulty.|Check the turret clamp/unclamp proximity sensor.|
+||The turret did not pop out far enough.|Check the piston, internal gears and spring assembly for damage.|
+|Alarm 103 Axis Servo Error Too Large|The internal gears are damaged. This can also cause unusual noise when the turret rotates.|Check the internal gears for damage.|
+|Alarm 8125 Tool Turret Not Seated|Obstruction between tool turret and housing.|Clear obstruction such as chips.|
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/bmt-65-75---turret-indexer-assembly---troubleshooting-guide.html 2/5
+
+
+-----
+
+|Alarm 2022 TURRET FAILED TO LEAVE CLAMP SWITCH|Tool turret attempted to unclamp but failed to leave the clamp switch because air is bypassing the turret piston quad-ring.|Remove the non-pressurized air line, if the air is exhausting from the hose, the quad- ring has blowby. If the air is leaking from the solenoid then it has an internal leak.|
+|---|---|---|
+||The turret clamp/unclamp proximity sensor is faulty.|See the Clamp/Unclamp Proximity Sensor section below.|
+||The turret did not unclamp enough.|See Turret Pop Out section below.|
+|Air leaking from solenoid muffler.|Air is bypassing the turret piston Quad-Ring.|Remove the non-pressurized air line, if the air is exhausting from the hose, the quad- ring has blowby. If the air is leaking from the solenoid then it has an internal leak.|
+|Low turret clamp force|Broken or damaged springs.|Check the spring force.|
+||Incorrect air flow coming in.|Check the incoming air supply.|
+
+
+# Incoming Air Supply
+
+Make sure that the air compressor supplies the correct air pressure and air flow. For Haas machine air
+pressure specifications, go to New Machine Pre-Installation for your machine model. Select your machine and
+scroll to the the section labeled "Air/Coolant Requirements."
+
+Attempt a tool change on the machine. When the machine has the correct air pressure and flow, the needle on
+the air pressure gauge should not drop more than 10 PSI (0.70 bar) during a tool change. This test confirms
+that the air pressure and air flow into the machine are correct.
+
+# Clamp/Unclamp Proximity Sensor
+
+Navigate to the Diagnostic screen on the
+pendant. Go to the I/O tab. Use an M43
+(Unclamp) M44 (Clamp) code in MDI mode to
+troubleshoot the clamp/unclamp switch.
+
+Check that Input 4 Tool Turret Locked and
+Input 7 Tool Turret Unlocked change states
+when the turret is commanded to
+unclamp/clamp.
+
+Test the sensor by placing a screwdriver in
+front of the sensor. Make sure the inputs
+change states.
+
+If the input does not change, jump the cable
+connector on the turret connector bracket. If
+the input changes, replace the sensor.
+
+If the input does not change, refer to:
+
+[PROXIMITY SENSOR - HOW IT WORKS](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+[AND TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+[NEXT GENERATION CONTROL - I/O PCB](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[- TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/bmt-65-75---turret-indexer-assembly---troubleshooting-guide.html 3/5
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+# Servo Motor
+
+Corrective Action:
+
+Disconnect the axis servo motor cables. Make sure they are not contaminated. Measure the resistance from
+the pins labeled A, B, and C at the motor power cable connector to chassis ground. The reading should show
+an open circuit. If there is resistance to ground, the cable is at fault.
+
+[Go to: AXIS SERVO MOTOR AND CABLES - TROUBLESHOOTING GUIDE to troubleshoot the SIGMA motor and](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/axis-servo-motor-and-cables---troubleshooting-guide---ngc.html)
+SIGMA motor cables.
+
+# Turret Pop Out
+
+
+If you commanded an M43 (Unclamp) and the
+turret moved, but did not move far enough to
+clear the coupler, measure the distance the
+turret traveled.
+
+Set indicator to zero when turret unclamped
+M43. Command the turret to clamp M44. The
+indicator should measure 0.160" - 0.200".
+
+If the turret does not travel far enough, the
+piston shaft, gears, or spring assembly could
+be at fault, these components must be
+inspected by your local HFO.
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-3-0.png)
+
+# Clamp / Unclamp Solenoid Voltage
+
+ Internal Gears
+
+
+Measure the voltage of the clamp/unclamp
+solenoid. The solenoid is inside the
+Consolidated Air/Lubrication Manifold (CALM)
+Cabinet.
+
+Run M43 (Unclamp) and M44 (Clamp) codes in
+MDI mode and measure the voltage of the
+solenoids. The voltage must measure 120 VAC.
+
+[If there is no voltage, refer to the NEXT](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+[GENERATION CONTROL - I/O PCB -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+[TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-3-0.png)
+
+The turret's pop out and rotate function can
+fail because the tool changer gears are
+damaged. A machine crash can cause damage
+to the piston and gears, and must be
+inspected by your local HFO.
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/bmt-65-75---turret-indexer-assembly---troubleshooting-guide.html 4/5
+
+
+-----
+
+# Spring Force
+
+## 1
+
+To check the clamping force due to the
+internal compression springs, measure the air
+pressure required to overcome the springs
+and pop the turret out. Before supplying air to
+the unclamp port, remove the purge air line
+
+[1] and replace it with a piece of hose clamped
+closed [2] to avoid misreading the air
+pressure.
+
+### ? Note: Make sure to unplug the clamp hose
+
+[3] to remove any built up pressure in the
+system that would add to the clamping force.
+
+## 2
+
+Plug the airline to the incoming port [1] of the
+pressure regulator and the outgoing port [2].
+Connect the airline from the outgoing port [2]
+into the unclamping port of the indexer.
+
+### ? Note: The unclamping port can be seen
+
+with the red hose attached in the image
+above.
+
+## 3
+
+Set up an indicator onto the turret to measure
+pop out. Slowly increase the air pressure on
+the regulator until you see a pop out of .001”
+from the indicator. Record this value of the air
+pressure (PSI) required to overcome the
+clamping force of the springs.
+
+Use this value to calculate the spring clamp
+force by multiplying it with the surface area of
+the unclamping face of the piston (21.4in ). 2
+
+Spring Force = Applied Air (psi) * 21.4
+in^2
+
+The spring force should fall between 509 - 730
+lbs.
+
+[If it does not, follow the BMT65/75 - TURRET -](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-turret-piston-replacment.html)
+[PISTON - REPLACEMENT procedure to replace](https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-turret-piston-replacment.html)
+any damaged springs.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/bmt-65-75---turret-indexer-assembly---troubleshooting-guide.html 5/5
+
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-4-0.png)
+
+![](photo/BMT65_75 - Turret Indexer Assembly - Troubleshooting Guide.pdf/BMT65_75---Turret-Indexer-Assembly---Troubleshooting-Guide.pdf-4-1.png)
+
+-----
+

@@ -1,0 +1,295 @@
+## Hydraulic Tailstock - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 1/6
+
+
+-----
+
+LAST UPDATED: 03/28/2022
+
+
+# Hydraulic Tailstock - Troubleshooting Guide
+
+ Introduction
+
+The Hydraulic Tail Stock uses Hydraulic pressure to move forwards and backwards. A bi-directional solenoid
+supplies fluid for forwards and backwards movements. Normal movement of the tail stock uses metered
+pressure set with the adjustment knob on the side of the HPU block. A gauge is supplied to accurately adjust
+tail stock pressure.
+
+When a rapid motion is desired, a Rapid motion soleniod supplies full HPU pressure to the directional
+solenoid.
+
+The Tail Stock uses a string encoder for positioning purposes. To establish home position, the tailstock
+retracts until it bottoms out the hydraulic actuator. When the rearward motion is stopped, the machine
+[control assigns this the home position. Reference this video HOW THE TAIL STOCK FINDS HOME for more](https://haascnc-1.wistia.com/medias/oszuzb7ret)
+information
+
+# Symptom Table
+
+SYMPTOM CORRECTIVE ACTION
+
+Tailstock Advance button or
+
+Use M21 or the foot pedal to maintain
+
+handle jog, used to put
+
+pressure on the part.
+
+pressure on the part.
+
+Part chatter.
+
+Spindle Speed Variation not in
+Use SSV to control part chatter.
+use.
+
+Tailstock is out of alignment. Align the tailstock
+
+Set pressure correctly for part material,
+Tailstock pressure is incorrect.
+diameter, and length.
+
+Taper on the part.
+
+Tailstock is out of alignment. Align the tailstock.
+
+The encoder string is pinched Remove way cover to inspect travel of
+by the way cover encoder string
+
+The tailstock does not move, moves
+slowly, or the movement is not
+smooth The HPU solenoid or rapid Check the operation of the HPU and
+
+valve has no voltage, or is
+
+Solenoids
+
+contaminated.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 2/6
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM||CORRECTIVE ACTION|
+|Part chatter.|Tailstock Advance button or handle jog, used to put pressure on the part.|Use M21 or the foot pedal to maintain pressure on the part.|
+||Spindle Speed Variation not in use.|Use SSV to control part chatter.|
+||Tailstock is out of alignment.|Align the tailstock|
+|Taper on the part.|Tailstock pressure is incorrect.|Set pressure correctly for part material, diameter, and length.|
+||Tailstock is out of alignment.|Align the tailstock.|
+|The tailstock does not move, moves slowly, or the movement is not smooth|The encoder string is pinched by the way cover|Remove way cover to inspect travel of encoder string|
+||The HPU solenoid or rapid valve has no voltage, or is contaminated.|Check the operation of the HPU and Solenoids|
+
+
+-----
+
+|Tailstock does not Home in the correct position.|The encoder comb strip is faulty (SL Series)|Inspect the comb strip for chips or damage.|
+|---|---|---|
+||Encoder is faulty|Check for damage, read head alignment.|
+||The encoder string is pinched by the way cover|Remove way cover to inspect travel of encoder string|
+||The Hydraulic pressure is set too low|Adjust Hydraulic pressure|
+||Chip Build up or obstruction of linear guides|Inspect the linear guides and waycovers for chip build up or obstruction|
+|Alarm 439 TAILSTOCK FOUND NO PART|The settings are not set correctly for the material length.|Set Setting 107 per the operators manual.|
+|Alarm 9117 CHECK TAILSTOCK PRESSURE|The hydraulick tailstock pressure is low.|If this alarm happen during the zero return process, raise the tailstock pressure and zero return the tailstock.|
+
+
+# M21
+
+ SSV
+
+
+Corrective Action:
+
+Do not use the TS hand jog keys to enage the
+tailstock when you cut the part. Pressure
+applied by the TS hand jog keys is not always
+consistent, and can result in chatter marks on
+the part.
+
+Always use M21 or the foot pedal to maintain
+pressure on the part.
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-2-1.png)
+
+Corrective Action:
+
+Spindle Speed Variation (SSV) allows you to
+specify a range within which the spindle speed
+will continuously change.
+
+This changes the frequency of the machining
+process, which helps to suppress chatter.
+
+M38 turns SSV mode ON and M39 turns
+it OFF.
+
+Setting 165 specifies the amount that the
+spindle speed changes above and below the
+programmed speed.
+
+Setting 166 specifies the SSV duty cycle in
+0.1-second increments. The duty cycle affects
+the rate of spindle speed change.
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 3/6
+
+
+-----
+
+# Alignment
+
+ Hydraulic Pressure
+
+Corrective Action:
+
+
+Corrective Action:
+
+Make sure the tailstock is correctly aligned to
+the center bore of the spindle.
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-3-0.png)
+
+If the taper is consistent across the part, you may need to increase the tailstock pressure to hold the part
+more firmly.
+
+If the taper is not consistent, the tailstock pressure may be too high. Reduce the pressure to make sure the
+stock does not deform.
+
+
+### ?
+
+
+Note: Verify that the tool Taper offset is zero.
+
+
+[For more information, watch this video on TAILSTOCK FUNDAMENTALS.](https://www.haascnc.com/content/haascnc/en/video/tips/01b-tzawkco.html)
+
+# Solenoid
+
+It is normal for the hydraulic pressure unit
+(HPU) solenoids to be hot to the touch.
+
+Corrective Action:
+
+Use a voltmeter to check for 120 VAC at the
+solenoid on the hydraulic power unit (HPU):
+
+Pull the solenoid connectors partially
+apart so you can access the leads with
+your needle-tip probes while the
+solenoid is connected.
+With the tailstock in operation,
+measure the voltage to the solenoid.
+
+If there is no voltage, go to
+
+[-I/O PCB - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[(CLASSIC HAAS CONTROL)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+[-I/O PCB - TROUBLESHOOTING GUIDE (NGC)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+to troubleshoot the I/O PCB.
+
+If the HPU solenoid receives voltage, but does
+not operate correctly, clean the solenoid or
+rapid valve:
+
+Turn off the power to the machine.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 4/6
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-3-0.png)
+
+-----
+
+# Encoder - SL
+
+ Encoder - ST
+
+ Way Cover
+
+
+Corrective Action:
+
+Inspect the encoder comb strip for damage,
+contamination or improper alignment.
+
+Clean and align the encoder comb strip.
+
+Make sure the encoder read head is not
+contaminated or damaged. Damage can occur
+by the comb strip rubbing on the optical
+sensor. If the optical sensor face is scratched
+or cracked the encoder will need to be
+replaced.
+
+Make sure that the way covers and way cover
+rails are not contaminated or damaged
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-4-0.png)
+
+Corrective Action:
+
+When handling the encoder, never let go of
+the string allowing it to retract under its own
+tension, damage may occur. Carefully pull the
+string out and let it retract slowly.
+
+Make sure the string [1] can move freely in
+and out of the encoder housing. Make sure
+the encoder string is not pinched or touching
+the way cover at anytime during its travel. The
+B-Axis position on the screen should change
+as you pull on the encoder string. If there is no
+change in the position display check the
+encoder connection in the cable trey behind
+the Z-Axis.
+
+Inspect the encoder string for contamination
+or damage (cuts or fraying).
+
+Inspect the encoder housing for signs of
+damage or contamination.
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 5/6
+
+
+-----
+
+Corrective Action:
+
+Clean the lower way cover rails.
+
+Make sure the way covers move smoothly on
+the rails, and do not bind on each other.
+
+
+![](photo/Hydraulic Tailstock - Troubleshooting Guide.pdf/Hydraulic-Tailstock---Troubleshooting-Guide.pdf-5-0.png)
+
+# Settings
+
+Corrective Action:
+
+Set the tailstock hold point, Setting 107, to be .25" to .5" past the part. The tailstock should never reach its
+hold position, if so Alarm 439 TAILSTOCK FOUND NO PART will be generated.
+
+Ensure that all bar stock material is the same length.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/hydraulic-tailstock-troubleshooting-guide.html 6/6
+
+
+-----
+

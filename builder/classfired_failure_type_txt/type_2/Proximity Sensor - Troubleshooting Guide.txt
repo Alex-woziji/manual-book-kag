@@ -1,0 +1,140 @@
+## Proximity Sensor - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html 1/4
+
+
+-----
+
+### LAST UPDATED: 03/30/2021
+
+
+# Proximity Sensor - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+
+### The image shows the various types of proximity sensors used on Haas machines.
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Positioning error or timeout alarms. The diagnostic bit fluctuates while the monitored components are idle.|Noise or electrical interference from high-power cables.|Re-route the cable away from high power sources. Apply a ferrite bead to the sensor cables at the I/O board.|
+||There is a poor connection, or a signal interference from contamination.|Clean, reseat connectors, and correct the cause of contamination.|
+|The diagnostic bit does not change state.|There is metal particles on the face of the sensor.|Metal particles will not let the switch change state. Clean metal particles from the face of the proximity sensor.|
+||The sense gap between the sensor face and the trip flag is not correct.|Align the trip flag or sensor, make sure the gap between the face of the sensor and the trip flag does not exceed 0.126 inces.|
+||The cables or the I/O PCB is at fault.|Troubleshoot the cables or the I/O PCB.|
+|Alarm 145-147 AXIS LIMIT SWITCH alarms.|There is metal particles on the face of the proximity sensor.|Metal particles will not allow the sensor to change state. Clean metal particles from the face of the proximity sensor.|
+||The proximity sensor connector has a loose connection.|Check the proximity M12 connector make sure the connection is tight.|
+||The cable from the control to the proximity sensor has an open connection.|Check the proximity sensor and extenstion cables for damage.|
+||The sense gap between the sensor face and the trip flag is not correct.|Align the trip flag or sensor, make sure the gap between the face of the sensor and the trip flag does not exceed 0.126 inces.|
+
+
+![](photo/Proximity Sensor - Troubleshooting Guide.pdf/Proximity-Sensor---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html 2/4
+
+
+-----
+
+|Alarm 103-105 AXIS SERVO ERROR TOO LARGE alarms.|There is metal particles on the face of the proximity sensor.|Metal particles will not allow the sensor to change state. This will cause the axis to home in the opposite direction, causing the axis to hit the hard stop. Clean metal particles from the face of the proximity sensor.|
+|---|---|---|
+|Alarm 165-167 AXIS ZERO RETURN MARGIN IS TOO SMALL|False sensor trip due to chip or home sensor problem, or the axis grid offset parameter is not set properly|Check for metal chips around the sensor or trip flag. Check the sensor for damaged cables. Set the axis grid offset parameter.|
+
+
+# Signal Noise / Signal Interference
+
+ Cable Damage
+
+ Malfunctioning Proximity Sensor
+
+
+### Make sure that the proximity sensor cable is not damaged, and that it is separated from high-power spindle/axis/pump cables.
+
+ Make sure that the connectors and pins for the proximity sensors are not contaminated. Make sure the pins have not backed out of the connector.
+
+ Check for contamination on the proximity sensor. Contamination on the face of the proximity sensor can create a false signal. Fix the cause of the contamination.
+
+
+![](photo/Proximity Sensor - Troubleshooting Guide.pdf/Proximity-Sensor---Troubleshooting-Guide.pdf-2-0.png)
+
+### Put a screw in front of the face of the sensor to test its operation. If the proximity sensor LED turns on and off, and the diagnostic bit changes status, then the sensor is working correctly. Align the trip flag so that it triggers the proximity sensor.
+
+
+![](photo/Proximity Sensor - Troubleshooting Guide.pdf/Proximity-Sensor---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html 3/4
+
+
+![](photo/Proximity Sensor - Troubleshooting Guide.pdf/Proximity-Sensor---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+### For 12 VDC proximity sensors, test the voltage at the proximity sensor. The 3-wire 5 VDC sensor receives voltage from the processor PCB. It is the same voltage that is sent to the axis encoder. If the axis encoder works correctly, and there are no encoder alarms, the sensor receives the correct voltage.
+
+ Always check for voltage from the back of the connector with needle-tip probes. If there is voltage present at the proximity sensor, but it will not change status, the sensor is at fault.
+
+
+![](photo/Proximity Sensor - Troubleshooting Guide.pdf/Proximity-Sensor---Troubleshooting-Guide.pdf-3-0.png)
+
+# N.O. 2 Wire 12V Proximity Sensor: (Black lead to ground and red lead to the brown wire)
+
+Proximity Sensor State LED Voltage (VDC) Diagnostic Bit
+
+Without Activation OFF 9-12 1
+
+Activated ON 2-3 0
+
+# N.C. 2 Wire 12V Proximity Sensor: (Black lead to ground and red lead to the brown wire)
+
+Proximity Sensor State LED Voltage (VDC) Diagnostic Bit
+
+Without Activation ON 2-3 0
+
+Activated OFF 9-12 1
+
+# N.O. 3 Wire 12V Proximity Sensor: (Black lead to ground and red lead to the black wire)
+
+Proximity Sensor State LED Voltage (VDC) Diagnostic Bit
+
+Without Activation OFF 9-12 1
+
+Activated ON 0-2 0
+
+# N.C. 3 Wire 5V Proximity Sensor - Home Switches: (Black lead to ground and red lead to the black wire)
+
+Proximity Sensor State LED Voltage (VDC) Diagnostic Bit
+
+Without Activation OFF 0-2 0
+
+Activated ON 3-5 1
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html 4/4
+
+|Proximity Sensor State|LED|Voltage (VDC)|Diagnostic Bit|
+|---|---|---|---|
+|Without Activation|OFF|9-12|1|
+|Activated|ON|2-3|0|
+
+|Proximity Sensor State|LED|Voltage (VDC)|Diagnostic Bit|
+|---|---|---|---|
+|Without Activation|ON|2-3|0|
+|Activated|OFF|9-12|1|
+
+|Proximity Sensor State|LED|Voltage (VDC)|Diagnostic Bit|
+|---|---|---|---|
+|Without Activation|OFF|9-12|1|
+|Activated|ON|0-2|0|
+
+|ck wire)|Col2|Col3|Col4|
+|---|---|---|---|
+|Proximity Sensor State|LED|Voltage (VDC)|Diagnostic Bit|
+|Without Activation|OFF|0-2|0|
+|Activated|ON|3-5|1|
+
+
+-----
+

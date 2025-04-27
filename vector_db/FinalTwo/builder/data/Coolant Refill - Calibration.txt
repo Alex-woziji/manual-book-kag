@@ -1,0 +1,125 @@
+## Coolant Refill - Calibration
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html 1/3
+
+
+-----
+
+LAST UPDATED: 03/09/2021
+
+
+# Coolant Refill - Calibration
+
+ 10.2 COOLANT REFILL - CALIBRATION
+
+ Next Generation Control - Coolant Refill - Calibration
+
+
+Push [DIAGNOSTIC].
+
+Push the [RIGHT] cursor arrows to select
+the Maintenance tab.
+
+Push the [DOWN] and [RIGHT] cursor arrows
+to select the Coolant Refill tab.
+
+Fill the Coolant Refill container with 5 gallons
+of coolant concentrate.
+
+Push [F4] to set the Maximum Coolant From
+Remaining Concentrate.
+
+Push [Y].
+
+Remove the filler hose from the filler pipe.
+
+Put a bucket under the filler pipe.
+
+Push [F3] to fill the bucket.
+
+Push [F3] again to stop when the coolant
+mixture fills the bucket.
+
+
+![](photo/Coolant Refill - Calibration.pdf/Coolant-Refill---Calibration.pdf-1-0.png)
+
+[Measure the concentration of the coolant. Refer to the MAINTAINING YOUR COOLANT MIXTURE video.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+If the measured concentration is lower than the value for the Coolant Concentrate [1], increase the value for
+the Concentrate Adjustment [2].
+
+If the concentration is higher than the value for the Coolant Concentrate [1], decrease the value for
+the Concentrate Adjustment [2].
+
+Repeat the measurements until the concentration matches the value for Coolant Concentrate[1].
+
+### ? WARNING: DO NOT ADD POWDERED/LIQUID COOLANT ADDITIVES TO THE COOLANT REFILL TANK.
+
+THIS WILL DAMAGE THE SOLENOIDS AND VOID YOUR WARRANTY. ALL ADDITIVES MUST BE ADDED
+AND MIXED IN THE COOLANT TANK.
+
+# Classic Haas Control - Coolant Refill - Calibration
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html 2/3
+
+
+-----
+
+Push [CURNT COMDS]. Push [PAGE DOWN]
+until the Coolant Refill screen shows [1].
+
+Fill the Coolant Refill container with 5 gallons
+of coolant concentrate.
+
+Push [F4] [4] to set the Max gallons of coolant
+added before replenishing concentrate. Push
+
+[Y].
+
+Remove the filler hose from the filler pipe.
+
+Put a bucket [5] under the filler pipe.
+
+Push [F3] to fill the bucket. Push [F3] again to
+stop when the coolant mixture fills the bucket.
+
+Measure the concentration of the coolant.
+[Refer to the MAINTAINING YOUR COOLANT](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[MIXTURE video.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+
+If the measured concentration is lower than
+the value for the Coolant Concentration
+Percent[2], increase the value for the Coolant
+Concentration Adjust [3].
+
+If the concentration is higher than the value
+for the Coolant Concentration Percent [2],
+decrease the value for the Coolant
+Concentration Adjust [3].
+
+Repeat the measurements until the
+concentration matches the value for Coolant
+Concentration Percent [2].
+
+
+![](photo/Coolant Refill - Calibration.pdf/Coolant-Refill---Calibration.pdf-2-0.png)
+
+# Coolant Refill - Filler Hose - Installation
+
+
+The filler hose [2] installs into the filler pipe
+
+[1].
+
+### ? Caution: Make sure the filler hose does
+not touch the coolant [3].
+
+
+![](photo/Coolant Refill - Calibration.pdf/Coolant-Refill---Calibration.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/coolant-refill---calibration.html 3/3
+
+
+-----
+

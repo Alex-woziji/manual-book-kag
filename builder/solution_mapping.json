@@ -1,0 +1,18 @@
+{
+    "failure_type_1_solution_sample": [
+        "Check the internal gears for damage.",
+        "inspect conveyor belt and repair or replace if damaged",
+        "Remove the non-pressurized air line to check for quad-ring blowby.",
+        "do not tighten the clamp too much",
+        "check that the signal cables for the fence is not damaged or miswired",
+        "update robot software again before you can use the robot"
+    ],
+    "failure_type_2_solution_sample": [
+        "Use M21 or the foot pedal to maintain pressure on the part.",
+        "Make sure there are no chips or obstructions on the bottom of the oil skimmer and on the edge of the coolant tank.",
+        "Inspect the coolant check valve for contamination and proper operation",
+        "Replace coolant periodically based on its condition",
+        "fill coolant tank",
+        "Ensure the TSC filter is not clogged"
+    ]
+}

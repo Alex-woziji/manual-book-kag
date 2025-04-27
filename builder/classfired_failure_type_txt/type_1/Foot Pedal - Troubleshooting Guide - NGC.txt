@@ -1,0 +1,107 @@
+## Foot Pedal - Troubleshooting Guide - NGC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/foot-pedal---troubleshooting-guide---ngc.html 1/4
+
+
+-----
+
+LAST UPDATED: 04/18/2024
+
+
+# Foot Pedal - Troubleshooting Guide - NGC
+
+ Introduction
+
+The foot pedal allows the operator to
+manually perform the following hydraulic
+functions:
+
+Chuck Clamp and Unclamp
+Steady Rest Clamp and Unclamp
+Tail Stock Positioning
+Tailstock Quill Positioning
+
+# Foot Pedal Inspection
+
+To check if the foot pedal is actuating the
+hydraulic device follow these steps:
+
+Push [PARAMETER/DIAGNOSTIC]
+button on the control.
+Scroll to I/O tab and check the
+foot pedal input bits, the name
+will be dependent on which foot
+pedal is being used.
+If the value isn’t toggling from 1 to
+0 when pressed, then the
+hydraulic device is not being
+actuated.
+
+# Symptom Table
+
+SYMPTOM POSSIBLE CAUSE CORRECTIVE ACTION
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/foot-pedal---troubleshooting-guide---ngc.html 2/4
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+
+
+![](photo/Foot Pedal - Troubleshooting Guide - NGC.pdf/Foot-Pedal---Troubleshooting-Guide---NGC.pdf-1-0.png)
+
+-----
+
+|The foot pedal is not actuating the hydraulic device.|Metal chips / debris preventing full travel|Check/Clean under the foot pedal and verify that the foot pedal goes all the way down.|
+|---|---|---|
+||Cables are damaged or not properly connected.|Make sure there is no visible damage to the cables and that they are properly connected. If there is no visible damage, see foot pedal cable inspection section below.|
+||The pedal spring is broken.|Check pedal spring for damage and check for tension. Replace the pedal if necessary.|
+||The switch inside the pedal is damaged.|Make sure there is continuity across the switch and replace the switch if there is none. See foot pedal switch inspection section below.|
+||The metal flag is not actuating the switch.|Check the foot pedal switch flag when the pedal is actuated, make sure the metal flag actuates the switch. See foot pedal flag adjustment section below.|
+
+
+# Foot Pedal Cable Inspection
+
+where the foot pedal connects to the sheet metal.
+
+board.
+
+# Foot Pedal Switch Inspection
+
+ Foot Pedal Flag Adjustment
+
+
+Corrective Action: To check for this you will
+need take the cover off of the pedal. Once the
+cover is removed, use a voltmeter and toggle
+the switch[1] with your finger to check for
+continuity across the switch. If there is no
+continuity the switch will need to be replaced.
+
+
+![](photo/Foot Pedal - Troubleshooting Guide - NGC.pdf/Foot-Pedal---Troubleshooting-Guide---NGC.pdf-2-0.png)
+
+Corrective Action: If the flag is not toggling
+the switch, then you need to adjust the flag.
+To adjust the foot pedal flag remove the cover
+and the switch assembly from the pedal.
+Remove the metal flag and use a clamp and
+tool to bend it. Reattach the switch assembly
+and press on the pedal and check for
+continuity to ensure the switch is toggled. If it
+is still not actuating continue to bend the
+metal flag until the switch is toggled.
+
+
+![](photo/Foot Pedal - Troubleshooting Guide - NGC.pdf/Foot-Pedal---Troubleshooting-Guide---NGC.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/foot-pedal---troubleshooting-guide---ngc.html 3/4
+
+
+-----
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/foot-pedal---troubleshooting-guide---ngc.html 4/4
+
+
+-----
+

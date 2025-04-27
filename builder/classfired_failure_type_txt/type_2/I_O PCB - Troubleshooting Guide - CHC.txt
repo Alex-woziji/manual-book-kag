@@ -1,0 +1,147 @@
+## I/O PCB - Troubleshooting Guide - CHC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html 1/5
+
+
+-----
+
+LAST UPDATED: 04/14/2020
+
+
+# I/O PCB - Troubleshooting Guide - CHC
+
+
+# Introduction
+
+ Symptom Table
+
+
+The I/O PCB is the interface between the
+control and the all of switches, motors,
+sensors, solenoids etc.
+
+The I/O PCB is split into two parts, inputs [1]
+and outputs [2]. Most are independent from
+one another.
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+|VMC Alarm 163 Z-AXIS DRIVE FAULT HMC Alarm 162 Y-AXIS DRIVE FAULT Lathe Alarm 161 X-AXIS DRIVE FAULT Alarm 992 AMPLIFIER OVERCURRENT Alarm 994 AMPLIFIER OVERLOAD|There is a problem with the axis brake voltage output or the cable to the axis brake.|Check the axis brake cable from I/O PCB to axis motor and also the axis brake voltage output.|
+|Alarm 858 ATC CAROUSEL MOTOR ELECTRICAL FAULT|There is a problem with one of the tool changer relays.|Swap the I/O PCB tool changer relays.|
+|There is no voltage output.|There is a faulty supply voltage to I/O PCB or a Circuit Breaker on the Power Distribution PCB is tripped.|Check the voltages to I/O PCB. Also check for a tripped circuit breaker or blown fuse on the Power Distribuition PCB.|
+||There is a faulty connection.|Make sure all connections and cables are securely connected and are not damaged.|
+||There is a possible I/O PCB failure.|Check all voltages, cables going to I/O PCB, Also check for burnt components or traces on the I/O PCB.|
+
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html 2/5
+
+
+-----
+
+|Multiple alarms are generated. On the DIAGNOSTICS page all inputs showing 1. On the DIAGNOSTICS page one or more Inputs do not change state when the switches or sensors are triggered.|There is a faulty supply voltage to I/O PCB or a Circuit Breaker on the Power Distribution PCB is tripped.|Check the voltages to I/O PCB. Also check for a tripped circuit breaker or blown fuse on the Power Distribuition PCB.|
+|---|---|---|
+||There is a faulty connection.|Make sure all connections and cables are securely connected and are not damaged.|
+||There is a possible I/O PCB failure.|Check all voltages, cables going to I/O PCB, Also check for burnt components or traces on the I/O PCB.|
+
+
+# Voltages to I/O PCB
+
+Corrective Action:
+
+Check Voltages to I/O PCB
+
+### ? Note: The plug numbers listed below apply
+
+to Classic Haas Control I/O PCB rev S or
+higher. Measure the voltage on the backside
+of the corresponding connector on the I/O
+PCB. Use a volt meter equipped with needle
+tip probes.
+
+Check the 5 VDC and 12 VDC at P60 [1]
+from the Low Voltage Power Supply
+(LVPS).
+Check the 3-phase 120 VAC at P56 [2]
+these voltages drive the solenoids, oil
+pump, fans and other 120 VAC devices.
+If no voltage present. Check the CB6
+circuit breaker on the Power
+Distribuition PCB.
+Check the 1-phase 120 VAC at P83 [5]
+this voltage drives the worklight and
+the high intensity lights. If no voltage
+present. Check the GFCI outlet on the
+side of the machine to make sure is not
+tripped. Also check the GFI/Worklight
+circuit breakers on the Power
+Distribuition PCB.
+Check the 3-phase 240 VAC at P44 [3]
+these voltages drive the coolant pump,
+TSC motor, hydraulic power unit on a
+lathe. If no voltage present. Check the
+Coolant and TSC circuit breakers on
+the Power Distribuition PCB.
+Check the 3-phase 240 VAC at P39 [4]
+these voltages drive the chip auguer or
+conveyor. If no voltage present. Check
+the Conveyor circuit breaker on the
+Power Distribuition PCB.
+If there is voltage present. Check
+cables and connections see section 2.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html 3/5
+
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-2-0.png)
+
+-----
+
+# Axis Brake Voltage
+
+ Cable Connections
+
+ Relays
+
+
+Corrective Action:
+
+1. Release [EMERGENCY STOP].
+2. Press [RESET]. This clears the alarm
+
+and applies power to the servo motors.
+3. Use a multimeter with needle-tip test
+
+probes to measure the voltage across
+pins 1 and 2 on the P79 or P78
+connector on the I/O PCB. The voltage
+should be between 18 and 30 VDC.
+
+### ? Note: Do not measure the voltage with the
+
+axis brake cable disconnected from the P79 or
+P78 connector on the I/O PCB.
+
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html 4/5
+
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-3-0.png)
+
+-----
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-4-1.png)
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html 5/5
+
+
+![](photo/I_O PCB - Troubleshooting Guide - CHC.pdf/I_O-PCB---Troubleshooting-Guide---CHC.pdf-4-0.png)
+
+-----
+

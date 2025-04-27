@@ -1,0 +1,518 @@
+## Hydraulic Power Unit - Troubleshooting Guide
+
+
+LAST UPDATED: 10/01/2024
+
+# Hydraulic Power Unit - Troubleshooting Guide
+
+### ? Download and fillout the hydraulic power unit Inspection Report Checklist below before replacing any
+parts.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 1/10
+
+
+-----
+
+#### HYDRAULIC POWER UNIT INSPECTION REPORT CHECKLIST
+
+
+# Introduction
+
+ Symptom Table
+
+
+A: Haas HPU for most lathes made before
+2016.
+
+B: Haas HPU for most lathes made after 2016.
+
+### ? Note: Not all lathes will have all of the
+
+components shown.
+
+1. Hydraulic pump
+2. Chuck and Tailstock pressure
+
+adjustment valves
+3. Chuck and Tailstock pressure gauges
+4. Oil fill cap
+5. Oil dip stick/Oil sight glass
+6. Solenoids
+7. Pressure filter
+8. Intake screen
+9. Pressure sensor
+10. Heat exchanger (can be mounted
+
+remotely, with or without fans)
+11. Cooling fans
+12. Return filter
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Oil leaks|The hoses are split or the fittings are loose.|Tighten the fittings or replace the hoses.|
+||The oil tank overflows.|Diagnose the cause and drain the oil to the correct level.|
+||Coolant contaminated the oil.|Check the coolant collector for blockage.|
+||Missing/damaged O- rings/ plugs on manifold assembly.|Replace the missing/damaged O-rings/plug on the manifold assembly. Refill HPU to correct oil level. Refer to Plugs and O-rings section below.|
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 2/10
+
+
+-----
+
+|Chuck or tailstock does not operate correctly. Or incorrect chuck or tailstock clamp force or pressure.|The solenoid system does not operate correctly.|Troubleshoot the system.|
+|---|---|---|
+||There are air bubbles in the oil.|Reduce the clamp force, RPM, or duty cycle.|
+|||Check/tighten pickup tube. Refer to Air Leaks/Pickup Tube section below.|
+|||Re-configure the return and pick-up pipes.|
+||The oil level is low.|Fill the HPU to the correct oil level.|
+||A filter is clogged.|Check the pressure filter and the intake screen for clogs.|
+||The adjustment valve is contaminated.|Open the adjustment valve to purge the system.|
+||Coolant contaminated the oil.|Check the coolant collector for blockage.|
+|Pressure fluctuates wildly. Pump oscillates and vibrates. Or noisy|There are air bubbles in the oil.|Reduce the clamp force, RPM, or duty cycle.|
+|||Check/tighten pickup tube. Refer to Air Leaks/Pickup Tube section below.|
+|||Re-configure the return and pick-up pipes.|
+||The oil level is low.|Fill the HPU to the correct oil level.|
+||The fans do not operate.|Make sure the fans operate.|
+||Coolant contaminated the oil.|Check the coolant collector for blockage.|
+||Overheating.|Check for signs of overheating.|
+||A filter is clogged.|Check the pressure filter and the intake screen for clogs.|
+||The HPU pump needs adjustment.|Contact your local Haas Factory Outlet. Refer to the Lathe - Hydraulic Power Unit - Nachi Pump Adjustment. Do not replace the pump.|
+|Overheating|The oil level is low.|Fill the HPU to the correct oil level.|
+||The fans do not operate.|Make sure the fans operate.|
+||There are air bubbles in the oil.|Reduce the clamp force, RPM, or duty cycle.|
+||Setting 216 is not enabled.|Enable Setting 216.|
+||A filter is clogged.|Check the pressure filter and the intake screen for clogs.|
+|Low or no hydraulic pressure.|Incorrect power phasing - the pump motor is running backward.|Check the phasing indicators and change the incoming power cables, if necessary.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 3/10
+
+
+-----
+
+|The Tailstock pressure does not adjust.|The Tailstock Rapid Solenoid is engaged on an ST-10/15.|Make sure that the Tailstock Rapid solenoid is not engaged when you adjust the Tailstock pressure. Press [RESET] twice after you release [EMERGENCY STOP].|
+|---|---|---|
+|Pressure does not adjust or irregular changes in pressure.|The pressure valve is bent or damaged.|Replace the damaged adjustment valve. Refer to Adjusting Valves section below.|
+|Damaged pressure gauge.|Snubber screw has backed out.|Remove the gauge, install the snubber set screw, install new gauge.|
+|Lathe HPU circuit breaker trips intermittently during normal operation.|10A circuit breaker is too small.|Replace the 10A breaker with a 15A breaker. Only replace the breaker after all other causes have been checked and eliminated. Refer to the PSUP PCB Troubleshooting Guide.|
+|Tailstock pressure stays at max PSI. The adjustment valve does not change the pressure.|The Tailstock Rapid Solenoid is engaged.|Troubleshoot the Tailstock Rapid solenoid.|
+|The pressure gauge comes up to pressure slowly or low pressure alarms are generated.|This is due to cold oil and/or a lower pressure setting.|Allow more time for the pressure gauge to adjust. Note: There is a long set screw snubber in the manifold behind the gauge and a 10 micron sintered bronze snubber in the gauge. These components protect gauges from failing during large pressure changes and slow the pressure gauge’s response to pressure changes or coming up to pressure from idle. These pressure changes are happening quicker at the chuck or tailstock then at the gauge or gauge page. The higher the pressure and warmer the oil, the faster the gauges will respond to pressure changes.|
+|Alarm 9505 or 9505.001 COMMANDED PRESSURE NOT REACHED|The commanded device pressure was not reached within the specified timeout.|Check electrical connections to the pressure switch or motor or for failed hardware such as the pressure valve, hydraulic motor, or coupler. See the Programmable Pressure Adjustment Valve - Troubleshooting Guide for more information.|
+
+
+# Oil Leaks
+
+
+Corrective Action:
+
+If the oil tank overflows, find the cause, and fill
+the oil to the correct level. If the oil is
+contaminated with coolant, drain and replace
+the oil (refer to the Coolant Contamination
+section).
+
+Make sure the hoses are routed correctly [4]
+and are secure. Tie them together with zip ties
+
+[3]. Damage can occur to the hoses if they rub
+
+[1] against other components, have sharp
+bends, or are kinked [2]. Replace the hoses if
+they are damaged.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 4/10
+
+
+-----
+
+Check the condition of the hydraulic hose
+fittings: Look for leaks at both ends of the
+hose. If a leak is found, try tightening the
+[fittings. Refer to LATHE - HYDRAULIC POWER](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/hydraulic-power-unit---hoses-and-fittings---maintenance.html)
+[UNIT (HPU) - HOSES AND FITTINGS -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/hydraulic-power-unit---hoses-and-fittings---maintenance.html)
+[MAINTENANCE. If a fitting has cracks [5], wear,](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/hydraulic-power-unit---hoses-and-fittings---maintenance.html)
+continues to leak, the hose must be replaced.
+
+Do not over-tighten the fittings.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-4-0.png)
+
+# Solenoids
+
+Corrective Action:
+
+It is normal for the solenoids to be hot to the
+touch. Check the voltage to the solenoid.
+
+1. Pull the solenoid connectors partially
+
+apart so you can access the leads with
+your needle-tip probes while the
+solenoid is connected.
+2. With the chuck or tailstock in
+
+operation, measure the voltage to the
+solenoid. The measured voltage must
+be 120 VAC.
+
+If there is no voltage, refer to these
+troubleshooting guides:
+
+[NGC - I/O PCB - TROUBLESHOOTING](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+[GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+[CHC - I/O PCB - TROUBLESHOOTING](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+If the solenoid receives voltage, but it does not
+operate correctly, clean the valve:
+
+1. Power off the machine.
+2. Remove the solenoid valve. Use
+
+compressed air to clean the solenoid
+valve.
+3. Reinstall the solenoid valve.
+4. Test for correct operation.
+
+### ? Caution: Do not lose the (4) o-rings when
+you reinstall the solenoid valve.
+
+# Settings
+
+Corrective Action:
+
+Make sure Setting 216 SERVO AND HYDRAULIC SHUTOFF is set to (120) seconds or less. Do not have this
+setting set to (0), the HPU will not turn off, and will create unwanted air bubbles and heat. This setting will
+power-down the HPU when the machine is idle. This helps dissipate the air bubbles in the oil.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 5/10
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-4-0.png)
+
+-----
+
+Machines with the Classic Haas Control with software version 11.27A or higher and all Next Generation
+Control machines do not allow you to set this setting to (0). The limits on this setting for these machines are 10
+seconds to 99 minutes.
+
+# Air Leaks/Pickup Tube
+
+
+Corrective Action:
+
+Check for oil leaks at the intake pipe [1]. If
+there are leaks, clean the threads on the
+intake pipe [1]. Reapply thread sealant, and
+install the intake pipe [1].
+
+If the symptom persists, go to the Tank
+Reconfiguration section to reconfigure the
+pipes.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-5-0.png)
+
+# Oil Pressure
+
+Corrective Action:
+
+Always make sure the oil level is correct and the filter is clean (refer to the Oil Level section and the Filter
+section).
+
+Push [EMERGENCY STOP]. Wait half an hour while the air and oil separate. Resume machine operation. Check
+if the normal pressure returns while the operation resumes. If the symptom occurs again:
+
+Reduce the hydraulic clamp pressure by about 25 PSI to reduce the rate of the hydraulic union leak at
+the slip joint.
+Reduce the cycle time with higher feed rates.
+Reduce the spindle RPM.
+
+
+### ? Caution: Do not add anti-foaming agents. These agents are already present in the HPU oil.
+
+ ? Note: If low pressure alarms are generated or the hydraulic pressure gauge comes up to pressure very
+
+slowly, it can be due to cold oil and/or a lower pressure setting. There is a long set screw snubber in the
+manifold behind the gauge and a 10 micron sintered bronze snubber in the gauge. These components protect
+gauges from failing during large pressure changes and slow the pressure gauge’s response to pressure
+changes or coming up to pressure from idle. These usually happen when the tailstock is reversing direction.
+These pressure changes are happening quicker at the chuck or tailstock then at the gauge or gauge page. The
+higher the pressure and warmer the oil, the faster the gauges will respond to pressure changes.
+
+MAXIMUM CHUCK OPERATING PRESSURES
+
+Type psi Bar
+
+5" Chuck 330 23
+
+6" Chuck 330 23
+
+8" Chuck, 2" Bore 330 23
+
+8" Chuck, 2.5" Bore 260 18
+
+10" Chuck 330 23
+
+12" Chuck, 3" Bore 400 28
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 6/10
+
+|MAXIMUM CHUCK OPERATING PRESSURES|Col2|Col3|
+|---|---|---|
+|Type|psi|Bar|
+|5" Chuck|330|23|
+|6" Chuck|330|23|
+|8" Chuck, 2" Bore|330|23|
+|8" Chuck, 2.5" Bore|260|18|
+|10" Chuck|330|23|
+|12" Chuck, 3" Bore|400|28|
+
+
+-----
+
+|12" Chuck, 4" Bore|250|17|
+|---|---|---|
+|15" Chuck|340|23|
+|18" Chuck|300|21|
+
+
+# Oil Level
+
+ Fans
+
+ Filters
+
+
+Corrective Action:
+
+Check the gauge [1] or dipstick [2] to make
+sure that the HPU has enough oil. If the oil
+level is low, check for a leak. If there is a leak,
+repair the leak. Refill the oil.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-6-0.png)
+
+Corrective Action:
+
+If the HPU oil overheats: Some HPU
+assemblies have fans installed on the back.
+Make sure the fans operate when the spindle
+is in operation.
+
+Make sure the spindle motor fan operates.
+
+If the machine has a heat exchanger, make
+sure the heat exchanger is clean and its fan
+operate correctly. Not all heat exchangers
+have a separate fan. Some machines have
+remotely-mounted heat exchangers with
+integral fans.
+
+The spindle fan on machines with the Classic
+Haas Control with software version 11.27A or
+higher and all Next Generation Control
+machines must stay on when the HPU is on.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-6-0.png)
+
+Corrective Action:
+
+Clean or replace the pressure filter [1] on the
+pump assembly. Make sure the intake filter [2]
+is not clogged. Clean it if necessary.
+
+Test the hydraulic components for the correct
+pressure.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-6-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 7/10
+
+
+-----
+
+# Adjusting Valves
+
+ Coolant Contamination
+
+ Tank Reconfiguration
+
+
+Corrective Action:
+
+Check the adjustment valve for debris: With
+the HPU powered on, open and close the
+adjustment valve fully to flush any
+contamination out. Power off the HPU and
+remove the adjustment valve. Inspect the orings for damage. Damaged o-rings can also
+cause incorrect pressure.
+
+If the adjustment valve is damaged, replace it.
+For adjustment valve replacement
+[instructions, refer to the ST/DS LATHE -](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chuck-and-tailstock-pressure-adjustment-valve-replacement-st-ds-sl-ad0094.html)
+[CHUCK AND TAILSTOCK PRESSURE ADJUSTING](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chuck-and-tailstock-pressure-adjustment-valve-replacement-st-ds-sl-ad0094.html)
+[VALVE - REPLACEMENT procedure.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/chuck-and-tailstock-pressure-adjustment-valve-replacement-st-ds-sl-ad0094.html)
+
+### ? Note: A bent or damaged valve can
+
+prevent pressure adjustment or irregular
+changes in pressure.
+
+An ST-10/15 can have the Rapid Tailstock
+solenoid engaged when the tailstock is not in
+use. Press [RESET] twice after you release
+
+[EMERGENCY STOP] to disengage the
+solenoid and the pressure can be adjusted.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-7-0.png)
+
+Corrective Action:
+
+Find the coolant return line under the spindle.
+If chips block the coolant return line, coolant
+floods into the hydraulic union and will
+contaminate the HPU oil and cause it to foam.
+It can also cause the tank to overfill.
+
+Unclogg the coolant return line.
+
+Drain the HPU and blow shop air through the
+hoses. Clean or replace all HPU filters. Clean
+the HPU and refill it with new oil. Cycle the
+chuck and tailstock several times. Check the
+oil again.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-7-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 8/10
+
+
+-----
+
+Corrective Action:
+
+Reconfigure the return and pick-up pipes to
+separate them. This gives the oil more time to
+dissipate the bubbles.
+
+Remove the elbow fitting [1] from the intake
+line [2] and the intake filter [3]. Install the new
+intake screen [4] (Haas P/N 58-1832) on a new
+nipple (available locally). The new nipple
+length must be long enough so the new intake
+screen [4] is 1/4" from the bottom of the tank.
+
+Remove the return line [5] from the return
+drain [6]. Install an elbow fitting [7] between
+the return line [5] and the return drain [6].
+Install a new pipe nipple (available locally) to
+the elbow fitting [7] that reaches
+approximately 1" from the side of the tank.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-8-0.png)
+
+# Electrical Phasing
+
+Corrective Action:
+
+The power supply PCB has a phase detect with
+neon indicators on the top center portion of
+the board. Make sure that the electrical power
+is phased correctly:
+
+Green Light: The incoming power is
+phased correctly.
+Orange Light: The incoming power is
+incorrectly phased.
+Both Lights: A phase is missing (there
+is a loose cable in the system).
+
+If the electrical power is phased incorrectly:
+
+Set the main circuit breaker to
+the OFF position.
+
+Lock the main circuit breaker. Use an
+approved lock with an approved safety tag.
+
+Swap the #74 and #75 incoming power cables
+at the main transformer.
+
+# Damaged Gauges
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 9/10
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-8-0.png)
+
+-----
+
+Corrective Action:
+
+Damaged gauges may include: Displaying
+incorrect pressure, broken needles, not
+returning to 0 PSI when off, ect.
+
+Remove the pressure gauge and check that
+the snubber set screw [1] has not backed out.
+[The snubber set screw is similar to the HAAS](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/haas-liquid-grease-axis-lubrication-system.html)
+[LIQUID GREASE RESTRICTOR FITTING. Re-](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/haas-liquid-grease-axis-lubrication-system.html)
+install the snubber set screw without any
+thread locker. Replace the gauge as needed.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-9-1.png)
+
+# Plugs and O-rings
+
+
+Corrective Action:
+
+The plugs [1] on the manifold have o-rings [2]
+on them to help seal the manifold. If there is
+oil leak from one of these plug, check to make
+sure that the plug is tight. Replace the plug
+and o-ring if it is damaged or missing.
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-9-1.png)
+
+### ? WARNING: You should not do mechanical or electrical machine repairs or service procedures unless you
+
+are qualified and knowledgeable about the processes.
+
+### ? WARNING: Only authorized personnel with the proper training and certification should do this repair
+
+procedure.
+
+
+### ? All information herein is provided as a courtesy for Haas machine owners for reference and illustrative
+
+purposes only. Haas Automation cannot be held responsible for repairs you perform. Only those services and
+repairs that are provided by authorized Haas Factory Outlet distributors are guaranteed.
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/haas-hydraulic-power-unit---troubleshooting-guide.html 10/10
+
+
+![](photo/Hydraulic Power Unit - Troubleshooting Guide.pdf/Hydraulic-Power-Unit---Troubleshooting-Guide.pdf-9-0.png)
+
+-----
+

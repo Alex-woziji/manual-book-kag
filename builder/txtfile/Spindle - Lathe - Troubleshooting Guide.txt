@@ -1,0 +1,339 @@
+## Spindle - Lathe - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 1/11
+
+
+-----
+
+# 4.2 LATHE SPINDLE - TROUBLESHOOTING
+
+LAST UPDATED: 07/16/2024
+
+# Spindle - Lathe - Troubleshooting Guide
+
+ Lathe Spindle Inspection Report
+
+### ? Download and fillout the lathe spindle Inspection Report Checklist below before
+
+replacing any parts.
+
+#### SPINDLE - LATHE - SERVICE CHECKLIST
+
+# Section 1: Introduction
+
+### ? NOTE: Although this troubleshooting
+
+guide is for the main spindle many of the
+sypmtoms in the symptoms table can be
+used for the sub spindle.
+
+The most common problems with a lathe
+spindle are vibration, noise and surface finish.
+
+Vibration is caused by runout. Look first at
+your workholding and your material. Ensure
+the chuck body or collet nose runs true; that
+your jaws are bored correctly; that your
+material isn’t running out. If you are bar
+feeding make sure the liner fits the material
+properly. If you still have a problem check
+runout of the hydraulic closer, the brake disc
+and all adapters.
+
+If you haven’t fixed noise by addressing
+vibration above then the most likely cause is
+the drive belt. Make sure tension is correct;
+that the belt is in good condition; that shaft
+alignment is good and the belt isn’t forced
+against a pulley flange.
+
+If you have a surface finish problem that
+hasn’t been solved by the above then check
+the application: speeds, feeds, tool tip
+alignment, coolant flow, etc. also check
+machine alignments.
+
+For more lathe spindle symptoms please view
+the troubleshooting table below. For
+reference, the spindle drivetrain consists of
+the following:
+
+1. Chuck or Collet
+2. Drawtube
+3. Bearings
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 2/11
+
+
+![](photo/Spindle - Lathe - Troubleshooting Guide.pdf/Spindle---Lathe---Troubleshooting-Guide.pdf-1-0.png)
+
+-----
+
+4. Spindle Shaft
+5. Non-Contact Encoder Ring
+6. Sprocket
+7. Non-Contact Encoder Read-Head
+8. Adapter
+9. Hydraulic Actuator
+10. Coolant Collector
+
+
+# Symptom Table
+
+SYMPTOM POSSIBLE CAUSE CORRECTIVE ACTION
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 3/11
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+
+
+-----
+
+|Vibration Alarm 966 Excessive Tool Imbalance|Workpiece runout|Indicate in workpiece runout depending diameter and spindle speed|
+|---|---|---|
+||Long bar stock or liner adapters with a poor fit|Do not run bar stock past the hydraulic union stop. Only use tight fit liner adapters.Big Bore|
+||Big Bore Spindle Liner O-Rings do not center Liner to drawtube and union.|For the following Liner Kits replace both O-Rings with 93-3772. See Lathe - Spindle Liner O-ring - Replacement LINER KIT 4.00 12 LINERKIT-4-ST40|
+||Spindle drivetrain misalignment|Verify each component is within specified runouts - see Section 2|
+||Spindle speed is running in a resonance frequency of the machine|Speed up or slow down the spindle by 10% until vibration or surface finish improves|
+||Spindle imbalance|Run a vibration analyzer test. Balance out high vibration using set screws in the union adapter - see Section 3|
+||Motor vibration|Run the motor without the belt to isolate motor vibration from spindle vibration|
+||Damaged spindle bearings|Run a vibration analyzer test to determine bearing health - See Section 6. Test the spindle lubrication system - See Section 5 and the Spindle Minimum Lubrication System Troubleshooting Guide|
+||Encoder feedback|Test the spindle to see if vibration goes away when you cut machine power and allow the spindle to coast to a stop|
+||Spindle retaining ring alignment|Sweep with a .001" shim between the spindle shaft nose and ring to check gap - adjust ring if needed|
+||The Main Processor PCB standoff hardware is loose or the Control Cabinet mounting hardware is loose or causing a bind.|Tighten the Main Processor PCB standoff hardware. Loosen the Control Cabinet mounting hardware, snug the hardware, then torque down the hardware.|
+||ST-35Y only: Machine missing spindle motor stabilizer.|See Lathe - Spindle Motor Stabilizer - Installation to add stabilizer.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 4/11
+
+
+-----
+
+|Bearing Noise|Ball bearings and cage sound like they are skating around the races - caused by too little pre- load|Run a vibration analyzer test to determine bearing health. Inspect the spindle retaining ring step (that presses on the outer bearing race) for permanent deformation - see Section 6|
+|---|---|---|
+||High pitched whining noise - caused by too much pre-load|Run a vibration anaylzer test to determine bearing health - see Section 6|
+||Clicking noise - caused by a brinelling of the bearing which occurs when there is an impact to the spindle|Run a vibration anaylzer test to determine bearing health - see Section 6|
+|Belt Noise|Tooth wear, tensile break, incorrect belt tension|See Drive Belt Troubleshooting Guide and Section 4|
+|Alarm 9918 Serial Encoder Fault Alarm 9959 Serial Encoder Cable Fault Alarm 4.103 Spindle Axis Servo Error too Large|Encoder gap incorrect|See Spindle Encoder Troubleshooting Guide and Section 7|
+||Encoder ring damaged||
+||Encoder cable damaged or loose||
+|Alarm 174 Tool Load Exceeded|Insert worn|Inspect and replace insert if necessary|
+||Tool load limit incorrect|View the Advanced Tool Managment (ATM) tab to adjust user defined tool load limit|
+||Aggressive feedrates|Adjust your program for a more conservative feedrate|
+|Alarm 4.116 S (SPINDLE) SPINDLE ORIENTATION FAULT|The workholding has been replaced and the spindle load parameter is not set correctly|Follow Setting 413 Procedure to set the Main Spindle Load Type parameter correctly.|
+|Alarm 12.116 SS (SECONDARY SPINDLE) ORIENTATION FAULT|Alarm happens when the subspindle to orient with M119|Check on the mocon tab channel 14 [SS] home switch and move the spindle slowly by hand and verify the bit changes, if it does not check if the home switch or trip flag works properly.|
+|The spindle orient position changes after powering down the machine and powering back up.|At power up if the spindle home switch is located exactly in the middle of the two encoder Z pulse locations. Depending on the first spindle rotation direction after booting up the machine, the spindle may pick different encoder Z pulse as a reference for the spindle Z pulse which can cause the spindle orient to be inconsistent.|Update the machine to the latest software and configurations.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 5/11
+
+
+-----
+
+|Non-repeatable spindle orients between power cycles. C-Axis engagement alarms. Re-running taps and threads between power cycles.|ST-15/20/25 lathes and variants built from 8/1/2022 switched the 5.6" Non-Contact Encoder mounted on the spindle to a 3" NCE on the motor output shaft. A home switch was added to the spindle to ensure repeatable spindle orientation at power up. This home switch was not enabled by parameters for these machines. The home switch was also not enabled by parameters for all NGC ST-50/55 machines built 1/1/2021 and later.|Update the machine to the latest software version and download and load the latest configuration files from the service portal. HSG-A 02-7-2023|
+|---|---|---|
+|The machine experiences issues during spindle deceleration, spindle orientation with M19, the C-axis engaging, or the following alarms after changing to a new job with a large or small workholding or a large or small part. Alarms: 650 DC BUS OVER VOLTAGE, 4.994 S (SPINDLE) AMPLIFIER OVERLOAD, 4.116 S (SPINDLE) SPINDLE ORIENTATION FAULT, 9989 C AXIS FAILED TO ENGAGE.|The machine parameters are not tuned for the part or workholding installed.|Machines with Alarms: 650 DC Bus Over Voltage / 4.994 S see Section 8. Follow Setting 413 Procedure to set the Main Spindle Load Type parameter correctly. Setting 413 is available for machines with the New Mocon enabled and with software version 100.21.000.1111 or greater. The New Mocon, is a Motion Control algorithm that uses more parameters to better control the axis of the machine. Press Diagnostic and navigate to the System tab. The Mocon version will be in the Software section. Mocon version 1.16 .S. is the New Mocon. If the Mocon Version is 1.16 or 1.16 .K, then you have the old Mocon Version. Note: At this time we are not updating machines to New Mocon in the field.|
+|Alarm 4.108 S (SPINDLE) AXIS SERVO OVERLOAD|A large amount of constant surface speed (CSS) can cause acceleration/deceleration. That constant acceleration/deceleration causes the load meter to go above 100%. If the load meter remains above 100% for too long, you will get this alarm. This can also happen if the average load over time is above 100%.|Change the roughing constant surface speed (CSS) to a fixed spindle speed.|
+
+
+# Section 2: Spindle Drivetrain Alignment
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 6/11
+
+
+-----
+
+![](photo/Spindle - Lathe - Troubleshooting Guide.pdf/Spindle---Lathe---Troubleshooting-Guide.pdf-6-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 7/11
+
+
+-----
+
+# Section 3: Spindle Balancing
+
+Lathe spindle balancing is applicable to reboot ST machines. Use the Octavis Vibrational
+Analyzer program to view the displacement
+plot as you attempt to balance the spindle. If
+you do not have set screws to balance the
+spindle you can order kit 93-2867 .
+
+[VIBRATION ANALYSIS - ETHERNET](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/vibration-analysis---ethernet-interface.html)
+[INTERFACE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/vibration-analysis---ethernet-interface.html)
+[VIBRATION ANALYSIS - RS-232](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/vibration-analysis---rs-232-interface.html)
+[INTERFACE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/vibration-analysis---rs-232-interface.html)
+
+There are balancing holes provided on the
+actuator adapter [1]. The goal is to make the
+displacement spike the lowest possible value
+at whichever speed the test is being run at.
+
+If the Displacement spike decreases
+when a weight is added, then continue
+to increase the amount of weight
+inserted into the hole until the spike
+gets to the lowest possible value.
+Check that moving the weight or
+adding weight to the surrounding holes
+does not lower the spike as well.
+If the Displacement spike increases,
+then remove weight and move to the
+next balancing hole on the union
+adapter until the Displacement spike
+reaches the lowest possible value.
+Experiment with small and large
+weights to get the best results.
+
+# Section 4: Belt Noise
+
+Inspect the condition and tension of the spindle drive belts. A belt that is too tight or too loose will induce
+[undesirable vibration. ST-30 NGC gearbox machines with prematurely worn belts will need the ST-30](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/st-30-gearbox-non-contact-encoder-upgrade-kit.html)
+[GEARBOX NON-CONTACT ENCODER UPGRADE KIT](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/st-30-gearbox-non-contact-encoder-upgrade-kit.html)
+
+[Refer to the DRIVE BELTS TROUBLESHOOTING GUIDE for more information.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html)
+
+# Section 5: Lubrication System
+
+[Verify the spindle is getting adequate lubrication by completing A BOTTLE TEST](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/mill---spindle---lubrication-oil---collection-test.html)
+
+Insufficient oil will cause premature bearing failure that will induce vibration
+Excessive amount of oil will cause the bearings to overheat and prematurely fail
+
+Refer to the Lubrication System Troubleshooting links below:
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 8/11
+
+
+![](photo/Spindle - Lathe - Troubleshooting Guide.pdf/Spindle---Lathe---Troubleshooting-Guide.pdf-7-0.png)
+
+-----
+
+[MECHANICAL BIJUR LUBE PUMP - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/mechanical_bijur_lube_pump_TSG.html)
+[SPINDLE MINIMUM LUBRICATION SYSTEM - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/spindle-minimum-lubrication-system---troubleshooting-guide.html)
+
+# Section 6: Bearing Noise
+
+Use the Octavis Vibration Analyzer to monitor
+bearing health. Place the accelerometer on
+the side on the spindle head retaining ring or
+motor mount.
+
+Run a vibration test throughout the
+machine's entire RPM range while
+taking note of the following:
+
+Cage rattle - sounds like the ball
+bearings are skating on the
+races or the cage is rattling 
+[Velocity Plot 1]
+High pitched squeel or screech
+caused by a ball flaw or
+damaged race- [Velocity Plot 2]
+If you encounter an RPM where
+the machine makes noise,
+check the velocity plots for signs
+of bearing damage or cage
+rattle
+Harmonic nodes where the
+machine displacement is
+amplified - these look like
+sudden increased in value
+spikes on the displacement
+plot. Do these harmonic nodes
+correlate to the RPM where the
+machine is vibrating? If so - the
+machine is struggling with a
+resonant frequency.
+If you note any signs of bearing
+damage, perform the following checks
+to verify the mechanical soundness of
+the spindle:
+
+Check the machine history for
+any signs of a machine crash
+Check the fore and aft
+movement of the spindle with
+an indicator on the spindle
+nose. The movement should be
+less than 0.0005" if pushing by
+hand and the indicator should
+return to zero within 0.0001"
+Check the axial and radial
+runout of the spindle nose.
+Runout should be less than
+0.0005" TIR
+Corrective action includes:
+
+Attempting to increase or
+decrease spindle speed in 10%
+intervals to reduce the affect of
+resonant frequencies
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 9/11
+
+
+![](photo/Spindle - Lathe - Troubleshooting Guide.pdf/Spindle---Lathe---Troubleshooting-Guide.pdf-8-0.png)
+
+-----
+
+# Section 7: Motor Encoder Feedback
+
+The Haas spindle drive system is a Closed Loop System and requires continuous feedback from the encoder to
+precisely control the spindle speed via the motor. Inadequate encoder feedback could cause vibration and
+noise in the spindle drivetrain. Test the encoder feedback by turning the power to the machine off while
+running the spindle and let the spindle coast. If the vibration goes away when power is off, then troubleshoot
+the Encoder / Encoder belt / Wye-Delta Contactor / or Vector Drive.
+
+If the machine is equipped with the non-contact spindle encoder, then check the read head alignment
+with the provided shim (incorrect read head alignment could cause unreliable feedback).
+
+[For Encoder troubleshooting information refer to the SPINDLE ENCODER - TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html)
+
+[For Vector drive troubleshooting information refer to the VECTOR DRIVE - TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html)
+
+[For Belt troubleshooting information refer to the DRIVE BELTS - TROUBLESHOOTING GUIDE.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/drive-belt-troubleshooting-guide.html)
+
+# Section 8: Lathe Spindle Inertia Load Type Setting
+
+Machines that experience alarm 650 / Alarm 4.994 will need to do the follwing:
+
+1. Remove the chuck from the lathe
+2. Run the load calibration
+3. Take an error report and provide it to Haas Service
+
+### ?Note: Refer to the LATHE - SPINDLE INERTIA LOAD TYPE SETTING for information regarding the load
+
+calbiraton.
+
+# Setting 413 – Main Spindle Load Type
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 10/11
+
+
+-----
+
+[SETTING 413 is available for machines with the](https://www.haascnc.com/service/codes-settings.type=setting.machine=lathe.value=S413.html)
+New Mocon enabled and with software
+version 100.21.000.1111 or greater. The New
+Mocon, is a Motion Control algorithm that
+uses more parameters to better control the
+axis of the machine. Press Diagnostic and
+navigate to the System tab. The Mocon
+version will be in the Software section. Mocon
+version 1.16 .S. is the New Mocon. If the
+Mocon Version is 1.16 or 1.16 .K, then you
+have the old Mocon Version.
+
+### ? Note: At this time we are not updating
+machines to New Mocon in the field.
+
+
+![](photo/Spindle - Lathe - Troubleshooting Guide.pdf/Spindle---Lathe---Troubleshooting-Guide.pdf-10-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/Lathe-Spindle-Troubleshooting-Guide.html 11/11
+
+
+-----
+

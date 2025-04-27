@@ -1,0 +1,278 @@
+## Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 1/10
+
+
+-----
+
+##### LAST UPDATED: 06/10/2024
+
+# Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC
+
+
+# Introduction
+
+ Non-Contact Encoder Troubleshooting
+
+
+##### Encoders are used on Haas Machines to give feedback to the control about the direction and speed of the spindle. A Haas machine will alarm if any of the encoder signals are lost or are not responding to machine inputs. If the encoder is not generating an alarm it does not usually need to be replaced. Use this guide to troubleshoot spindle encoder related symptoms and alarms.
+
+
+### ? Download and fillout the Non Contact Encoder Inspection Report Checklist below before
+
+##### replacing any parts.
+
+
+#### NON CONTACT ENCODER INSPECTION REPORT CHECKLIST
+
+
+# Symptom Table
+
+SYMPTOM / ALARMS POSSIBLE CAUSE CORRECTIVE ACTION
+
+##### The Spindle Motor Does Command a spindle speed of 50 RPM, make sure
+
+The Wye-Delta contactors
+
+##### Not Turn, and The Load the Wye contactor engages, if not refer to
+
+are not operating
+
+##### Meter Stays at Maximum. the Wye-Delta Contactor - Troubleshooting Guide 
+correctly.
+
+[NGC](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/Wye_Delta_Contactor_Troubleshooting_Guide.html)
+
+Inspect the Radial runout, the encoder gapping
+
+The Spindle Turns at The Low
+
+Encoder Alignment is not and the axial position of the read head relative to
+
+RPM and The Load Meter
+
+correct the encoder ring. See the Encoder Ring to Read
+
+Stays Near The Maximum
+
+Head Alignment section below.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 2/10
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM / ALARMS|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|The Spindle Motor Does Not Turn, and The Load Meter Stays at Maximum.|The Wye-Delta contactors are not operating correctly.|Command a spindle speed of 50 RPM, make sure the Wye contactor engages, if not refer to the Wye-Delta Contactor - Troubleshooting Guide - NGC|
+|The Spindle Turns at The Low RPM and The Load Meter Stays Near The Maximum|Encoder Alignment is not correct|Inspect the Radial runout, the encoder gapping and the axial position of the read head relative to the encoder ring. See the Encoder Ring to Read Head Alignment section below.|
+
+
+-----
+
+|Alarm 4.9918 S (SPINDLE) SERIAL ENCODER INTERNAL DATA ERROR Alarm 4.9922 S (SPINDLE) MOTION CHANNEL FAULT DETECTED Alarm 4.9923 S (SPINDLE) SOFTWARE DETECTED ENCODER FAULT Alarm 4.9930 S (SPINDLE) SERIAL ENCODER POOR COMMUNICATION Alarm 4.9959 S (SPINDLE) SERIAL ENCODER DISCONNECT|The encoder machine software is outdated.|Alarm is obsolete New alarm for encoder faults updated in software. Update to latest version 100.21.000.1130 or Higher; Added Alarms 9719 and 9720 for Encoder Fault Detection on Mocon Primary and Secondary Axes.|
+|---|---|---|
+|Alarm 4.9719 S (SPINDLE) ENCODER SERIAL FAULT Alarm Subcode (0x1) Encoder Data Fault = (Alarm 9918 SERIAL ENCODER INTERNAL DATA ERROR)|Loose encoder cable connection. The encoder cable is damaged.|Inspect the Radial runout, the encoder gapping and the axial position of the read head relative to the encoder ring. See the Encoder Ring to Read Head Alignment section below.|
+||The encoder read-head is not grounded correctly.|See the Non-Contact Encoder Read Head Grounding section below.|
+||Bearingless TSC union carbides are worn out and no longer parallel which flexes the read- head away from the ring.|Replace the bearingless union.|
+||The encoder cable connection has been contaminated.|See the Non-Contact Encoder Cable Connection section below.|
+||contamination at connection joint between 33-1168A & 32-1168A cable assemblies (GM- Series Only)|If 33-1168A and 32-1168A require to be replaced due to contamination then replace with 32- 1190. NOTE: Replacement cable will come with connection made and heat Shrink around the connectors.|
+|Alarm 4.9719 S (SPINDLE) ENCODER SERIAL FAULT Alarm Subcode (0x2) Encoder Internal Axis Fault 1 = (Alarm 9922 MOTION CHANNEL FAULT DETECTED)|(The motion channel has reported an internal fault of a type that is not recognized by the control)|Power cycle machine. If issue persists, taken error report (Shift F3) and email to Haas Service|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 3/10
+
+
+-----
+
+|Alarm 4.9719 S (SPINDLE) ENCODER SERIAL FAULT Alarm Subcode (0x3) Encoder Internal Axis Fault 2 = (Alarm 9923 SOFTWARE DETECTED ENCODER FAULT)|(Software has reported an internal fault of a type that is not recongnized by the control)|Power cycle machine. If issue persists, taken error report (Shift F3) and email to Haas Service|
+|---|---|---|
+|Alarm 4.9719 S (SPINDLE) ENCODER SERIAL FAULT Alarm Subcode (0x4) Encoder CRC Fault = (Alarm 9930 SERIAL ENCODER POOR COMMUNICATION)|The spindle encoder cable (M8) metal threaded ferrule is not connected to the cable shield.|Look at the spindle encoder cable M8 connector. Replace the encoder cable if the metal ferrule is not connected to the cable shield.|
+||Loose encoder cable connection. The encoder cable is damaged.|Check the encoder cable and connection. See the Main Processor/Encoder Cable section below.|
+||The encoder read-head is not grounded correctly.|See the Non-Contact Encoder Read Head Grounding section below.|
+||The encoder cable is missing the ferrite filter.|Make sure the spindle encoder cable has a ferrite filter installed.|
+||The Non Contact Encoder mounting plate is poorly grounded.|Verify that the NCE mounting plate is grounded. If the alarm is intermittent check that the mounting plate is made out of steel, if the mounting plate is made out of aluminium contact the service department for the part number to upgrade to steel..|
+||The encoder cable connection has been contaminated.|See the Non-Contact Encoder Cable Connection section below.|
+||Contamination at connection joint between 33-1168A & 32-1168A cable assemblies (GM-Series Only) NOTE: This does not apply to GM-5AX machines|Verify if 33-1168A and 32-1168A require to be replaced due to contamination, if they are determined to be contaminated then replace them with 32-1190. NOTE: Replacement cable will come with connection made and heat Shrink around the connectors. NOTE: For information on troubleshooting GM-5AX encoders please refer to the H-5AX Spindle Head Troubleshooing Guide.|
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 4/10
+
+
+-----
+
+|Alarm 4.9719 S (SPINDLE) ENCODER SERIAL FAULT Alarm Subcode (0x5) Encoder Cable Fault = (Alarm 9959 SERIAL ENCODER DISCONNECT)|Loose encoder cable connection. The encoder cable is damaged.|Check the encoder cable and connection. See the Main Processor/Encoder Cable section below.|
+|---|---|---|
+||The encoder cable connection has been contaminated.|See the Non-Contact Encoder Cable Connection section below.|
+||contamination at connection joint between 33-1168A & 32-1168A cable assemblies (GM- Series Only)|If 33-1168A and 32-1168A require to be replaced due to contamination then replace with 32-1190. NOTE: Replacement cable will come with connection made and heat Shrink around the connectors.|
+|Alarm 4.103 S (SPINDLE) AXIS SERVO ERROR TOO LARGE|Encoder Alignment is not correct|Inspect the Radial runout, the encoder gapping and the axial position of the read head relative to the encoder ring. See the Encoder Ring to Read Head Alignment section below.|
+||The encoder ring is damaged.|Use a magnetic field viewer card to check the encoder ring. These can be found online. See the Non-Contact troubleshooting video.|
+||The encoder cable connection has been contaminated.|See the Non-Contact Encoder Cable Connection section below.|
+||contamination at connection joint between 33-1168A & 32-1168A cable assemblies (GM- Series Only)|If 33-1168A and 32-1168A require to be replaced due to contamination then replace with 32-1190. NOTE: Replacement cable will come with connection made and heat Shrink around the connectors.|
+|Alarm 4.153 SP-AXIS ZERO CHANNEL MISSING|Encoder Alignment is not correct|Inspect the Radial runout, the encoder gapping and the axial position of the read head relative to the encoder ring. See the Encoder Ring to Read Head Alignment section below.|
+||The encoder ring is damaged.|Use a magnetic field viewer card to check the encoder ring. These can be found online. See the Non-Contact troubleshooting video.|
+||The encoder cable connection has been contaminated.|See the Non-Contact Encoder Cable Connection section below.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 5/10
+
+
+-----
+
+|Alarm 4.182 S (SPINDLE) AXIS ENCODER CABLE FAULT|The Vector Drive cables are missing the ferrite filter or wrong filters nstalled.|The Vector Drive should have no ferrite filter on the ground cable at Vector Drive terminal, one small ferrite filter over the White and Black Regen cable to the Vector Drive terminals. One large ferrite filter over the motor output cables to the Vector terminals. See the Ferrite Filters on Vector Drive section below.|
+|---|---|---|
+||Vector Drive ground cable is routed in the large ferrite filter|Vector Drive should have no ferrite filter on the ground cable at terminal 8. See the Ferrite Filters on Vector Drive section below.|
+||contamination at connection joint between 33-1168A & 32-1168A cable assemblies (GM- Series Only)|If 33-1168A and 32-1168A require to be replaced due to contamination then replace with 32-1190. NOTE: Replacement cable will come with connection made and heat Shrink around the connectors.|
+||Spindle encoder cable has broke due to rubbing against the spindle belt|Replace the cable and add a cable clamp and zip tie to move the cable out of the spindle belt path. See Spindle Encoder Cable Rubbing section for further information.|
+|Alarm 4.116 S (SPINDLE) SPINDLE ORIENTATION FAULT|Encoder Alignment is not correct|Inspect the Radial runout, the encoder gapping and the axial position of the read head relative to the encoder ring. See the Encoder Ring to Read Head Alignment section below.|
+|Positioning error are occuring|Check the spindle encoder cable to see if it is damaged from rubbing against the spindle belt.|Replace the cable and add a cable clamp and zip tie to move the cable out of the spindle belt path. See Spindle Encoder Cable Rubbing section for further information.|
+|Alarm 4.153 SP-AXIS ZERO CHANNEL MISSING and/or Alarm 4.103 S (SPINDLE) AXIS SERVO ERROR TOO LARGE|The encoder ring is damaged due to contact with the ring head (VF- Series 50T Only).|See the Non-Contact Encoder Cable Connection section below.|
+
+
+# Main Processor/Encoder Cable
+
+##### Corrective Action:
+
+ Examine the connector [1] on the Maincon PCB. Make sure it is not damaged.
+
+ Examine the cable. Look for signs of damage or stiffness. The connector [4] has two housings [2,3] for the cable pins.
+
+ Measure the resistance on the encoder cable from leg to leg, and from leg to ground. Make sure each measurement results in an open connection.
+
+ Make sure the cable is firmly connected at both ends. Reseat both connections. Make sure the cable is installed in the correct connector at the Maincon PCB.
+
+# Non-Contact Encoder Read Head Grounding
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 6/10
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-5-0.png)
+
+-----
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+# Mill Encoder Ring to Read Head Alignment
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+##### Proper alignment of the read head to the encoder ring is critical. The alignment will vary based on the brand of encoder. Use the chart provided to make sure the encoder ring and read head are properly aligned.
+
+ VENDOR                RLS                  BAUMER
+
+ A               0.020" +0.020 / -0.039         0.0453" +/- 0.019
+
+ B               0.0118" +0.0079 / -0.0039      0.0118" +/- 0.0039
+
+ C                      0.362"                   0.360"
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 7/10
+
+
+-----
+
+##### Incorrect installation of the spindle may axially misalign the motor shaft. Measure the distance from the top of the motor shaft to the top of the motor TSC mounting hole surfaces. It should be 1.291 ± .005.
+
+ If the shaft is axially misaligned the spindle motor must be replaced.
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-7-2.png)
+
+# Lathe Encoder Ring to Read Head Alignment
+
+ Ferrite Filters on Vector Drive
+
+
+##### Proper alignment of the read head to the encoder ring is critical. The alignment will vary based on the brand of encoder. Use the chart provided to make sure the encoder ring and read head are properly aligned.
+
+     VENDOR                 RLS
+
+        A          0.0118" +0.0079 / -0.0039
+
+        B            0.0591" +0.059 / -0.019
+
+        C                  (0.0197")
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-7-0.png)
+
+##### Proper alignment of the read head to the encoder ring is critical. The alignment will vary based on the brand of encoder. Use the chart provided to make sure the encoder ring and read head are properly aligned.
+
+     VENDOR                 BAUMER
+
+        A                0.0118" +/-0.004
+
+        B                 0.045" +/-0.019
+
+        C                    (0.305")
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-7-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 8/10
+
+
+-----
+
+##### Incorrect placement of the ferrite filter or incorrect ferrite filters can result in the control reading the Z-pulse as 2 or 3 different pulses or none. This causes the control to think the communication between the spindle encoder and processor has been lost, making the machine to alarm.
+
+ Top image show the correct installation of the ferrite filters on the vector drive:
+
+ One ferrite filter on the Black and White cables from the Regen terminals 1 and 2 with one large ferrite filter on the motor leads at terminals 9, 10 and 11. making sure ground in out side of the Ferrite filter.
+
+ Lower image show two examples of incorrect installation of ferrite filters;
+
+ image 1 : Large ferrite filter over motor leads at terminals 9, 10 and 11. with no ferrite filter on the regen cable at terminals 1 and 2
+
+ Image 2: No ferrite filter on the regen cable at terminals 1 and 2 and three small ferrite filters on the motor leads at terminals 9, 10 and 11.
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-8-1.png)
+
+# Non-Contact Encoder Cable Connection
+
+## 1
+
+##### Follow the steps below to clean the encoder cable connection:
+
+ 1. Power [OFF] the control. 2. Remove the spindle head cover. 3. Wipe down the read head [1] and ring
+
+ [2] to prevent any chips and coolant from entering the exposed connectors. 4. Disconnect the encoder cable [4] from
+ the connection [3] on the read head and spray WD40 in both connectors to displace any coolant. 5. Apply dielectric grease on the read
+ head connector. 6. Slowly push and rotate the connector
+ nut so that you don't force the pins apart during this re-attachment process. 7. Power [ON] the control and test
+ spindle for previous spindle encoder alarms.
+
+# Spindle Encoder Cable Rubbing
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 9/10
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-8-0.png)
+
+-----
+
+##### This section only applies to machines built after 2020 and before the time frames listed below:
+
+ ST-10 built before 2/17/2022 ST-15 built before 2/15/2022 ST-20/25 built before 4/4/2022 ST-20L/25L built before 10/10/2022 ST-30 built before 10/10/2022 ST-30L built before 11/16/2022
+
+
+##### Order and install 59-2042 CABLE CLAMP 11/16 RICHCO SPNW-11 in the location shown in the image. Using a zip tie move the cable out of the path of the spindle belt, the cable will not be able to go in the cable clamp as it is not long enough to reach.
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-9-1.png)
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/spindle-non-contact-encoder-nce--troubleshooting-guide.html 10/10
+
+
+![](photo/Spindle Non-Contact Encoder (NCE) - Troubleshooting Guide - NGC.pdf/Spindle-Non-Contact-Encoder-(NCE)---Troubleshooting-Guide---NGC.pdf-9-0.png)
+
+-----
+

@@ -1,0 +1,686 @@
+## TSC-300/1K - Troubleshooting Guide - NGC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 1/15
+
+
+-----
+
+LAST UPDATED: 11/06/2024
+
+
+# TSC-300/1K - Troubleshooting Guide - NGC
+
+Revision 1
+
+
+# Introduction
+
+### ? Download and fillout the coolant pump Inspection Report Checklist below before replacing any
+
+parts.
+
+
+#### COOLANT PUMP INSPECTION REPORT CHECKLIST
+
+
+# Shuttle & Ball - TSC Check Valve - System Diagram
+
+ Spring & Ball - TSC Check Valve - System Diagram
+
+
+1. TSC Purge Check Valve
+2. Air Blast Check Valve
+3. TRP Air Blast - This line provides
+
+air during a tool change or when
+TRP unclamp is activated.
+4. TSC Purge Valve
+5. TSC Pump
+6. Coolant Check Valve - This
+
+check valve prevents coolant or air
+to backflow into the coolant
+system.
+7. Compensating Union
+8. Analog TSC/TAB Pressure
+
+Sensor
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-1-0.png)
+
+1. TAB Air Check Valve - This check
+
+valve prevents coolant from
+entering the CALM system.
+2. TSC Purge Check Valve
+3. Air Blast Check Valve
+4. Coolant Check Valve - This
+
+check valve prevents coolant or air
+to backflow into the coolant
+system. There is a spring and ball
+inside this check valve.
+5. TRP Air Blast - This line provides
+
+air during a tool change or when
+TRP unclamp is activated.
+6. TSC Purge Valve
+7. Spindle Air Valve
+8. Analog TSC/TAB Pressure
+
+Sensor
+9. TSC Pump
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 2/15
+
+
+-----
+
+10. Compensating Union
+11. High Pressure TSC Coolant
+
+Hose
+
+
+Through Spindle Coolant (TSC) flow
+diagram.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-2-1.png)
+
+# Built-in - TSC/TAB Check Valve - Diagram
+
+ TSC Videos
+
+ Recommended Coolants
+
+
+1. TAB Air Check Valve - This check
+
+valve prevents coolant from
+entering the CALM system.
+2. TAB Assembly
+3. TRP Air Blast - This line provides
+
+air during a tool change or when
+TRP unclamp is activated.
+4. TSC/TAB Compensating Union
+5. To Spindle connection
+6. Drain Assembly
+7. TSC Pump
+8. Spindle Air Valve
+9. TAB Air Valve
+10. TSC Purge Valve
+11. TSC Purge Check Valve
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-2-0.png)
+
+The following video shows how the
+compensating TSC union works.
+
+
+The following video shows the basics on
+how to troubleshoot the TSC system.
+
+
+Good cutting performance and long pump life rely on using the proper type of coolant. Always use a soluble
+oil or a semi-synthetic coolant, mixed to the manufacturer’s recommended concentration. Full synthetic
+coolants typically do not have adequate lubricity and don’t always have adequate rust preventative properties.
+
+Good system performance and reliability also relies on adequate coolant filtration. If you are cutting cast
+materials or abrasive materials you need to use the Haas Auxiliary Filter assembly.
+
+# Symptom Table
+
+SYMPTOM POSSIBLE CAUSE(S) CORRECTIVE ACTION(S)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 3/15
+
+|SYMPTOM|POSSIBLE CAUSE(S)|CORRECTIVE ACTION(S)|
+|---|---|---|
+
+
+-----
+
+|Compensating Union: Leaking Coolant from Union.|The coolant union seal is damaged.|Manually depress the piston or replace the cup seal, 93-3179, if flowing out the bypass. Replace the base seal 20-7908 if leaking on the motor.|
+|---|---|---|
+|The TSC Filter Icon stays on the screen.|The TSC filter is clogged.|Cycle the Tool changer a few times to actuate the AutoClean system on the TSC pump.|
+||The vacuum sensor is not plugged in, or the cable is damaged.|See the Vacuum Switch section.|
+||The vacuum sensor has debris or is clogged.||
+||The Auto-clean cylinder is leaking.||
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 4/15
+
+
+-----
+
+|Alarm 151 LOW THROUGH SPINDLE COOLANT|The TSC pressure gauge on the I/O page is stuck on a number, normally 0, that does not accurately reflect the actual pressure. Example: TSC is commanded on, but the gauge reads 0. Even though TSC is active and working.|Press [RESET] to reset the alarm and turn TSC back on. Carefully watch the gauge on the I/O page to see if the value the gauge displays gets stuck even when the TSC is on. [CYCLE POWER] The machine turn the TSC on and watch the gauge on the I/O screen. If the gauge is operating correctly and the machine does not alarm out, it can continue to be used. If the gauge is still stuck at 0 or alarms out, continue troubleshooting.|
+|---|---|---|
+||A short circuit in the pump motor or pump motor cable causes a fuse to blow or a circuit breaker to trip.|Check the circuit breakers and fuses on the power supply PCB. Check for shorts in the TSC pump cable and the motor leads.|
+||Incorrect Circuit Breaker size installed|TSC 1K requires a 15 Amp Circuit breaker. Verify that the correct size is installed.|
+||Incorrect power phasing - the pump motor is running backward.|Check the phasing indicators and change the incoming power cables if necessary.|
+||Damage to the motor shaft key, shaft collar, or wear in other parts of the pump head assembly.|Inspect the motor shaft / pump head assembly.|
+||The TSC pressure sensor is defective. Some coolant flow may occur if this is the case.|Troubleshoot by following the TSC Pressure Sensor Failure. See the section below.|
+||The coolant check valve has failed. Some coolant flow may occur if this is the case.|Troubleshoot by following the Coolant Check Valve Inspection. See the section below.|
+||The TSC auto clean cylinder is leaking air into the tank, which will fill the auxiliary filter with air.|Remove the cylinder from the pump and place that end in the coolant. Manually actuate the TSC purge solenoid a few times. Once complete, let it sit and see if any bubbles are present. If they are, replace the auto clean cylinder.|
+||The auxiliary filter is draining from being used with the TSC pump.|Replace muffler fitting with 58-2103 (FITG NPT1/4M X 1/8" THRU 90 BRASS) See section below.|
+||The auxiliary filter is being drained. The tank lid is not leaking.||
+||The TSC pump is cavitating.||
+||The auxiliary filter tank runs out of coolant periodically.||
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 5/15
+
+
+-----
+
+|Col1|Pump head shaft misalignment causes the shaft to seize and shear.|Check if the output shaft has a bushing. If it does not replace the pump head. All current production heads have bushings.|
+|---|---|---|
+||VF-Small and Medium Machines (VF-1 through VF- 5) built between 3/15/2023 and 5/19/2023 may not have the new slotted elbow fitting in the new TSC check valve.|Verify if the new TSC check valve has the new slotted elbow fitting. If the new slotted elbow fitting is not installed, order PN 20- 10157 and install it. HSG-A 5-24-2023|
+|Alarm 552 TRIPPED CIRCUIT BREAKER|Pump head shaft misalignment, causing shaft to seize and shear.|Check if the output shaft has a bushing. If it does not replace the pump head. All current production heads have bushings.|
+|Low coolant flow, no alarm. Low coolant flow, the pump cavitates (cavitation sounds like heavy grit in the pump head, or a suction sound) or is otherwise noisy.|Damage to the motor shaft key, shaft collar, or wear in other parts of the pump head assembly.|Inspect the motor shaft / pump head assembly.|
+||The coolant does not return to the coolant tank fast enough.|Remove chip buildup from the coolant return path.|
+||The pressure relief spring in the pump head is damaged.|Inspect the pressure relief spring.|
+||The TSC pump filter or intake strainer is clogged.|Clean the filters. Remove chips from the coolant system.|
+||The Auto-clean coolant pump filter does not work (if equipped).|Test and troubleshoot the Auto-clean pump filter.|
+||The pick-up hose can kink when the pump is running.|Replace the pick-up hose with the new version with a spring.|
+||The pickup hose fittings are loose.|Tighten the pickup hose fittings.|
+||There is an alignment problem due to the pump not properly seated.|Loosen and re-tighten the standoffs supporting the pump. Refer to the Standoff Alignment section below for more information.|
+||Gear pump coupler misalignment.|Order kit 93-4195 Coolant Gear Pump Coupler Conversion. Follow the Pump Head Coupling - Flexible Coupling Replacement procedure.|
+|TSC union solenoid does not turn off after running TSC.|Faulty pressure sensor.|Troubleshoot by following the TSC pressure sensor failure. See section below.|
+||Faulty coolant check valve.|Troubleshoot by following the Coolant Check Valve Inspection. See section below.|
+|TSC-1K Only: The 230V system does not turn ON and the red LED on the motor drive PCB is OFF.|The jumper on the motor drive PCB is incorrectly located or defective.|Make sure that the motor drive PCB has a jumper installed on P3 inbetween pin 1 and 2 (the bottom two pins).|
+||There is no 12V input power.|Make sure that the 12V input power is connected to P2 on the motor drive PCB.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 6/15
+
+
+-----
+
+|There is a delay before the coolant starts to flow.|The coolant check valve is defective.|Inspect the check valve for contamination and proper operation. Refer to the Coolant Check Valve Inspection section below.|
+|---|---|---|
+||The Auto-clean cylinder is leaking.|Inspect the air cylinder for leaks into the coolant tank after it cycles.|
+|The TSC pressure seems low.|The TSC pump could not be putting out enough pressure.|Order tool T-0152 and refer to the TSC Pressure Test section below.|
+|Tool Air Blast (TAB) causes coolant tank overflow.|The coolant check valve has failed.|Troubleshoot the coolant check valve. Refer to the Through-Tool Air Blast (TAB) - Troubleshooting Guide.|
+|Coolant fills the TAB air pneumatic line and blows out the muffler in the CALM cabinet.|The TAB air check valve has failed.|Troubleshoot the TAB check valve. Refer to the Through-Tool Air Blast (TAB) - Troubleshooting Guide.|
+|TSC union is making squeeling noise while running.|Motor shaft is pushed up causing the standoff height to be incorrect.|Measure the height from the top of the motor shaft to the mounting surface, refer to Motor Shaft Reference Dimension Section for further instructions.|
+|Spindle motor coolant damage.|Coolant intrusion due to TSC union leaking.|Upgrade machine software to version 100.22.000.1000 or higher.|
+|A large flow of coolant comes out of the drain when the TSC is turned on for the first time.|The union piston is not seated.|Turn on TSC again with a TSC tool in the spindle and then quickly turn it off. The back pressure, or the TSC Purge cycle will likely push the piston down. Or, disconnect the hydraulic hose from the top of the union and use a screwdriver to manually seat the piston.|
+|40T and 50T Belted Spindles Pull studs will not enter into spindle taper, carbide tips on drawbar and TRP are damaged prematurely, And possibly one of the following alarms: Alarm 130 Tool Unclamped Alarm 134 Tool Unclamp Fault Alarm 9970 Unexpected Tool Release|There is a small delay from the I/O PCB that causes the pre-charge solenoid not to turn OFF.|Order service kits 93-3451 & 93-3452 and follow the Low Load Solenoid Valve Kit - Installation procedure.|
+|Excessive noise from pump|Gear pump coupler misalignment.|Order kit 93-4195 Coolant Gear Pump Coupler Conversion. Follow the Pump Head Coupling - Flexible Coupling Replacement procedure.|
+
+
+# TSC Pressure Test
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 7/15
+
+
+-----
+
+To test the TSC pressure order tool T-0152 [2].
+
+Perform the following steps to use the TSC
+pressure tool:
+
+1. Grease around the o-ring [1] on the
+
+tool [2]. This will protect the o-ring
+from being damaged when inserted
+into the tool holder.
+2. Insert the tool into a tool holder. This is
+
+a 3/4 shank tool and will only work with
+a 3/4 set screw tool holder. Collet style
+tool holders will not work.
+
+### ? Note: Use a single set screw type
+
+tool holder as a two set screw tool
+holder may effect the reading of the
+
+TSC pressure.
+3. Insert the tool in the spindle [4].
+4. Run the TSC to see the pressure
+
+reading.
+
+A good TSC pump will produce a pressure
+value that is at least 75% of its rated value.
+Example: TSC-1K will produce at least 750 psi
+and TSC-300 will produce at least 225 psi.
+
+If the pump is producing less that 75% of its
+rated value it will need to be replaced.
+
+### ? Important: Before replacing make sure
+
+the rest of the troubleshooting guide has been
+followed and watch the video below.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-7-0.png)
+
+# Vacuum Switch
+
+There is a vacuum switch [4] on the TSC
+pump. Go to DIAGNOSTIC> I/O> tab [1].
+Type in TSC, press [F1] [2]. Look at the state
+of Input 48 TSC VACUUM SWITCH [3].
+
+Make sure the vacuum switch [4] is
+fully connected.
+Check the vacuum switch cable [5] for
+damaged.
+Remove the switch and make sure that
+it does not have any debris or plugged.
+The Auto clean cylinder might be
+leaking. Remove the cylinder from the
+pump and place that end in the
+coolant, manually actuate the TSC
+purge solenoid a few times, once
+complete let it sit and see if any
+bubbles are present, replace auto
+clean cylinder.
+
+Once the above is checked, test the Vacuum
+Switch as described below:
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 8/15
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-7-0.png)
+
+-----
+
+# Fitting Replacement for Auxiliary filter
+
+ Output Pressure Reference Chart
+
+
+If your auxiliary filter is draining for any of the
+reasons in the symptom table above you will
+need to change the muffler fitting to fitting 582103 (FITG NPT1/4M X 1/8" THRU 90 BRASS)
+
+[1]. The orientation of hole [2] must face the
+opposite side of the threaded portion of the
+fitting as shown in the image.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-8-1.png)
+
+This graph shows approximate pressure vs.
+tool orifice diameters for Through Spindle
+Coolant.
+
+
+This graph shows approximate pressure vs.
+tool orifice diameters for tool air blast. (single
+orifce tools)
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-8-0.png)
+
+# Flow Rate Reference Chart
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 9/15
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-8-0.png)
+
+-----
+
+This graph shows
+approximate Flowrates vs.
+tool orifice diameters. This
+data can be used to aid in
+the selection of an
+appropriate spindle speeder
+for your appliaction.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-9-0.png)
+
+# Short Circuit
+
+
+1. Check for a blown fuse or a tripped
+breaker:
+
+TSC-300 - On the power supply PCB: Make
+sure that the fuses at F1 and F3 are not blown.
+If there are blown fuses, check for shorts in
+the motor or motor cable in Step 2 before you
+replace the fuses.
+
+TSC-1K - On the motor drive PCB: Make
+sure the circuit breaker [2] on the motor drive
+PCB is in the ON position. Verify 15 Amp
+Circuit breaker is installed for TSC-1K
+
+If the circuit breaker has tripped, turn it back
+on. Test the TSC system. If the circuit breaker
+trips again, check for a short circuit in the TSC
+pump.
+
+### ? Note: On pumps made before December,
+
+2016, you must use water-based coolants with
+The TSC-1K system. Thicker fluids like cutting
+oil will overload the pump and trip the
+breaker.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-9-0.png)
+
+2. Check the pump for shorts:
+
+Measure the (3) leads [3] to ground [4] on the
+TSC power cable. If all leads [3] test open to
+ground [4], the pump and cable do not have a
+short.
+
+If the motor cable leads [3] indicate a short,
+disconnect the cable from the motor. Measure
+the (3) cable leads [5] to ground [6]. If any lead
+tests short, the pump is at fault. If none of the
+leads [5] test short, the cable is at fault.
+
+3. If all leads test OK:
+
+Check the TSC motor for binding that could
+cause an over amperage condition.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-9-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 10/15
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-9-0.png)
+
+-----
+
+# Incorrect Input Power-Phasing
+
+ Coolant Pump Damage
+
+ Motor Shaft Reference Dimension
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-10-0.png)
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-10-1.png)
+
+Cutting abrasive materials causes premature
+wear on the coolant system, resulting in
+reduced pressure. Use additional filtration
+when you cut abrasive materials.
+
+Remove the pump from the tank. Rotate the
+pump motor fan [1] by hand clockwise. Make
+sure that the pump coupling [2] also turns.
+
+If it does not turn, separate the pump from
+the motor. Check for a damaged key on the
+motor shaft.
+
+Check the pressure relief spring in the pump
+head.
+
+1. Remove the TSC pump from the tank.
+2. Remove the pressure relief plugs.
+3. Inspect the spring and valve pin.
+
+Replace the spring if it is broken and
+the pin if it is pitted or worn.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-10-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 11/15
+
+
+-----
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-11-0.png)
+
+# Standoff Alignment
+
+ TSC Pressure-Sensor Failure
+
+
+Remove the side panel covering the pump in
+order to access the standoffs.
+
+Loosen the (x4) standoff bolts.
+
+Re-tighten the (x4) standoff bolts.
+
+Run the pump while listening for excessive
+noise.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-11-0.png)
+
+### ? Important: If the I/O page is displaying that
+
+pressure and alarm 151 is generated, the
+machine will stop.
+
+Press reset to reset the alarm and turn TSC
+back on. Carefully watch the gauge on the I/O
+page to see if it the gauge is stuck at 0 psi even
+when the TSC is on.
+
+Cycle, power the machine, turn TSC on, and
+watch the gauge on the I/O screen. If the gauge
+is operating correctly and the machine does not
+alarm out, it can continue to be used. If the
+gauge is still stuck at 0 or alarms out, continue
+troubleshooting.
+
+Pressure Sensor:
+
+Check the TSC pressure gauge page in
+DIAGNOSTICS when the pump is not running.
+It should read 0 PSI/BAR. If it reads pressure
+when the pump is off, the TSC union solenoid
+will remain on after use. Check the TSC check
+valve before replacing the sensor on the check
+valve assembly.
+
+How to Test TSC Analog Pressure Sensor
+with Multimeter:
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-11-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 12/15
+
+
+-----
+
+You will need to remove the spindle head sheet
+metal panel to gain access to the spindle head
+inputs bracket. The machine must be powered
+on and at idle. Locate the M12 to 2x2 TSC
+pressure sensor cable. With the able still
+plugged into the spindle head inputs bracket,
+use fine tip probes to check readings between
+pins. Refer to the table below for the correct
+readings. If the values are not within range, the
+TSC sensor is likely to be faulty.
+
+RED BLACK
+
+EXPECTED
+
+MULTIMETER MULTIMETER
+
+READING
+
+LEAD LEAD
+
+4.75VDC
+
+Pin 2 Pin 1 to
+
+5.25VDC
+
+0.490VDC
+to
+
+Pin 3 Pin 1 0.510VDC
+
+(machine
+is at idle)
+
+How to Check TSC Check Valve:
+
+Disassemble and visually inspect the check
+valve for any deformities. Make sure the ball
+isn't trapped inside the spring. If it is, the spring
+would be pushing the ball against the
+countersink of the fitting. Replace the valve if it
+has failed.
+
+|RED MULTIMETER LEAD|BLACK MULTIMETER LEAD|EXPECTED READING|
+|---|---|---|
+|Pin 2|Pin 1|4.75VDC to 5.25VDC|
+|Pin 3|Pin 1|0.490VDC to 0.510VDC (machine is at idle)|
+
+
+# Coolant Blockage
+
+Remove all chips from the the auger trough
+
+[1], and the coolant return drain [2].
+
+Remove chips from the coolant tank.
+Excessive chips in the coolant tank
+reduce the amount of coolant the tank
+[can store. Watch the video MACHINE](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+[TOOL COOLANT - CLEANING YOUR](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+[TANK - VIDEO.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/nvynun2sp3q.html)
+Fill the coolant tank. Watch the
+[video STANDARD COOLANT –](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[SIMPLIFIED - FILLING YOUR TANK …](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+[AND MORE.](https://www.haascnc.com/content/haascnc/en/video/coolantseries/ppvbig_ihdk.html)
+Make sure the coolant level sensor
+operates correctly.
+
+Clean the coolant filters and the filters in the
+coolant tank.
+
+Press the plunger down (5) times to clean the
+filter. Make sure that the auto-clean plunger
+activates when the TSC pump shuts off. If it
+does not activate, troubleshoot the solenoid.
+Test the TSC purge solenoid.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 13/15
+
+
+-----
+
+Remove the filter tray from the bottom of the
+TSC assembly. Remove the tray lid from the
+filter. Use a brush to clean the filter. Install the
+filter tray to the bottom of the TSC pump
+assembly.
+
+If the solenoid operates and it outputs air,
+check the air tube for kinks or breaks.
+
+Remove the chip basket and polyester mesh
+strainer (if the strainer is installed) from the
+chip tray. Remove all chips from the chip
+strainer basket.
+
+To replace the mesh strainer, pull it tightly
+over the top of the chip basket. Make sure
+that the elastic band goes over the edge of the
+chip basket.
+
+
+# Coolant Check Valve Inspection
+
+ Shuttle & Ball
+
+ Spring & Ball
+
+
+This check valve has a ball deflector [2]
+inside rather than a spring. The ball
+deflector acts as a shuttle by directing the
+ball from one location to another--either
+blocking the coolant or TAB opening.
+
+As coolant flows into the valve, the ball
+gets pushed and deflected out of the way
+
+[3]. When TAB air flows into the valve, the
+ball gets pushed back down due to both
+air and gravity [4].
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-13-0.png)
+
+The new shuttle and ball check valve also
+has a new elbow fitting that is slotted [1].
+This elbow fitting allows a small amount
+of coolant or air pressure through to
+pressurize the pressure sensor.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-13-0.png)
+
+Coolant pressure can push the ball into
+the spring and trap it, causing the check
+valve to fail. Without a functional check
+valve, air from the TAB may flow
+backward through the coolant system
+and cause the coolant tank to overflow
+and/or bubble.
+
+Corrective Action:
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-13-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 14/15
+
+
+-----
+
+Disassemble and visually inspect the
+check valve for any deformities. Make
+sure the ball isn't trapped inside the
+spring. If it is, the spring would be
+pushing the ball against the countersink
+of the fitting.
+
+
+# Kinked Pick-up hose
+
+
+The pick-up hose can kink when the pump is
+running. Replace the pick-up hose with the
+new version with a spring.
+
+
+![](photo/TSC-300_1K - Troubleshooting Guide - NGC.pdf/TSC-300_1K---Troubleshooting-Guide---NGC.pdf-14-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/tsc-300-1k---troubleshooting-guide---ngc.html 15/15
+
+
+-----
+

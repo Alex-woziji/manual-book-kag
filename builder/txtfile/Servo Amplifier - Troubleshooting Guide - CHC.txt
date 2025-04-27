@@ -1,0 +1,255 @@
+## Servo Amplifier - Troubleshooting Guide - CHC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 1/6
+
+
+-----
+
+LAST UPDATED: 01/31/2022
+
+
+# Servo Amplifier - Troubleshooting Guide - CHC
+
+
+# Introduction
+
+ Electrical Safety
+
+
+There are four versions of Haas amplifiers.
+30A [1], 45A [2], 60A [3], and 90A [4]. All four
+operate the same way.
+
+Smart Amplifier assemblies are powered from
+the 320 VDC Bus from the Vector Drive
+assembly or Minimill Power Supply. They each
+have a red LED FAULT light, and a green LED
+POWER ON light to show the status of the
+amplifier.
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-1-0.png)
+
+### ? Caution: When you do maintenance or repair on CNC machines and their components, you must always
+
+follow basic safety precautions. This decreases the risk of injury and mechanical damage.
+
+Set the main circuit breaker to the [OFF] position.
+
+### ? Danger: Before beginning any work inside the control cabinet the High Voltage indicator light on the 320V
+
+Power Supply / Vector Drive must have been off for at least 5 minutes.
+
+Some service procedures can be dangerous or life-threatening. DO NOT attempt a procedure that you do not
+fully understand. If you have any doubts about doing a procedure contact your Haas Factory Outlet (HFO) and
+schedule a service visit.
+
+# Symptom Table
+
+Symptom Possible Cause Corrective Action
+
+Alarms 161-164 AXIS DRIVE Amplifier detected a
+
+Check cables for contamination or damage.
+
+FAULT short.
+
+Alarm 993 AMPLIFIER SHORT
+CIRCUIT Do the Amplifier Short Circuit
+
+Inspection section.
+
+Alarm 2040 VECTOR DRIVE The amplifier has a Note: If a short-circuit is found, inspect the
+
+internal short circuit. cable and motor for a short circuit before
+
+OR SPINDLE AMPLIFIER
+installing a new amplifier.
+
+SHORT CIRCUIT
+
+Alarms 161-164 AXIS DRIVE Check the command cable from the Maincon /
+
+Amplifier internal
+
+FAULT and Mocon PCB to amplifier. Check the 320 VDC
+
+calibration.
+
+Alarm 986 CALIBRATION FAULT voltage to amplifiers.
+
+Alarms 161-164 AXIS DRIVE
+FAULT and
+
+Axis mechanical blockage. Axis mechanical blockage.
+
+Alarm 992 AMPLIFIER OVER
+CURRENT
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 2/6
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|Symptom|Possible Cause|Corrective Action|
+|Alarms 161-164 AXIS DRIVE FAULT Alarm 993 AMPLIFIER SHORT CIRCUIT Alarm 2040 VECTOR DRIVE OR SPINDLE AMPLIFIER- SHORT CIRCUIT|Amplifier detected a short.|Check cables for contamination or damage.|
+||The amplifier has a internal short circuit.|Do the Amplifier Short Circuit Inspection section. Note: If a short-circuit is found, inspect the cable and motor for a short circuit before installing a new amplifier.|
+|Alarms 161-164 AXIS DRIVE FAULT and Alarm 986 CALIBRATION FAULT|Amplifier internal calibration.|Check the command cable from the Maincon / Mocon PCB to amplifier. Check the 320 VDC voltage to amplifiers.|
+|Alarms 161-164 AXIS DRIVE FAULT and Alarm 992 AMPLIFIER OVER CURRENT|Axis mechanical blockage.|Axis mechanical blockage.|
+
+
+-----
+
+|Alarms 161-164 AXIS DRIVE FAULT and Alarm 994 AMPLIFIER OVER LOAD|Incorrect application.|Change speed and check for tool damage.|
+|---|---|---|
+||Axis mechanical blockage.|Remove Blockage.|
+||Incorrect Low Voltage Input supply to Maincon or Amplifier.|See the Low Voltage Inspection section.|
+|Alarms 161-164 AXIS DRIVE FAULT and Alarm 991 AMPLIFIER OVER TEMPERATURE|Problem with the cooling fan.|Check cooling fan.|
+|Alarm 991 AMPLIFIER OVER TEMPERATURE.|The Maincon/Mocon axis channel is defective, or there is a broken pin on the connector.|Remove the encoder/drive cables from the Maincon/Mocon PCB axis channel. Inspect the connectors pins. Test the axis on a different Maincon/Mocon channel, if the problem goes away there is a problem with the axis channel.|
+
+
+# Mechanical Blockage
+
+Corrective Action:
+
+Make sure the axis has a clear path of travel. Tools, part fixtures, or workpieces that are too large can crash
+into the machine enclosure.
+
+Look at the machine's alarm history. Overload alarms followed by over current alarms are a sign of a crash.
+
+Look at the machine enclosure, spindle and tooling for damage. Damage to the tooling, fixtures and enclosure
+are signs of a crash.
+
+If there are no signs of a crash, inspect the ballscrew and linear guides. They must move or turn freely by
+hand.
+
+# Amplifier Short Circuit Inspection
+
+Check the amplifier for a short. Power off the machine. Disconnect the cables for the axis servo motor at the
+amplifier that generates the alarm.
+
+Place MultiMeter Leads Here Instructions
+
+Set the meter to ohms, and take the following readings:
+
+Ground screw to RED, WHT, and BLK terminals
+
+If the meter does not show open (o.l) the amplifier is damaged.
+
+Set the meter to Ohms, and take the following readings:
+
+Black lead on HV (+) and Red lead to HV (-), RED, WHT, and BLK
+terminals.
+
+The meter should show high resistance readings typically in the
+Kilo or Mega ohms. If the meter reads very low resistance the
+amplifier is damaged.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 3/6
+
+|Place MultiMeter Leads Here|Instructions|
+|---|---|
+||Set the meter to ohms, and take the following readings: Ground screw to RED, WHT, and BLK terminals If the meter does not show open (o.l) the amplifier is damaged.|
+||Set the meter to Ohms, and take the following readings: Black lead on HV (+) and Red lead to HV (-), RED, WHT, and BLK terminals. The meter should show high resistance readings typically in the Kilo or Mega ohms. If the meter reads very low resistance the amplifier is damaged.|
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-2-0.png)
+
+-----
+
+|Col1|Set the meter to diode test mode, and take the following readings: Red lead on HV (-) and black lead to HV (+), RED, WHT, and BLK terminals If the meter does not show a voltage drop ranging from 0.2 to 0.8 volts the amplifier is damaged.|
+|---|---|
+||Set the meter to diode test mode, and take the following readings: Black lead on HV (-) and red lead to HV (+), RED, WHT, and BLK terminals If the meter does not an open circuit (O.L) the amplifier is damaged.|
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-3-1.png)
+
+# Servo Motor Short Circuit Inspection
+
+Corrective Action:
+
+Check the cables for a short: Make sure the
+axis servo motor cables are not contaminated
+or pinched. Contaminated or pinched cables
+can cause a short. Replace the cables if
+necessary.
+
+Inspect the servo motor. Disconnect and
+inspect the power cable connector at the
+motor. Make sure that there is no coolant
+contamination. Coolant contamination can
+cause this alarm and damage the amplifier.
+Measure the resistance from the pins labeled
+A, B and C at the motor connector to chassis
+ground.
+
+The reading should show an open
+circuit.
+If there is not open resistance, the
+servo motor is at fault.
+
+# Review the Part Program
+
+Corrective Action:
+
+The machine load is too high. Decrease the feeds to decrease the machine load. Examine the cutting tool for
+damage.
+
+Test the axis that generates the alarm. Write a program in MDI to move the axis. If any movement at any feed
+rate causes the alarm, then the servo amplifier is at fault.
+
+# Low Voltage Inspection
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 4/6
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-3-0.png)
+
+-----
+
+|Pins|Correct Voltage|
+|---|---|
+|+5 and GND|+4.90 to +5.20 V dc|
+|+12 and GND|+11.85 to +12.50 V dc|
+|-12 and GND|-11.85 to -12.50 V dc|
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-4-0.png)
+
+# Cooling Fan
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-4-0.png)
+
+Corrective Action:
+
+### ? Note: The maximum temperature for safe
+
+operation of Haas CNC machines is 122 °F (50
+°C). The amplifier over temperature sensor
+will trigger at 195 °F (90 °C).
+
+Make sure the cooling fan for the servo
+amplifiers operates correctly.
+
+If the fan does not operate correctly, measure
+the voltage it receives. Disconnect the cable
+from the cooling fan. Measure the voltage
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 5/6
+
+
+-----
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/servo-amplifier---troubleshooting-guide.html 6/6
+
+
+![](photo/Servo Amplifier - Troubleshooting Guide - CHC.pdf/Servo-Amplifier---Troubleshooting-Guide---CHC.pdf-5-0.png)
+
+-----
+

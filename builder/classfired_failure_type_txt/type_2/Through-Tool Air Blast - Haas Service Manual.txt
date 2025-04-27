@@ -1,0 +1,393 @@
+### 13 - Through-Tool Air Blast
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 1/12
+
+
+-----
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 2/12
+
+
+-----
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-2-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-2-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 3/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-2-0.png)
+
+-----
+
+### 4
+
+Connect the 3/8” tube to the push-toconnect fitting [1] on the Asco solenoid,
+as shown.
+
+Find the gray 1/4" tube [2] connected to
+the TSC regulator [3].
+
+Cut the tube near the TAB manifold.
+
+Connect the upper end of the tube to
+the upper push-to-connect fitting [4] on
+the TAB solenoid.
+
+Connect the lower end of the tube to
+the lower push-to-connect fitting [5] on
+the TAB solenoid.
+
+### 5
+
+Connect the cable from the Asco
+solenoid into the connector labeled
+TOOL AIR BLAST [1].
+
+Connect the cable from the remaining
+solenoid into the connector labeled
+TOOL AIR BLAST UNION ACTIVATION
+SOLENOID [2].
+
+Put the cables into the cable manager
+
+[3].
+
+### 6
+
+Set the main circuit breaker to
+the ON position.
+
+Press [POWER ON].
+
+For CHC: Set Parameter 1376, TAB
+VERSION, to 1.
+
+### 7
+
+Make sure the TAB system operates
+correctly. Operate this code
+in MDI mode:
+
+M73;
+
+G04 P5.;
+
+M74;
+
+G04 P3.;
+
+M99;
+
+M73 starts the TAB. M74 stops the TAB.
+
+Manually operate the TAB:
+
+Press [AUX CLNT]. Press the [RIGHT]
+cursor arrow.
+
+The tool air blast starts.
+
+Press [AUX CLNT].
+
+The tool air blast stops.
+
+Install the head covers.
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-3-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-3-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 4/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-3-0.png)
+
+-----
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-4-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 5/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-4-0.png)
+
+-----
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-5-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-5-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 6/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-5-0.png)
+
+-----
+
+### 1
+
+Make sure the TAB system operates
+correctly. Operate this code
+in MDI mode:
+
+M73;
+
+G04 P5.;
+
+M74;
+
+G04 P3.;
+
+M99;
+
+M73 starts the TAB. M74 stops the TAB.
+
+Manually operate the TAB:
+
+Press [SHIFT]. Press [AUX CLNT].
+
+The tool air blast starts.
+
+Press [SHIFT]. Press [AUX CLNT].
+
+The tool air blast stops.
+
+## 13.3 TAB - TROUBLESHOOTING
+
+ Through-Tool Air Blast (TAB) - Troubleshooting Guide
+
+ Shuttle & Ball - TAB Check Valve - System Diagram
+
+1. TAB Air Check Valve - This
+
+check valve prevents coolant
+from entering the CALM system.
+
+2. TRP Air Blast - This line
+
+provides air during a tool change
+or when TRP unclamp is
+
+activated.
+3. TSC Purge Valve
+
+4. TSC Pump
+5. Compensating Union
+6. Analog TSC/TAB Pressure
+
+Sensor
+
+## Spring & Ball - TAB Check Valve - System Diagram
+
+1. TAB Air Check Valve - This
+
+check valve prevents coolant
+from entering the CALM system.
+
+2. TSC Purge Check Valve
+3. Air Blast Check Valve
+4. Coolant Check Valve - This
+
+check valve prevents coolant or
+air to backflow into the coolant
+
+system. There is a spring and
+ball inside this check valve.
+5. TAB Air Valve - This solenoid
+
+turns on when TAB is activated.
+6. TRP Air Blast - This line
+
+provides air during a tool change
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-6-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-6-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 7/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-6-0.png)
+
+-----
+
+## Built-in - TSC/TAB Check Valve - Diagram
+
+ Symptom Table
+
+
+or when TRP unclamp is
+
+activated.
+7. TSC Purge Valve
+
+8. Spindle Air Valve
+9. Analog TSC/TAB Pressure
+
+Sensor
+10. TSC Pump
+11. Compensating Union
+
+12. High Pressure TSC Coolant
+
+Hose
+
+1. TAB Air Check Valve - This
+
+check valve prevents coolant
+from entering the CALM system.
+
+2. TAB Assembly
+3. TRP Air Blast - This line
+
+provides air during a tool change
+
+or when TRP unclamp is
+activated.
+
+4. TSC/TAB Compensating Union
+5. To Spindle connection
+6. Drain Assembly
+
+7. TSC Pump
+8. Spindle Air Valve
+
+9. TAB Air Valve
+10. TSC Purge Valve
+11. TSC Purge Check Valve
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-7-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 8/12
+
+
+-----
+
+|Alarm 2081 LOW TOOL AIR BLAST PRESSURE|Insufficient air supply to the machine|Verify that we are meeting the air supply requirements. TAB consumption ranges from 8 to 15 cfm (0.226 to 0.425 cmm). Alarm occurs when pressure drops below 30PSI. NOTE: Machines with software version 100.22.000.1000 or later will cause an alarm to occur when pressure drops below 15 PSI.|
+|---|---|---|
+||Tool orifices are too large|Verify size of tool orifices. Add a restrictor to the tool orifice. Or add a pull stud with a smaller diameter through-hole as a restrictor.|
+||Compensating union defective|Verify the compensating TSC union, especially whether the piston is stuck|
+||Defective TSC pressure Switch|Verify the LOW TSC bit in diagnostics as TAB uses the same pressure switch.|
+||The check valve (spring & ball check valve only) is stuck internally.|See the Check Valve Inspection section below.|
+||VF-Small and Medium Machines (VF-1 through VF-5) built between 3/15/2023 and 5/19/2023 may not have the new slotted elbow fitting in the new TAB check valve.|Verify if the new TAB check valve has the new slotted elbow fitting. If the new slottled elbow fitting is not installed order PN 20- 10157 and install it. HSG-A 5-24-2023|
+|Tool Air Blast (TAB) causes coolant tank overflow.|The coolant check valve (spring & ball check valve only) has failed.|Troubleshoot the coolant check valve. Refer to the Coolant Check Valve section below.|
+|Coolant fills the TAB air pneumatic line and blows out the muffler in the CALM cabinet.|The TAB air check valve (spring & ball check valve only) has failed.|Troubleshoot the TAB check valve. Refer to the TAB Air Check Valve Inspection section below.|
+|TAB solenoid does not operate when commanded.|I/O mapping needs to be updated for machines built before June 2019 and have the Programmable Air/Dual Programmable Air or VF Small Auto Window option on their machine.|Contact Haas Service to have a patch applied to enable the TAB option.|
+
+
+## Coolant Check Valve Inspection
+
+ Shuttle & Ball
+
+
+This check valve has a ball deflector
+
+[2] inside rather than a spring. The
+ball deflector acts as a shuttle by
+directing the ball from one location
+to another--either blocking the
+coolant or TAB opening.
+
+As coolant flows into the valve, the
+ball gets pushed and deflected out
+of the way [3]. When TAB air flows
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-8-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 9/12
+
+
+-----
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-9-2.png)
+
+## Spring & Ball
+
+ TAB Air Check Valve Inspection
+
+ Electrical Schematic
+
+
+into the valve, the ball gets pushed
+back down due to both air and
+gravity [4].
+
+The new shuttle and ball check
+valve also has a new elbow fitting
+that is slotted [1]. This elbow fitting
+allows a small amount of coolant or
+air pressure through to pressurize
+the pressure sensor.
+
+Coolant pressure can push the ball
+into the spring and trap it, causing
+the check valve to fail. Without a
+functional check valve, air from the
+TAB may flow backward through
+the coolant system and cause the
+coolant tank to overflow and/or
+bubble.
+
+Corrective Action:
+
+Disassemble and visually inspect
+the check valve for any deformities.
+Make sure the ball isn't trapped
+inside the spring. If it is, the spring
+would be pushing the ball against
+the countersink of the fitting.
+
+When the TAB air check valve [1] fails
+and TSC is turned on, coolant from the
+TSC pump will back flow through the
+TAB air line to the solenoid and blow
+out the muffler.
+
+CORRECTIVE ACTION:
+
+Replace the TAB air check valve.
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-9-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-9-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 10/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-9-0.png)
+
+-----
+
+|RED MULTIMETER LEAD|BLACK MULTIMETER LEAD|EXPECTED READING|
+|---|---|---|
+|Pin 2|Pin 1|4.75VDC to 5.25VDC|
+|Pin 3|Pin 1|0.490VDC to 0.510VDC (machine is at idle)|
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-10-0.png)
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-10-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 11/12
+
+
+![](photo/Through-Tool Air Blast - Haas Service Manual.pdf/Through-Tool-Air-Blast---Haas-Service-Manual.pdf-10-0.png)
+
+-----
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/through-tool-air-blast.html 12/12
+
+
+-----
+

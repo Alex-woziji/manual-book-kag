@@ -1,0 +1,677 @@
+### 9 - Chip Conveyor - Lathe
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 1/17
+
+
+-----
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 2/17
+
+
+-----
+
+##### 17 - Mini
+
+ Conveyor
+
+ 18 - Coolant VFD
+
+ 19 - Coolant
+
+ Sanitizer
+
+ 20 - Chip
+
+ Separator
+
+ 21 - Chip Tray
+
+ Strainer
+
+
+## 9.2 ST SERIES - CHIP CONVEYOR - INSTALLATION
+
+ Chip Conveyor - Field Installation - ST Series - NGC
+
+AD0435
+
+## Chip Conveyor - Introduction
+
+To identify a Non-Reboot vs. Reboot machine, follow the link below.
+
+###### LATHE VERSION IDENTIFICATION
+
+## Non-Reboot Machine - Chip Conveyor Part Numbers
+
+MACHINE CHIP CONVEYOR KIT
+
+ST-10/10V/10Y/10YV/15/15Y - Built before 12/2019 93-1000266
+
+ST-20/20V/20Y/20YV/25/25Y 93-1000160
+
+ST-30/30Y/30YEU/35/35Y 93-1000264
+
+ST-40/45 93-1000262
+
+ST-40L/45L/50/55 93-1000261
+
+## Reboot Machine - Chip Conveyor Part Numbers
+
+MACHINE CHIP CONVEYOR KIT
+
+ST-10/10Y/15/15Y - Built 12/2019 and later 93-1000326
+
+ST-20/20Y/25/25Y 93-1000265
+
+ST-30/30Y/35/35Y 93-1000263
+
+ST-40L/45L 93-1001088
+
+## Chip Conveyor - Field Installation - Introduction
+
+1. Conveyor Trough Cover
+2. Drip Tray
+
+3. Safety Skirt
+
+
+## 9.1 CHIP CONVEYOR - OVERVIEW
+
+ Chip Conveyor - Overview
+
+Service Minute - Chip
+Conveyor Tension
+
+
+Chip Conveyor
+Troubleshooting - Haas
+Service Tip
+
+
+Toolroom Lathe
+Conveyor Installation
+
+|n-Reboot Machine - Chip Conveyor Part Numbers|Col2|
+|---|---|
+|MACHINE|CHIP CONVEYOR KIT|
+|ST-10/10V/10Y/10YV/15/15Y - Built before 12/2019|93-1000266|
+|ST-20/20V/20Y/20YV/25/25Y|93-1000160|
+|ST-30/30Y/30YEU/35/35Y|93-1000264|
+|ST-40/45|93-1000262|
+|ST-40L/45L/50/55|93-1000261|
+
+|boot Machine - Chip Conveyor Part Numbers|Col2|
+|---|---|
+|MACHINE|CHIP CONVEYOR KIT|
+|ST-10/10Y/15/15Y - Built 12/2019 and later|93-1000326|
+|ST-20/20Y/25/25Y|93-1000265|
+|ST-30/30Y/35/35Y|93-1000263|
+|ST-40L/45L|93-1001088|
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-2-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 3/17
+
+
+-----
+
+## Chip Conveyor - Field Installation
+
+### 1
+
+Download the Conveyor patch file from the Haas Service Portal and install it on the machine.
+[Refer to: PATCH FILE LOAD UNINSTALL - NGC.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/next-generation-control---patch-file-load-uninstall.html)
+
+### 2
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 4/17
+
+
+-----
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-4-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-4-1.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-4-2.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 5/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-4-0.png)
+
+-----
+
+Push the chip conveyor into the lathe.
+
+## Chip Conveyor - Drip Tray - Field Installation
+
+This procedure tells you how to install the chip conveyor drip tray. The chip conveyor drip tray
+for ST-10, ST-20, and ST-30 is packaged inside the lathe. The ST-40 Non-Reboot and ST40/45/S/L/Y/SY Reboot drip tray is already installed.
+
+### 1
+
+Lift the chip conveyor.
+
+Slide the drip tray under the chip
+conveyor to the approximate position
+shown in the figure.
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-5-1.png)
+
+## Chip Conveyor - Belt Tension
+
+ Chip Conveyor - Safety Skirt - Installation
+
+
+#### ? Note: No fasteners are needed to
+
+keep the tray in place.
+
+For ST-40/40L models, unfold and lock
+the leg before operation. The leg height
+needs to be adjusted so that the casters
+touch the floor after the machine is
+leveled.
+
+### 1
+
+Open the cover at the head of the
+conveyor. Look at the belt tension as
+the belt goes around the sprocket.
+
+Tighten the belt tensioning screws at
+either side of the conveyor head to
+adjust the belt drive shaft and remove
+slack from the belt.
+
+#### ? Note: Adjust the screws equally to
+
+keep the drive shaft perpendicular to
+belt travel.
+
+While you adjust the belt tensioning
+screws, push up on the belt with a
+wrench at the head of the conveyor.
+Measure the belt slack [1] at the center
+of the belt in the lift section of the
+conveyor. The correct belt slack for
+Jorgensen conveyors is 0.25" - 0.38" (6 10 mm). The correct belt slack for
+Hennig conveyors is 0.12" - 0.25" (3 - 6
+mm). Repeat step 2 as needed.
+
+Apply the jam nut on each tensioning
+screw to lock it in place.
+
+Install the access cover.
+
+### 1
+
+Attach the skirt [1] to the bracket [2].
+
+Note: The seam [3] in the skirt faces the
+conveyor as shown.
+
+Mount the bracket to the conveyor.
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-5-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 6/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-5-0.png)
+
+-----
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-6-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-6-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 7/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-6-0.png)
+
+-----
+
+### 3
+
+Place the chip conveyor wings on the
+chip conveyor belt and install the chip
+conveyor into the base.
+
+Reinstall the chip conveyor wings to the
+chip conveyor and adjust until there is
+no gap between the casting and wings.
+
+Adjust the chip conveyor legs until the
+chip conveyor sits flat in the base
+casting.
+
+### 4
+
+Open the cover at the head of the
+conveyor. Look at the belt tension as
+the belt goes around the sprocket.
+
+Loosen the motor mount hardware and
+tighten the belt tensioning screws at
+either side of the conveyor head to
+adjust the belt drive shaft and remove
+slack from the belt.
+
+#### ? Note: Adjust the screws equally to
+
+keep the drive shaft perpendicular to
+belt travel.
+
+While you adjust the belt tensioning
+screws, push up on the belt with a
+wrench at the head of the conveyor.
+Measure the belt slack [1] at the center
+of the belt in the lift section of the
+conveyor. The correct belt slack for
+Jorgensen conveyors is 0.25" - 0.38" (6 10 mm). The correct belt slack for
+Hennig conveyors is 0.12" - 0.25" (3 - 6
+mm). Repeat step 2 as needed.
+
+Apply the jam nut on each tensioning
+screw to lock it in place.
+
+Tighten the motor mount hardware.
+
+Install the access cover.
+
+### 5
+
+Install the chip conveyor skirt[1] to the
+bracket[2] and install to the chip
+conveyor.
+
+#### ? Note: The seam [3] in the skirt faces
+the conveyor as shown.
+
+### 6
+
+Install the new coolant tank chip tray.
+
+Plug in the chip conveyor to the plug on
+the controller support.
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-7-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-7-1.png)
+
+## Machine Install
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-7-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 8/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-7-0.png)
+
+-----
+
+### 1
+
+Remove the chip conveyor shipping
+bracket and install the tailstock stop
+hardware that is found inside the
+machine.
+
+Install the lower bracket hardware.
+
+Lower the chip conveyor leg to the
+extended position.
+
+### 2
+
+Pull the chip conveyor out of the base
+and place the chip conveyor wings on
+the chip conveyor belt.
+
+Install the chip conveyor all the way into
+the base casting and reinstall the chip
+conveyor wings to the chip conveyor
+and adjust until there is no gap
+between the casting and wings.
+
+Adjust the chip conveyor legs until the
+chip conveyor sits flat in the base
+casting.
+
+### 3
+
+Open the cover at the head of the
+conveyor. Look at the belt tension as
+the belt goes around the sprocket.
+
+Loosen the motor mount hardware and
+tighten the belt tensioning screws at
+either side of the conveyor head to
+adjust the belt drive shaft and remove
+slack from the belt.
+
+#### ? Note: Adjust the screws equally to
+
+keep the drive shaft perpendicular to
+belt travel.
+
+While you adjust the belt tensioning
+screws, push up on the belt with a
+wrench at the head of the conveyor.
+Measure the belt slack [1] at the center
+of the belt in the lift section of the
+conveyor. The correct belt slack for
+Jorgensen conveyors is 0.25" - 0.38" (6 10 mm). The correct belt slack for
+Hennig conveyors is 0.12" - 0.25" (3 - 6
+mm). Repeat step 2 as needed.
+
+Apply the jam nut on each tensioning
+screw to lock it in place.
+
+Tighten the motor mount hardware.
+
+Install the access cover.
+
+### 4
+
+Install the chip conveyor skirt[1] to the
+bracket[2] and install to the chip
+conveyor.
+
+#### ? Note: The seam [3] in the skirt faces
+
+the conveyor as shown.
+
+Install the new coolant tank chip tray.
+
+Plug in the chip conveyor to the plug on
+the controller support.
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-8-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-8-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 9/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-8-0.png)
+
+-----
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-9-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-9-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 10/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-9-0.png)
+
+-----
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-10-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-10-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 11/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-10-0.png)
+
+-----
+
+Cable
+Connect to:
+Wire
+
+Capacitor/motor
+Blue
+black
+
+Capacitor/motor
+Red
+brown
+
+Black Motor gray
+
+Green Ground
+
+Cap off - no
+Yellow
+connection
+
+Cap off - no
+Orange
+connection
+
+Cap off - no
+White
+connection
+
+Power on the machine.
+
+Push [CHIP FWD].
+
+If the motor is wired correctly, the chip
+conveyor moves forward.
+
+Push [CHIP REV].
+
+If the motor is wired correctly, the chip
+conveyor moves backward.
+
+## 9.5 CHIP CONVEYOR SYSTEM - TROUBLESHOOTING
+
+ Conveyor System - Troubleshooting Guide
+
+ Introduction
+
+1. Conveyor
+
+2. Drive Motor
+
+3. Power Cord
+4. Conveyor Drive Shaft /Sprockets
+
+5. Belt
+
+6. Belt Tensioning Screws
+
+## Exploded View
+
+1. CONVEYOR TROUGH COVER
+2. GASKET
+
+3. CONVEYOR TROUGH
+
+4. DOUBLE CHAIN LINK OUTER
+5. SINGLE CHAIN LINK OUTER
+
+6. CHAIN SPACER
+
+7. BELT PIN
+
+8. CHAIN LINK INNER
+9. BELT PLATE
+
+10. CONVEYOR TUNNEL INSERT
+
+11. CONVEYOR BRACKET
+12. HHB 5/16-18 X 1
+
+13. CONVEYOR RAMP COVER TOP
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-11-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 12/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-11-0.png)
+
+-----
+
+14. CONVEYOR RAMP COVER SIDE
+15. CONVEYOR RAMP
+
+16. CONVEYOR CHUTE
+
+17. CONVEYOR TROUGH EXTENSION
+
+18. BHCS 5/16-18 X 1 SS
+
+
+## Symptom Table
+
+#### ?NOTE: TO RECEIVE THE CORRECT TECHNICAL SUPPORT ON YOUR CONVEYOR, IT IS
+
+REQUIRED TO TAKE A CLEARLY VISABLE PHOTO OF THE CONVEYOR NAME PLATE AND THE
+MOTOR SEPCIFICATION PLATE.
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 13/17
+
+
+-----
+
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|---|---|---|
+|The conveyor does not start.|The circuit breaker is tripped.|Check for a short circuit in the motor or the cable. Refer to the Motor Cable Inspection section.|
+||No power from I/O PCB to the motor.|Verify voltage at I/O PCB and the motor.|
+||Blown fuses (I/O- version R and earlier).|Check the fuses on the I/O PCB.|
+||The conveyor motor capacitor is defective.|Inspect motor capacitor for damage.|
+|For CDF Conveyor Only: The 230V system does not turn ON and the red LED on the motor drive PCB is OFF.|The jumper on the motor drive PCB is incorrectly located or defective.|Make sure that the motor drive PCB has a jumper installed on P3 inbetween pin 1 and 2 (the bottom two pins).|
+||There is no 12V input power.|Make sure that the 12V input power is connected to P2 on the motor drive PCB.|
+|Conveyor is noisy or oscillates between forward and reverse.|There is a build up of chips.|Clear excessive chips and any obstructions.|
+||The conveyor belt is damaged.|Inspect conveyor belt and repair or replace.|
+||The conveyor belt tension is incorrect.|Adjust the belt tension.|
+|The auger is noisy or oscillates between forward and reverse. Then Alarm 9906 CHIP CONVEYOR MALFUNCTION is generated.|There is an excessive chip build-up or an obstruction.|Clear all chips and obstructions from the auger trough and chip chute.|
+|There is no chip build-up or obstruction and machine generates Alarm 9906 CHIP CONVEYOR MALFUNCTION|The auger motor is bound up.|The machine is detecting an overcurrent condition. Check the discrete input CHIP_CONVEYOR_OVERCURRENT cycles from 0 - 1 or 1 - 0 (0 means overload condition). Check the motor for burnout or binding. Run the Chip Conveyor Overcurrent Data Collection, refer to the Diagnostic Data Collection procedure for how to run the data collection.|
+|The chip conveyor reverses direction with minimal or no chip build-up.|||
+|Chip Auger, Conveyor, may start without operator action, even with doors open.|Machine has software 100.17.000.1016|Update software to 100.17.000.2030 or greater. This problem has been corrected such that the conveyor never restarts automatically. With a Classic Haas Control, the operator can restart the conveyor with the door open. NGC machines that have been updated after October 10th, 2018 will have strict door rules that makes this impossible.|
+|M31 is restarting conveyor timers if the conveyor is already on.|Machine has software prior to 100.17.000.2030 and the conveyor cycle keeps restarting every time a M31 is encountered.|Update software to 100.17.000.2030 or greater. In the new software if a conveyor cycle is already running but in the off state, a M31 will NOT restart the conveyor. The conveyor will follow the cycle it is currently in.|
+|Alarm 9819 CHIP CONVEYOR SHORT CIRCUIT|The auger motor start capacitor is at fault.|Inspect the auger motor start capacitor for damage.|
+
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 14/17
+
+
+-----
+
+|Alarm 9848 CHIP CONVEYOR MOTOR DISCONNECTED|There is no power from the I/O PCB to the motor.|Verify the voltage at the I/O PCB and at the motor.|
+|---|---|---|
+|CDF Conveyor runs backwards when commanded to run forward|Motor wiring is incorrect.|Verify the motor wiring, use the wiring diagrams in the CDF Motor Wiring Section for reference.|
+
+
+## Motor Cable Inspection
+
+ Voltage
+
+ Fuses
+
+
+Corrective Action:
+
+Inspect the motor cable for any sign of
+damage. Check for burn marks at the
+plug. This could be caused by coolant
+contamination.
+
+Measure the Ohms the across the
+motor power cable leads [1] at the plug.
+There should be resistance leg to leg.
+An open reading suggests a bad motor
+or cable.
+
+Measure the Ohms on the motor power
+cable from each power leg to the
+ground leg [2] of the plug. This reading
+should be open.
+
+If cable shows a short leg to ground at
+the plug, disconnect the power cable at
+the motor and check each motor power
+lead to the motor chassis [3]. If reading
+is open, the cable is at fault. If any lead
+tests short, the motor is shorted.
+
+Corrective Action:
+
+Find the chip conveyor motor cable 140
+at the I/O PCB. Press [CHIP FWD]. Use a
+multimeter with needle tip probes to
+measure the voltage between the black
+and red wires on the cable.
+
+Have someone press and hold [CHIP
+REV]. Measure the voltage between the
+black and white wires. When the I/O
+PCB operates correctly, each voltage
+reading is 240 VAC.
+
+If the voltage at the I/O PCB is correct,
+open the conveyor motor junction box.
+Use a multimeter with needle tip
+probes to check for voltage on the
+power leads at the motor.
+
+If there is no voltage, check the motor
+and the cable. If there is voltage, check
+the capacitor. If you verify the voltage
+and capacitor are correct, inspect the
+motor drive shaft and keyway.
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-14-0.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 15/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-14-0.png)
+
+-----
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-15-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-15-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 16/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-15-0.png)
+
+-----
+
+## CDF Motor Wiring
+
+Run the conveyor by pressing [CHIP FWD] if the conveyor runs backwards please
+check the motor wiring and verify it is wired correctly. Use the wiring diagrams below
+for reference.
+
+## Electrical Diagram
+
+Hennig CDF Conveyor Diagram
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-16-0.png)
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-16-1.png)
+
+###### https://www.haascnc.com/service/online-manuals/chip-and-coolant---service-manual/chip-conveyor---lathe.html 17/17
+
+
+![](photo/Chip Conveyor - Lathe - Haas Service Manual.pdf/Chip-Conveyor---Lathe---Haas-Service-Manual.pdf-16-0.png)
+
+-----
+

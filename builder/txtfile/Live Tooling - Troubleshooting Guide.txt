@@ -1,0 +1,214 @@
+## Live Tooling - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/lathe---live-tooling---troubleshooting-guide.html 1/5
+
+
+-----
+
+LAST UPDATED: 08/02/2021
+
+
+# Live Tooling - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+SYMPTOM
+
+Live tooling drive gets hot.
+
+during a tool change.
+
+Noisy
+
+# Servo Motor
+
+
+1. Live tooling SL Series: The live
+
+tooling for SL series is belt driven.
+2. Live tooling ST Series: The live
+
+tooling for ST series is gear driven.
+
+[Refer to the SET UP LIVE TOOLS PROPERLY ON](https://www.youtube.com/watch?v=Yo1J5XWy78Y)
+[YOUR HAAS LATHE video for more](https://www.youtube.com/watch?v=Yo1J5XWy78Y)
+information.
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|PROBABLE CAUSE|CORRECTIVE ACTION|
+|Live tooling or Y Axis alarms.|Servo motor is contaminated.|Inspect the servo motor.|
+|The drive castle or tool is not turning.|The drive belt is faulty.|Inspect the drive belt.|
+|Live tooling drive gets hot.|The live tooling bearing cap is out of alignment.|Align the live tooling.|
+||The live tooling bearing is faulty.|Examine the bearing.|
+|Drive castle does not engage the tool.|The drive castle spring is broken.|Remove the castle and examine the spring.|
+|Drive castle hits the tool holder during a tool change.|The drive castle is coming loose.|Tighten the drive castle retaining screw.|
+|Noisy|Oil level is low (gear drive only).|Add oil to the live tooling.|
+||The live tooling bearing cap is out of alignment.|Align the live tooling bearing cap.|
+||The live tooling bearing is faulty.|Examine the bearing.|
+||The live tooling gears are faulty (gear drive only).|Inspect gearing for damage|
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/lathe---live-tooling---troubleshooting-guide.html 2/5
+
+
+-----
+
+Corrective Action:
+
+Examine the outside of the servo motor for
+contamination or damage.
+
+Remove the servo motor. Make sure the shaft
+can turn freely.
+
+[Refer to: SIGMA 1 - AXIS SERVO MOTOR AND](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-1---axis-servo-motor-and-cables---troubleshooting-guide.html)
+[CABLES - TROUBLESHOOTING](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-1---axis-servo-motor-and-cables---troubleshooting-guide.html)
+[GUIDE or SIGMA 5 - AXIS SERVO MOTOR AND](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-1---axis-servo-motor-and-cables---troubleshooting-guide.html)
+[CABLES - TROUBLESHOOTING GUIDE to](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html)
+troublehshoot the servo motor.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-2-0.png)
+
+# Drive Belt
+
+ Live Tool Alignment
+
+ Live Tool Bearing
+
+
+Corrective Action:
+
+Examine the drive belt for contamination or
+damage.
+
+Make sure the belt has the correct tension.
+
+If the belt is damaged, replace the belt.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-2-0.png)
+
+Corrective Action:
+
+Loosen the (4) screws that hold the bearing
+cap in position. Do not remove the screws.
+
+Operate the live tooling at a slow speed. This
+allows the live tooling shaft to return to
+center.
+
+Tighten the (4) screws.
+
+If the drive continues to run hot, loosen the (8)
+screws to adjust the live tooling's alignment.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-2-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/lathe---live-tooling---troubleshooting-guide.html 3/5
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+Corrective Action:
+
+Remove the bearing cap.
+
+Remove the motor.
+
+Remove the belt cover plate, if the live tool is
+belt driven. Remove the gearbox cover plate is
+the live tool is gear driven.
+
+Remove the belt and drive sprocket, if the live
+tool is belt driven. Otherwise, remove the
+drive gear.
+
+Examine the bearing [1]. Replace the bearing if
+it is faulty.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-3-0.png)
+
+# Drive Castle Spring
+
+ Drive Castle
+
+ Oil Level Check
+
+
+Corrective Action:
+
+Remove the retainer screw [1], washers [2],
+driver castle [3], bearing cap [4], locking keys
+
+[5], washer [2], and the spring [6] from the
+drive castle shaft.
+
+Examine the spring for damage or breakage. If
+the spring is faulty, replace it.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-3-0.png)
+
+Corrective Action:
+
+Firmly seat the drive castle onto the livetooling shaft.
+
+Make sure the drive castle retaining screw is
+tight.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-3-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/lathe---live-tooling---troubleshooting-guide.html 4/5
+
+
+-----
+
+Corrective Action:
+
+Remove the motor cover [1].
+
+Remove the plug [2] from the oil port.
+
+If oil does not seep out of the port, the oil is
+low.
+
+[Refer to: LUBRICANT, GREASE, AND SEALANT](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/reference-documents/lubricant--grease--and-sealant-tables-for-haas-machine-component.html)
+[TABLES FOR HAAS MACHINE COMPONENTS.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/reference-documents/lubricant--grease--and-sealant-tables-for-haas-machine-component.html)
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-4-0.png)
+
+# Live Tooling Gears
+
+
+Corrective Action:
+
+Remove the motor cover.
+
+Remove the motor.
+
+Open the gearbox case.
+
+Examine the gears.
+
+
+![](photo/Live Tooling - Troubleshooting Guide.pdf/Live-Tooling---Troubleshooting-Guide.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/lathe---live-tooling---troubleshooting-guide.html 5/5
+
+
+-----
+
