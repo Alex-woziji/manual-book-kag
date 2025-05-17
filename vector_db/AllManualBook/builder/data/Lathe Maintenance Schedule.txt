@@ -1,0 +1,212 @@
+## Lathe Maintenance Schedule
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/lathe-maintenance-schedule.html 1/5
+
+
+-----
+
+#### LAST UPDATED: 04/14/2023
+
+# Lathe Maintenance Schedule
+
+#### Keep your Haas machines running at peak performance while avoiding unplanned downtime. A maintenance
+ program allows you to manage your schedule rather than getting caught with untimely surprises. This page
+ shows the recommended maintenance intervals.
+
+
+### ? DOWNLOAD LATHE MAINTENANCE CHECKLIST
+
+
+# Lathe - Maintenance Schedule
+
+
+Auxiliary Filter
+
+
+Maintenance Item Interval
+
+Replace the filter bag. Check the Gauge
+
+Inspect the hoses for cracking. Six Months
+
+
+Axis Lubrication
+
+
+Maintenance Item Interval
+
+Inspect grease reservoir level. Monthly
+
+Inspect the hoses for cracking. Six Months
+
+Perform an Axis Lubrication Test. Six Months
+
+Ballscrews/Linear guides equipped with zerk fitting Monthly or weekly if cutting absorbent materials
+
+
+Electrical Cabinet
+
+
+Maintenance Item Interval
+
+Clean vector drive air vents / filter. Monthly
+
+Enclosure
+
+Maintenance Item Interval
+
+Inspect window for damage. Daily
+
+Inspect the door interlock operation. Daily
+
+Inspect waycovers and lubricate. Monthly
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/lathe-maintenance-schedule.html 2/5
+
+
+-----
+
+Gearbox
+
+
+Maintenance Item Interval
+
+Inspect the oil level. Monthly
+
+Replace the oil. Annually
+
+
+Oil Skimmer
+
+
+Maintenance Item Interval
+
+Inspect the oil skimmer pickup tube. Six Months
+
+
+Pneumatics
+
+
+Maintenance Item Interval
+
+Inspect the spindle air regulator pressure. Weekly
+
+Inspect the hoses for cracking. Six Months
+
+Clean the Air Purge Solenoid. Annually
+
+
+Probe System
+
+
+Maintenance Item Interval
+
+Check probe calibration. Six Months
+
+
+Standard Coolant System
+
+
+Maintenance Item Interval
+
+Clean the filter screen. As Required
+
+Inspect the coolant level. Weekly
+
+Inspect the coolant concentration. Fill out the Mixture - Maintenance Log sheet. Weekly
+
+Completely clean the coolant tank and replace the coolant. Six Months
+
+Verify coolant refill is operating correctly.
+Six Months
+
+Inspect turret coolant lines for chips. Monthly
+
+High Pressure Coolant (HPC) 300/1K PSI
+
+Maintenance Item Interval
+
+Clean the HPC-300 / 1K Pump Filter Six Months
+
+Inspect the hoses for cracking. Six Months
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/lathe-maintenance-schedule.html 3/5
+
+
+-----
+
+Verify the Auto Clean system is operating correctly. Six Months
+
+
+Spindle Lubrication
+
+
+Maintenance Item Interval
+
+Inspect lubrication tank level. Monthly
+
+Perform Spindle Lubrication Test. Six Months
+
+
+Hydraulics
+
+
+Maintenance Item Interval
+
+Clean chips from the coolant collector. Weekly
+
+Inspect the oil level. Monthly
+
+Change the Hydraulic fluid Every 2 years or as needed per conditions
+
+Replace the oil filter - Parker Hydraulic Unit. Annually
+
+Replace the oil filter - Rexroth Hydraulic Unit. Annually
+
+Replace the oil filter - Haas Hydraulic Unit - SL. Annually
+
+
+Tailstock
+
+
+Maintenance Item Interval
+
+Grease the tailstock. Monthly
+
+Inspect the reservoir grease level. Monthly
+
+
+Chucks
+
+
+Maintenance Item Interval
+
+Grease the chuck jaws. Weekly
+
+Chuck Multi-Point Inspection. Six Months
+
+Clean the Chuck Annually
+
+Barfeeders
+
+Maintenance Item Interval
+
+Grease the bar feed push rod and bushing. Weekly
+
+Grease the ballscrew, V-roller tracks, and rotation. (Bar 300) Monthly
+
+Check belt tenstion. (Haas Barfeeder) Annually
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/lathe-maintenance-schedule.html 4/5
+
+
+-----
+
+Check push rod alignment. Six Months
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/reference-documents/lathe-maintenance-schedule.html 5/5
+
+
+-----
+

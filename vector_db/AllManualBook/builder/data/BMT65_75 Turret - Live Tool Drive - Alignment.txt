@@ -1,0 +1,120 @@
+## BMT65/75 Turret - Live Tool Drive - Alignment
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 1/8
+
+
+-----
+
+LAST UPDATED: 07/30/2024
+
+
+# BMT65/75 Turret - Live Tool Drive - Alignment
+
+ Introduction
+
+the BMT Turret Live Drive system.
+
+### ?
+
+only and does not replace the written
+procedure.
+
+Required tools:
+
+Service USB Key
+Dial indicator
+
+HOLDER
+
+BLOCK
+T-0083 BMT65 OUTPUT SHAFT
+ALIGNMENT TOOL
+
+TOOL
+
+ALIGNMENT TOOL
+
+# Live Tool Drive Shim Check
+
+
+## 1
+
+Remove all driven tools from the turret.
+
+Install the T-0080 alignment block on tool #1
+and T-0082 indicator base tool on the LT drive
+shaft.
+
+Check the alignment in the Z axis.
+
+If the indicator reading exceeds .002" then
+shims [1] will need to be added or removed.
+
+If the alignment in Z is correct proceed to the
+BMT Live Tooling Drive Alignment section.
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 2/8
+
+
+-----
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-2-0.png)
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-2-1.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 3/8
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-2-0.png)
+
+-----
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-3-0.png)
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-3-1.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 4/8
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-3-0.png)
+
+-----
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 5/8
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-4-0.png)
+
+-----
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-5-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 6/8
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-5-0.png)
+
+-----
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-6-0.png)
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-6-1.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 7/8
+
+
+![](photo/BMT65_75 Turret - Live Tool Drive - Alignment.pdf/BMT65_75-Turret---Live-Tool-Drive---Alignment.pdf-6-0.png)
+
+-----
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/how-to/bmt-65-75-turret-drive-alignment.html 8/8
+
+
+-----
+

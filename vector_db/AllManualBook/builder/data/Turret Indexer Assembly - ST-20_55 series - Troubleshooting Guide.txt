@@ -1,0 +1,182 @@
+## Turret Indexer Assembly - ST-20/55 series - Troubleshooting Guide
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/st-20-25-30-35-y--ds-30-y-ss-ssy---turret-indexer-assembly---tro.html 1/5
+
+
+-----
+
+LAST UPDATED: 06/07/2022
+
+# Turret Indexer Assembly - ST-20/55 series - Troubleshooting Guide
+
+
+# Introduction
+
+ Symptom Table
+
+
+1. Internal Gears
+2. Unclamp Switch
+3. Clamp Switch
+4. Servo Motor
+5. Home Switch
+
+|mptom Table|Col2|Col3|
+|---|---|---|
+|SYMPTOM|POSSIBLE CAUSE|CORRECTIVE ACTION|
+|Alarm 113 TURRET FAILURE TO REACH UNCLAMP SWITCH Alarm 114 TURRET FAILURE TO REACH CLAMP SWITCH|The incoming air flow is incorrect.|Check the incoming air supply.|
+||There is a problem with the voltage to the turret clamp or unclamp solenoid.|Check the voltage to the turret clamp or unclamp solenoid.|
+||One or both of the turret clamp or unclamp proximity sensors is faulty.|Check the turret clamp or unclamp proximity sensors.|
+||The turret did not pop out far enough.|Check the piston, internal gears and spring assembly for damage.|
+||Turret piston air is not venting quick enough.|Install a quick exhaust.|
+|Alarm 106 A-AXIS POSITION ERROR|The internal gears are damaged. This can also cause unusual noise when the turret rotates.|Check the internal gears for damage.|
+||The servo motor has an electrical fault.|Check the servo motor connector and cables for shorts or contamination. Check the amplifier for shorts.|
+|Alarm 103 Axis Servo Error Too Large|The internal gears are damaged. This can also cause unusual noise when the turret rotates.|Check the internal gears for damage.|
+|Alarm 8125 Tool Turret Not Seated|Obstruction between tool turret and housing.|Clear obstruction such as chips.|
+
+
+![](photo/Turret Indexer Assembly - ST-20_55 series - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---ST-20_55-series---Troubleshooting-Guide.pdf-1-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/st-20-25-30-35-y--ds-30-y-ss-ssy---turret-indexer-assembly---tro.html 2/5
+
+
+-----
+
+|Air leaking from solenoid muffler.|Air is bypassing the turret piston Quad-Ring.|Remove the non-pressureized air line, if the air is exhausting from the hose, the quad-ring has blowby. If the air is leaking from the solenoid then it has an internal leak.|
+|---|---|---|
+
+
+# Incoming Air Supply
+
+Corrective Action:
+
+Make sure that the air compressor supplies the correct air pressure and air flow. For Haas machine air
+[pressure specifications, go to NEW MACHINE PRE-INSTALLATION. Select your machine and scroll to the the](http://data.haascnc.com/install/)
+section labeled "Air/Coolant Requirements."
+
+Attempt a tool change on the machine. When the machine has the correct air pressure and flow, the needle on
+the air pressure gauge should not drop more than 10 PSI (0.70 bar) during a tool change. This test confirms
+that the air pressure and air flow into the machine are correct.
+
+# Clamp / Unclamp Proximity Sensors
+
+Corrective Action:
+
+Go to the Diagnostic screen on the pendant.
+Go to the I/O tab. Use an M43 (Unclamp) M44
+(Clamp) code in MDI mode to troubleshoot the
+switch that generates the alarm.
+
+Check the discrete input Tool Turret Unl. for
+Alarm 113, or T. Turret Locked for
+Alarm 114. Test the sensor: Hold a
+screwdriver in front of the sensor. Make sure
+the input changes. If the activation ring is in
+front of the sensor, and you cannot test it,
+remove the sensor from the bracket to test
+the sensor correctly.
+
+If an input does not change, jump the cable
+connector on the turret connector bracket.
+
+If the input changes, replace the sensor. Refer
+[to ST/DS-20/25/30/35/Y - TURRET - CLAMP](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/turret-indexer-assembly-clamp-switch-unclamp-switch-adjustment-st-20-55.html)
+[SWITCH/UNCLAMP SWITCH - ADJUSTMENT for](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/how-to/turret-indexer-assembly-clamp-switch-unclamp-switch-adjustment-st-20-55.html)
+the correct sensor adjustment.
+
+If the input does not change, refer to:
+
+[PROXIMITY SENSOR - HOW IT WORKS](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+[AND TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/proximity-sensor---troubleshooting-guide.html)
+[NEXT GENERATION CONTROL - I/O PCB](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[- TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[I/O PCB - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[(CLASSIC HAAS CONTROL)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+# Servo Motor
+
+Corrective Action:
+
+Disconnect the axis servo motor cables. Make sure they are not contaminated. Measure the resistance from
+the pins labeled A, B, and C at the motor power cable connector to chassis ground. The reading should show
+an open circuit. If there is resistance to ground, the cable is at fault.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/st-20-25-30-35-y--ds-30-y-ss-ssy---turret-indexer-assembly---tro.html 3/5
+
+
+![](photo/Turret Indexer Assembly - ST-20_55 series - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---ST-20_55-series---Troubleshooting-Guide.pdf-2-0.png)
+
+-----
+
+[Go to: SIGMA 1 - AXIS SERVO MOTOR AND CABLES - TROUBLESHOOTING GUIDE, SIGMA 5 - AXIS SERVO](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-1---axis-servo-motor-and-cables---troubleshooting-guide.html)
+[MOTOR AND CABLES - TROUBLESHOOTING GUIDE to troubleshoot the SIGMA motor and SIGMA motor cables.](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/sigma-5---axis-servo-motor-and-cables---troubleshooting-guide.html)
+
+# Turret Pop Out
+
+
+Corrective Action:
+
+If you commanded an M43 (Unclamp) and the
+turret moved, but did not move far enough to
+clear the coupler, measure the distance the
+turret traveled. The turret must move at least
+0.130" for clearance past the couplers. The
+turret typically moves 0.200".
+
+If the turret does not travel far enough, the
+piston shaft, gears, or spring assembly could
+be at fault, these components must be
+inspected by your local HFO.
+
+
+![](photo/Turret Indexer Assembly - ST-20_55 series - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---ST-20_55-series---Troubleshooting-Guide.pdf-3-0.png)
+
+# Clamp / Unclamp Solenoid Voltage
+
+Corrective Action:
+
+Measure the voltage of the clamp and
+unclamp solenoids. The solenoids are inside
+the consolidated air/lubrication manifold
+(CALM). The solenoids for Pre-CALM indexers
+are mounted on the turret housing.
+
+Run M43 (Unclamp) and M44 (Clamp) codes in
+MDI mode to measure the voltage of both the
+solenoids. The voltage must measure 120 VAC.
+
+If there is no voltage, refer to:
+
+[NEXT GENERATION CONTROL - I/O PCB](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+
+[- TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/next-generation-control---i-o-pcb---troubleshooting-guide.html)
+[I/O PCB - TROUBLESHOOTING GUIDE](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+[(CLASSIC HAAS CONTROL)](https://www.haascnc.com/content/haascnc/en/service/troubleshooting-and-how-to/troubleshooting/classic-haas-control---i-o-pcb---troubleshooting-guide.html)
+
+# Internal Gears
+
+The turret's pop out and rotate function can
+fail because the tool changer gears are
+damaged. A machine crash can cause damage
+to the piston and gears, and must be
+inspected by your local HFO.
+
+# Quick Exhaust
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/st-20-25-30-35-y--ds-30-y-ss-ssy---turret-indexer-assembly---tro.html 4/5
+
+
+![](photo/Turret Indexer Assembly - ST-20_55 series - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---ST-20_55-series---Troubleshooting-Guide.pdf-3-0.png)
+
+-----
+
+![](photo/Turret Indexer Assembly - ST-20_55 series - Troubleshooting Guide.pdf/Turret-Indexer-Assembly---ST-20_55-series---Troubleshooting-Guide.pdf-4-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/st-20-25-30-35-y--ds-30-y-ss-ssy---turret-indexer-assembly---tro.html 5/5
+
+
+-----
+

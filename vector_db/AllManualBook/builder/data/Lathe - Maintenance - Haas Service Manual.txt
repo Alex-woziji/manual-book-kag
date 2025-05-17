@@ -1,0 +1,49 @@
+### 20 - Lathe - Maintenance
+
+
+##### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---maintenance.html 1/5
+
+
+-----
+
+##### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---maintenance.html 2/5
+
+
+-----
+
+##### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---maintenance.html 3/5
+
+
+-----
+
+##### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---maintenance.html 4/5
+
+
+-----
+
+Maintenance Item Interval
+
+Grease the chuck jaws. Weekly
+
+Chuck Multi-Point Inspection. Six Months
+
+Clean the Chuck Annually
+
+Barfeeders
+
+Maintenance Item Interval
+
+Grease the bar feed push rod and bushing. Weekly
+
+Grease the ballscrew, V-roller tracks, and rotation. (Bar 300) Monthly
+
+Check belt tenstion. (Haas Barfeeder) Annually
+
+Check push rod alignment. Six Months
+
+
+##### https://www.haascnc.com/service/online-manuals/lathe---interactive-service-manual/lathe---maintenance.html 5/5
+
+
+-----
+

@@ -1,0 +1,302 @@
+## Vector Drive - Troubleshooting Guide - NGC
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 1/8
+
+
+-----
+
+LAST UPDATED: 01/31/2022
+
+
+# Vector Drive - Troubleshooting Guide - NGC
+
+
+# Introduction
+
+### ? Download and fillout the Vector Drive Inspection Report Checklist below before replacing any
+
+parts.
+
+
+#### VECTOR DRIVE INSPECTION REPORT CHECKLIST
+
+
+The Haas Vector drive is the source of power
+for the spindle motor and the servo
+amplifiers. There are three sizes of Haas
+Vector drives: 20HP [1], 40HP [2] and 60HP [3].
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-1-0.png)
+
+# Spindle Drive Components Overview Video
+
+ Electrical Safety
+
+
+This service video shows a quick illustration of
+how the Haas Control functions during a
+spindle command.
+
+### ? Note: This service video is for reference
+
+only and does not replace the written
+troubleshooting information.
+
+
+### ? Caution: When you do maintenance or repair on CNC machines and their components, you must always
+
+follow basic safety precautions. This decreases the risk of injury and mechanical damage.
+
+Set the main circuit breaker to the [OFF] position.
+
+### ? Danger: Before beginning any work inside the control cabinet the High Voltage indicator light on the 320V
+
+Power Supply / Vector Drive must have been off for at least 5 minutes.
+
+Some service procedures can be dangerous or life-threatening. DO NOT attempt a procedure that you do not
+fully understand. If you have any doubts about doing a procedure contact your Haas Factory Outlet (HFO) and
+schedule a service visit.
+
+# Vector Drive Troubleshooting Video
+
+ Symptom Table
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 2/8
+
+
+-----
+
+|SYMPTOM|POSSIBLE CAUSES|CORRECTIVE ACTION|
+|---|---|---|
+|Alarm 123 SPINDLE DRIVE FAULT and Alarm 993 SHORT CIRCUIT|The vector drive detected a short circuit.|Inspect the Vector Drive and the Wye-Delta contactors for a short circuit. For Delta-Wye Contactor Troubleshooting refer to: Wye-Delta Contactor - Troubleshooting Guide - NGC. See the Vector Drive short-circuit inspection section below.|
+|Alarm 4.993 S (SPINDLE) SHORT CIRCUIT|The vector drive has detected a short circuit.|1. Inspect the Vector Drive using the Short- Circuit Inspection section below. 2. Once the Vector Drive is inspected refer to the Spindle Motor Troubleshooting Guide to inspect the spindle motor and cable.|
+|Alarm 123 SPINDLE DRIVE FAULT Alarm 160 LOW INCOMING AC LINE VOLTAGE|There is a problem with the DC Bus.|Compare the measured DC voltage to the Diagnostic page. See the DC BUSS section below.|
+|Alarm 123 SPINDLE DRIVE FAULT Alarm 160 LOW INCOMING AC LINE VOLTAGE at power on.|The vector drive J3 connector inserted upside down.|The old style Vector Drive J3 connector does not have ribs and can be accidentally inserted upside down. This could damage the pins. Correctly inserted, the latch faces away from the Vector drive.|
+|Alarm 647 REGEN LOAD SHORTED|There is a problem with the REGEN.|Measure the resistance across the REGEN leads. See the Regen Load section below.|
+|Alarm 648 DC BUS SHORTED|There is a problem with the REGEN circuit on the vector drive.|Check the regen circuit on the vector drive. See the Regen Load section below.|
+|Alarms 9911 AXIS AMPLIFIER CABLE DISCONNECTED|The motor drive cable from Maincon to Amplifier is not connected or has a bad connection.|Check the corresponding axis motor drive cable from the Maincon to the Amplifier and make sure is seated correctly.|
+|Alarm 200 HIGH VOLTAGE POWER SUPPLY OVER– TEMPERATURE|There is a problem with the vector drive cooling fan.|Inspect the cooling fan. See the Cooling Fan section below.|
+|Alarm 444 REGEN REMAINED ON TOO LONG|There is a problem with the incoming AC power.|Measure the incoming voltage to the machine. See the Incoming AC Voltage section below.|
+
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 3/8
+
+
+-----
+
+|The Machine Fails to Maintain Spindle Orientation.|The vector drive output is unbalanced.|Measure voltage outputs across the vector drive terminals. See the Unbalance Output Inspection section below.|
+|---|---|---|
+||The wye contactor has a loose connection on the buss bar or jumper cables.|Inspect the wye-delta assembly for loose connections.|
+|Alarm 119 INPUT AC LINE OVERVOLTAGE|The incoming voltage to the machine is too high.|The check incoming voltage and transformer taps.|
+||The vector drive over voltage cable is not plugged in or defective.|Disconnect the 970 cable from connector J1 on the vector drive. Inspect the J1 connector pins and the pins on the 970 cable for damage. Make sure that the cable is connected to the correct I/O PCB location. I/O PCB: P49|
+|Alarm 9931 UNDEFINED HIGH VOLTAGE POWER SUPPLY FAULT|The cable from the vector drive to the I/O PCB is not plugged in correctly.|Make sure the cable from the Vector drive is correctly connected to the I/O PCB at P49.|
+|Alarm 4.182 S (SPINDLE) AXIS ENCODER CABLE FAULT|The Vector Drive cables are missing the ferrite filter or wrong filters nstalled.|Refer to the Spindle Encoder - Troubleshooting Guide - NGC|
+||Vector Drive ground cable is routed in the large ferrite filter||
+
+
+# Short Circuit Inspection
+
+Corrective Action:
+
+Inspect the spindle motor cables. Make sure the spindle motor cables are not contaminated or pinched.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 4/8
+
+
+-----
+
+Inspect the vector drive. Disconnect all the vector drive terminals and do the following tests:
+
+Set your meter to Ohms test mode.
+
+Put the black lead on chassis with the
+red lead measure terminals 4 (A), 5 (B)
+and 6 (C).
+
+If the meter does not show OPEN (O.L) the
+vector drive is damaged.
+
+Set your meter to Ohms test mode.
+
+Put the black lead on terminal 2 (+)
+with the red lead measure the motor
+output terminals 9 (A), 10 (B) and 11
+(C).
+
+The meter should show high resistance
+readings typically in the Kilo or Mega ohms. If
+the meter reads very low resistance the Vector
+drive is damaged.
+
+Set your meter to Ohms test mode.
+
+Put the black lead on terminal 3 (-) with
+the red lead measure the motor output
+terminals 9 (A), 10 (B) and 11 (C).
+
+The meter should show high resistance
+readings typically in the Kilo or Mega ohms. If
+the meter reads very low resistance the Vector
+Drive is damaged.
+
+Set your meter to Ohms test mode.
+
+Put the black lead on terminal 3 (-) with
+the red lead measure terminal 1 (R).
+
+If your meter reads less than100k ohms, the
+vector drive is damaged.
+
+# Regen Load
+
+Corrective Action:
+
+Press [POWER OFF]. If the vector drive voltage
+indicator light is on, do not touch the electrical
+components. The high voltage in the control
+cabinet can kill you. Wait for the voltage
+indicator LED on the vector drive to go off
+completely.
+
+Disconnect the REGEN load leads from the
+vector drive at terminals 1 and 2. Measure the
+resistance across the leads. The reading must
+be as follows:
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 5/8
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-4-0.png)
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-4-1.png)
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-4-2.png)
+
+-----
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-5-3.png)
+
+# DC BUSS
+
+Corrective Action:
+
+Press [POWER ON]. Measure the DC voltage
+between terminals 2 and 3 on the vector
+drive. Compare the measured voltage with the
+DC VOLTAGE on the diagnostics page on the
+control. The readings must match +-2%.
+
+If the readings do not match, the problem can
+be:
+
+A bad connection on the 640C cable.
+Make sure there is a tight connection
+on the J3 connector on the Vector Drive
+and the P17 connector on the
+Maincon/Mocon.
+A faulty Vector Drive if you have
+incorrect voltage at P17.
+A faulty Maincon/Mocon if you have
+the correct voltage on the 640C cable
+at the P17 connector of the
+Maincon/Mocon. There is 0.01 VDC for
+every 1 VDC Bus. For example, 320 VDC
+must show 3.2VDC.
+
+Disconnect the DC Bus cables from terminals
+2 and 3 on the vector drive. Power on the
+machine. Monitor the DC VOLTAGE on the
+diagnostics page of the control.
+
+If the DC Bus goes back to the nominal
+value, there is a short in one of the
+servo amplifiers. A low resistance or a
+short is a sign of a faulty servo
+amplifier.
+If the readings match and the alarm
+continues, the problem is a faulty
+vector drive.
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 6/8
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-5-0.png)
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-5-1.png)
+
+-----
+
+# Cooling Fan
+
+ Incoming AC Voltage
+
+ Unbalance Output Inspection
+
+
+Inspect the spindle fan cable connection.
+Make sure both spade connectors are
+properly going into the female connector.
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+Corrective Action:
+
+An over-temperature alarm is generated when
+the vector drive's heat-sink reaches 90°C. The
+cooling fan must turn ON when the heat-sink
+temperature reaches 50°C. The cooling fan
+must turn OFF as the heat-sink cools down.
+
+Measure the temperature of the vector drive's
+heat-sink through the exhaust vents when this
+alarm occurs. If the temperature is above 60°C
+and the fan is not ON, the vector drive has a
+faulty cooling fan. Replace the cooling fan.
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+Corrective Action:
+
+Measure the AC voltage between all three pair
+phases at the main circuit breaker. The AC
+voltage must be between 195 and 260 volts
+(360 and 480 volts for high voltage
+option).
+
+The input voltage cables labeled 74, 75, and
+76 must be moved to the terminal block triple
+which corresponds to the average voltage
+measured.
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 7/8
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-6-0.png)
+
+-----
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-7-1.png)
+
+# Check Cables & Terminal Connections
+
+
+Reconnect all cables that were removed and check that all terminal connections are tight and
+secure. After connecting all cables, power on the machine and try to reproduce the alarm(s).
+
+
+# Electrical Diagram
+
+https://www.haascnc.com/service/troubleshooting-and-how-to/troubleshooting/vector-drive---troubleshooting-guide.html 8/8
+
+
+![](photo/Vector Drive - Troubleshooting Guide - NGC.pdf/Vector-Drive---Troubleshooting-Guide---NGC.pdf-7-0.png)
+
+-----
+
